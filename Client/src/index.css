@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* 🟢 2. โคตรสำคัญ! จุดเปลี่ยนชีวิต! สั่งให้ v4 ใช้คลาส .dark แทนการดูแสงหน้าจอเครื่อง */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 3. ฟอนต์หล่อๆ ของมึงยังอยู่เหมือนเดิม */
+body {
+  font-family: 'Plus Jakarta Sans', 'Prompt', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

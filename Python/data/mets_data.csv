@@ -1,0 +1,1355 @@
+﻿major_heading,major_heading_Thai,activity_code,met_value,activity_description,activity_description_Thai,target_group
+Bicycling,การปั่นจักรยาน,1003,14,"Bicycling, mountain, uphill, vigorous",ปั่นจักรยานบนภูเขา ขึ้นเขา อย่างกระฉับกระเฉง,adult
+Bicycling,การปั่นจักรยาน,1004,16,"Bicycling, mountain, competitive racing",การปั่นจักรยาน จักรยานเสือภูเขา การแข่งขัน,adult
+Bicycling,การปั่นจักรยาน,1008,8.5,"Bicycling, BMX","การปั่นจักรยาน, บีเอ็มเอ็กซ์",adult
+Bicycling,การปั่นจักรยาน,1009,8.5,"Bicycling, mountain, general","ปั่นจักรยาน, จักรยานเสือภูเขา, ทั่วไป",adult
+Bicycling,การปั่นจักรยาน,1010,4,"Bicycling, <10 mph, leisure, to work or for pleasure (Taylor Code 115)",การปั่นจักรยานด้วยความเร็วต่ำกว่า 10 ไมล์ต่อชั่วโมง เพื่อการพักผ่อน การเดินทางไปทำงาน หรือเพื่อความเพลิดเพลิน (รหัสเทย์เลอร์ 115),adult
+Bicycling,การปั่นจักรยาน,1011,6.8,"Bicycling, to/from work, self selected pace",ปั่นจักรยานไป/กลับที่ทำงาน ด้วยความเร็วตามใจชอบ,adult
+Bicycling,การปั่นจักรยาน,1013,5.8,"Bicycling, on dirt or farm road, moderate pace",ปั่นจักรยานบนถนนลูกรังหรือถนนในไร่ ด้วยความเร็วปานกลาง,adult
+Bicycling,การปั่นจักรยาน,1014,7,"Bicycling, general",การปั่นจักรยานทั่วไป,adult
+Bicycling,การปั่นจักรยาน,1015,4.3,"Bicycling, self-selected easy pace",ปั่นจักรยาน ด้วยความเร็วสบายๆ ตามความสะดวก,adult
+Bicycling,การปั่นจักรยาน,1016,7,"Bicycling, self-selected moderate pace",ปั่นจักรยานด้วยความเร็วปานกลางตามความสะดวก,adult
+Bicycling,การปั่นจักรยาน,1017,9,"Bicycling, self-selected vigorous pace",ปั่นจักรยานด้วยความเร็วที่เลือกเอง,adult
+Bicycling,การปั่นจักรยาน,1018,3.5,"Bicycling, leisure 5.5 mph",ปั่นจักรยานเพื่อพักผ่อน ความเร็ว 5.5 ไมล์ต่อชั่วโมง,adult
+Bicycling,การปั่นจักรยาน,1019,5.8,"Bicycling, leisure, 9.4 mph",ปั่นจักรยานเพื่อพักผ่อน ความเร็ว 9.4 ไมล์ต่อชั่วโมง,adult
+Bicycling,การปั่นจักรยาน,1020,6.8,"Bicycling, 10-11.9 mph, leisure, slow, light effort",ปั่นจักรยาน ความเร็ว 10-11.9 ไมล์ต่อชั่วโมง พักผ่อน ช้าๆ ใช้แรงน้อย,adult
+Bicycling,การปั่นจักรยาน,1030,8,"Bicycling, 12-13.9 mph, leisure, moderate effort",ปั่นจักรยาน ความเร็ว 12-13.9 ไมล์ต่อชั่วโมง สันทนาการ ใช้แรงปานกลาง,adult
+Bicycling,การปั่นจักรยาน,1040,10,"Bicycling, 14-15.9 mph, racing or leisure, fast, vigorous effort",ปั่นจักรยาน ความเร็ว 14-15.9 ไมล์ต่อชั่วโมง ไม่ว่าจะแข่งหรือปั่นเพื่อพักผ่อน ใช้แรงมากและรวดเร็ว,adult
+Bicycling,การปั่นจักรยาน,1050,12,"Bicycling, 16-19 mph, racing/not drafting or >19 mph drafting, very fast, racing general","ปั่นจักรยาน, 16-19 ไมล์ต่อชั่วโมง, แข่ง/ไม่เกาะกลุ่ม หรือเกาะกลุ่มที่ความเร็วมากกว่า 19 ไมล์ต่อชั่วโมง, เร็วมาก, การแข่งขันทั่วไป",adult
+Bicycling,การปั่นจักรยาน,1060,16.8,"Bicycling, >20 mph, racing, not drafting",ปั่นจักรยานด้วยความเร็วมากกว่า 20 ไมล์ต่อชั่วโมง แข่งกัน ไม่ใช่การปั่นตามหลังกัน,adult
+Bicycling,การปั่นจักรยาน,1065,8.5,"Bicycling, 12 mph, seated, hands on brake hoods or bar drops, 80 rpm",ปั่นจักรยาน ความเร็ว 12 ไมล์ต่อชั่วโมง นั่งปั่น มือวางบนที่จับเบรกหรือแฮนด์ 80 รอบต่อนาที,adult
+Bicycling,การปั่นจักรยาน,1066,9,"Bicycling, 12 mph, standing, hands on brake hoods, 60 rpm",ปั่นจักรยาน ความเร็ว 12 ไมล์ต่อชั่วโมง ยืนปั่น มือวางบนที่ครอบเบรก รอบเครื่องยนต์ 60 รอบต่อนาที,adult
+Bicycling,การปั่นจักรยาน,1070,5,Unicycling,การขี่จักรยานล้อเดียว,adult
+Bicycling,การปั่นจักรยาน,1080,6.8,E-bike (electrically assisted) without electronic support,จักรยานไฟฟ้า (ช่วยด้วยไฟฟ้า) ที่ไม่มีระบบช่วยอิเล็กทรอนิกส์,adult
+Bicycling,การปั่นจักรยาน,1084,6,E-bike (electrically assisted) with light electronic support,จักรยานไฟฟ้า (ช่วยขับเคลื่อนด้วยไฟฟ้า) พร้อมระบบช่วยอิเล็กทรอนิกส์แบบเบา,adult
+Bicycling,การปั่นจักรยาน,1088,4,E-bike (electrically assisted) with high electronic support,จักรยานไฟฟ้า (ระบบช่วยขับเคลื่อนด้วยไฟฟ้า) พร้อมระบบอิเล็กทรอนิกส์ช่วยเสริมกำลังสูง,adult
+Bicycling,การปั่นจักรยาน,1200,6.8,"Bicycling, stationary, general","การปั่นจักรยาน, อยู่กับที่, ทั่วไป",adult
+Bicycling,การปั่นจักรยาน,1210,3.5,"Bicycling, stationary, 25-30 watts, very light to light effort",ปั่นจักรยานอยู่กับที่ กำลังไฟ 25-30 วัตต์ ใช้แรงน้อยมากถึงปานกลาง,adult
+Bicycling,การปั่นจักรยาน,1214,4,"Bicycling, stationary, 50 watts, light effort",ปั่นจักรยานอยู่กับที่ 50 วัตต์ ใช้แรงเบา,adult
+Bicycling,การปั่นจักรยาน,1216,5,"Bicycling, stationary, 60 watts, light to moderate effort",ปั่นจักรยานอยู่กับที่ 60 วัตต์ ใช้แรงเบาถึงปานกลาง,adult
+Bicycling,การปั่นจักรยาน,1218,5.8,"Bicycling, stationary, 70-80 watts",การปั่นจักรยานแบบอยู่กับที่ 70-80 วัตต์,adult
+Bicycling,การปั่นจักรยาน,1220,6,"Bicycling, stationary, 90-100 watts,  moderate to vigorous",ปั่นจักรยานอยู่กับที่ กำลังไฟ 90-100 วัตต์ ระดับความหนักปานกลางถึงหนักมาก,adult
+Bicycling,การปั่นจักรยาน,1224,6.8,"Bicycling, stationary, 101-125 watts",การปั่นจักรยานอยู่กับที่ 101-125 วัตต์,adult
+Bicycling,การปั่นจักรยาน,1228,8,"Bicycling, stationary, 126-150 watts",การปั่นจักรยานอยู่กับที่ กำลังไฟ 126-150 วัตต์,adult
+Bicycling,การปั่นจักรยาน,1232,10.3,"Bicycling, stationary, 151-199 watts",การปั่นจักรยานอยู่กับที่ 151-199 วัตต์,adult
+Bicycling,การปั่นจักรยาน,1236,10.8,"Bicycling, stationary, 200-229 watts, vigorous",ปั่นจักรยานอยู่กับที่ กำลัง 200-229 วัตต์ อย่างหนักหน่วง,adult
+Bicycling,การปั่นจักรยาน,1240,12.5,"Bicycling, stationary, 230-250 watts, very vigorous",ปั่นจักรยานอยู่กับที่ กำลัง 230-250 วัตต์ ออกแรงมาก,adult
+Bicycling,การปั่นจักรยาน,1244,13.8,"Bicycling, stationary, 270-305 watts, very vigorous",ปั่นจักรยานอยู่กับที่ กำลัง 270-305 วัตต์ ออกแรงมาก,adult
+Bicycling,การปั่นจักรยาน,1248,16.3,"Bicycling, stationary, >325 watts, very vigorous",ปั่นจักรยานอยู่กับที่ กำลังมากกว่า 325 วัตต์ ออกแรงมาก,adult
+Bicycling,การปั่นจักรยาน,1252,5.5,"Bicycling, concentric only, 100 W","การปั่นจักรยาน, แบบวงกลมเท่านั้น, 100 วัตต์",adult
+Bicycling,การปั่นจักรยาน,1254,11,"Bicycling, concentric only, 200 W",การปั่นจักรยาน เฉพาะแบบวงกลม 200 วัตต์,adult
+Bicycling,การปั่นจักรยาน,1262,2.3,"Bicycling, eccentric only, 100 to 149 W",การปั่นจักรยาน เฉพาะกลุ่มคนนอกคอกเท่านั้น ระยะทาง 100 ถึง 149 กิโลเมตร,adult
+Bicycling,การปั่นจักรยาน,1264,4,"Bicycling, eccentric only, 200 W",การปั่นจักรยาน เฉพาะคนแปลกเท่านั้น 200 วัตต์,adult
+Bicycling,การปั่นจักรยาน,1270,9,"Bicycling, stationary, RPM/Spin bike class",คลาสปั่นจักรยานอยู่กับที่ (RPM/Spin bike),adult
+Bicycling,การปั่นจักรยาน,1290,8.8,"Bicycling, interactive virtual cycling, indoor cycle ergometer","การปั่นจักรยาน, การปั่นจักรยานเสมือนจริงแบบโต้ตอบ, เครื่องปั่นจักรยานในร่ม",adult
+Bicycling,การปั่นจักรยาน,1305,8.8,"Bicycling, high intensity interval training",การปั่นจักรยาน การฝึกแบบ HIIT (High Intensity Interval Training),adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2000,7.3,"Aerobic, general",แอโรบิกทั่วไป,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2001,5.5,"Aerobic, step, with 4-inch step",แอโรบิกแบบสเต็ป สูง 4 นิ้ว,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2002,7.3,"Aerobic, step, with 6 – 8 inch step",แอโรบิกแบบสเต็ป โดยมีขั้นบันไดสูง 6-8 นิ้ว,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2003,9,"Aerobic, step, with 10 – 12 inch step",แอโรบิกแบบสเต็ป โดยมีขั้นบันไดสูง 10-12 นิ้ว,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2004,7.8,"Bench step class, general",คลาสฝึกการก้าวขึ้นม้านั่ง (ทั่วไป),adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2005,4.8,"Aerobic dance, low impact, moderate effort",แอโรบิกแดนซ์ การออกกำลังกายแบบแรงกระแทกต่ำ ใช้แรงปานกลาง,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2006,8,"Aerobic dance, high impact, vigorous effort",การเต้นแอโรบิก เป็นกิจกรรมที่มีแรงกระแทกสูงและใช้แรงมาก,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2007,10,Aerobic dance wearing 10-15 lb weights,การเต้นแอโรบิกโดยสวมตุ้มน้ำหนัก 10-15 ปอนด์,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2008,5,"Army type obstacle course exercise, boot camp training program",การฝึกวิ่งฝ่าอุปสรรคแบบทหาร การฝึกแบบบู๊ทแคมป์,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2020,7.5,"Calisthenics (e.g., pushups, sit ups, pull-ups, jumping jacks, burpees, battling ropes), vigorous effort",การออกกำลังกายแบบกายบริหาร (เช่น วิดพื้น ซิทอัพ ดึงข้อ กระโดดตบ เบอร์พี เชือกฝึกกำลัง) การออกแรงอย่างหนัก,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2022,3.8,"Calisthenics (e.g., pushups, sit ups, pull-ups, lunges), moderate effort",การออกกำลังกายแบบกายบริหาร (เช่น วิดพื้น ซิทอัพ ดึงข้อ ลันจ์) ด้วยความพยายามระดับปานกลาง,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2024,2.8,"Calisthenics (e.g., curl ups, abdominal crunches, plank),  light effort","การออกกำลังกายแบบคาลิสเทนิกส์ (เช่น ซิทอัพ, ซิทอัพหน้าท้อง, แพลงก์) ออกแรงเบาๆ",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2030,3.5,"Calisthenics, light or moderate effort, general (e.g., back exercises), going up & down from floor (Taylor Code 150)",การออกกำลังกายแบบกายบริหารทั่วไป (เช่น การออกกำลังกายหลัง) การลุกขึ้นและลงจากพื้น (รหัสเทย์เลอร์ 150),adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2032,6,"Circuit training, body weight exercises",การฝึกแบบเซอร์กิตเทรนนิ่ง การออกกำลังกายโดยใช้น้ำหนักตัว,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2034,3.5,"Circuit training, light effort",การฝึกแบบเซอร์กิตเทรนนิ่ง ออกแรงเบาๆ,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2035,5,"Circuit training, moderate effort",การฝึกแบบเซอร์กิตเทรนนิ่ง ระดับความพยายามปานกลาง,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2040,7.5,"Circuit training, including kettlebells, some aerobic movement with minimal rest, general, vigorous intensity",การฝึกแบบเซอร์กิตเทรนนิ่ง ซึ่งรวมถึงการใช้เคettlebells การเคลื่อนไหวแบบแอโรบิกบางส่วนโดยพักน้อยที่สุด และความเข้มข้นโดยทั่วไปสูง,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2045,3.5,Curves™ exercise routines in women,โปรแกรมออกกำลังกาย Curves™ สำหรับผู้หญิง,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2048,5,"Elliptical trainer, moderate effort",เครื่องออกกำลังกายแบบวงรี ออกแรงปานกลาง,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2049,9,"Elliptical trainer, vigorous effort",เครื่องออกกำลังกายแบบวงรี ออกแรงอย่างเต็มที่,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2050,6,"Resistance (weight lifting - free weight, nautilus or universal-type), power lifting or body building, vigorous effort (Taylor Code
+210)","การฝึกความต้านทาน (การยกน้ำหนัก - น้ำหนักอิสระ, นอติลัส หรือแบบอเนกประสงค์), การยกกำลัง หรือการสร้างกล้ามเนื้อ, การออกแรงอย่างหนัก (รหัสเทย์เลอร์
+210)",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2052,5,"Resistance (weight) training, squats, deadlift, slow or explosive effort",การฝึกความแข็งแรง (ยกน้ำหนัก) สควอท เดดลิฟท์ การออกแรงช้าหรือเร็ว,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2054,3.5,"Resistance (weight) training, multiple exercises, 8-15 reps at varied resistance",การฝึกความแข็งแรง (ยกน้ำหนัก) หลายท่า ทำซ้ำ 8-15 ครั้ง ด้วยแรงต้านที่แตกต่างกัน,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2055,5.8,"Resistance Training, circuit, reciprocol supersets, peripheral hear action training","การฝึกความต้านทาน, เซอร์กิต, ซูเปอร์เซ็ตแบบสลับกัน, การฝึกการทำงานของหัวใจส่วนปลาย",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2056,3,"Body weight resistance exercises (e.g., squat, lunge, push-up, crunch), general",การออกกำลังกายโดยใช้แรงต้านจากน้ำหนักตัว (เช่น สควอท ลันจ์ วิดพื้น ซิทอัพ) ทั่วไป,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2057,6.5,"Body weight resistance exercises (e.g., squat, lunge, push-up, crunch), high intensity",การออกกำลังกายโดยใช้แรงต้านจากน้ำหนักตัว (เช่น สควอท ลันจ์ วิดพื้น ซิทอัพ) ความเข้มข้นสูง,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2058,9.8,Kettle bell swings,การแกว่งเคettlebell,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2060,5.5,"Health club exercise, general (Taylor Code 160)",การออกกำลังกายในฟิตเนสทั่วไป (รหัสเทย์เลอร์ 160),adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2061,5,"Health club exercise classes general, gym/weight training combined in one visit",คลาสออกกำลังกายทั่วไปของฟิตเนสคลับ ผสมผสานการฝึกในยิมและการยกน้ำหนักไว้ในที่เดียว,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2062,7.8,"Health club exercise, conditioning classes",การออกกำลังกายในฟิตเนส คลาสฝึกความแข็งแรง,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2064,3.8,"Home exercise, general",การออกกำลังกายที่บ้านทั่วไป,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2065,9.3,"Stair treadmill ergometer, general",เครื่องออกกำลังกายแบบลู่วิ่งขึ้นบันไดทั่วไป,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2068,11,"Rope skipping exercise, general",การออกกำลังกายด้วยการกระโดดเชือกทั่วไป,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2069,9,"Jumping rope, Digi-Jump Maching, 120 jumps/minute","การกระโดดเชือก, เครื่องกระโดดเชือกดิจิทัล, 120 ครั้ง/นาที",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2070,7.3,"Rowing, stationary ergometer, general, vigorous effort","การพายเรือ, เครื่องวัดกำลังแบบอยู่กับที่, ทั่วไป, ออกแรงอย่างเต็มที่",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2071,5,"Rowing, stationary ergometer, general, <100 watts,  moderate effort","การพายเรือ, เครื่องวัดกำลังแบบอยู่กับที่, ทั่วไป, น้อยกว่า 100 วัตต์, ความพยายามปานกลาง",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2072,7.5,"Rowing, stationary, 100 to 149 watts, vigorous effort",การพายเรือแบบอยู่กับที่ กำลัง 100 ถึง 149 วัตต์ ออกแรงอย่างเต็มที่,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2073,11,"Rowing, stationary, 150 to 199 watts, vigorous effort",การพายเรือแบบอยู่กับที่ กำลัง 150 ถึง 199 วัตต์ ออกแรงอย่างเต็มที่,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2074,14,"Rowing, stationary, ≥ 200 watts, very vigorous effort",การพายเรือแบบอยู่กับที่ กำลัง ≥ 200 วัตต์ ออกแรงอย่างมาก,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2078,11,"Shuttle running, forward/backward/lateral",การวิ่งสลับทิศทาง (ไปข้างหน้า/ถอยหลัง/ด้านข้าง),adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2080,6.8,"Ski machine, general",เครื่องสกีทั่วไป,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2082,10.5,"Ski ergometer, cross country, double poling, slow to moderate speed","เครื่องฝึกสกีแบบใช้แรงต้าน (Ski ergometer), สกีครอสคันทรี, ใช้ไม้ค้ำสองข้าง, ความเร็วช้าถึงปานกลาง",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2084,18,"Ski ergometer, cross country, double poling, fast to maximum speed","เครื่องฝึกสกีแบบใช้แรงต้าน, สกีครอสคันทรี, การใช้ไม้ค้ำสองอัน, ความเร็วสูงสุด",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2085,10.5,"Slide board exercise, general",การออกกำลังกายด้วยกระดานสไลด์ทั่วไป,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2090,6,"Slimnastics, jazzercise","สลิมนาสติกส์, แจ๊สเซอร์ไซส์",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2101,2.3,"Stretching, mild",การยืดกล้ามเนื้อเบาๆ,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2103,1.8,"Pilates, traditional, mat",พิลาทิสแบบดั้งเดิม บนเสื่อ,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2105,2.8,"Pilates, general",พิลาทิสทั่วไป,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2107,8.5,"Pound, combination of Pilates and body movements with drumming",Pound คือการผสมผสานระหว่างพิลาทิสและการเคลื่อนไหวร่างกายเข้ากับการตีกลอง,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2108,4.5,"Pole dancing, exercise class",คลาสเรียนเต้นเสา ออกกำลังกาย,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2110,6.8,"Teaching exercise classes (e.g., aerobic, water)",สอนคลาสออกกำลังกาย (เช่น แอโรบิก ออกกำลังกายในน้ำ),adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2112,2.8,"Therapeutic exercise ball, Fitball exercise","ลูกบอลออกกำลังกายเพื่อการบำบัด, ฟิตบอล",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2114,9.5,"Therapeutic exercise ball, Fitball exercise, high intensity","ลูกบอลออกกำลังกายเพื่อการบำบัด, ฟิตบอล, การออกกำลังกายความเข้มข้นสูง",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2115,2.8,"Upper body exercise, arm ergometer, general, light","ออกกำลังกายส่วนบนของร่างกาย, เครื่องออกกำลังกายแขน, ทั่วไป, เบา",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2116,2,"Arm Ergometer, hand bike, 15W",เครื่องออกกำลังกายแขนแบบใช้มือ (Hand Bike) 15 วัตต์,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2117,2.8,"Arm Ergometer, hand bike, 25-30W",เครื่องออกกำลังกายแขนแบบใช้มือ (Hand Bike) กำลังไฟ 25-30 วัตต์,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2118,3.5,"Arm Ergometer, hand bike, 45W",เครื่องออกกำลังกายแขนแบบใช้มือ (Hand Bike) 45 วัตต์,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2119,4.3,"Upper body exercise, stationary bicycle - Airdyne (arms only) 40 rpm, moderate intensity",ออกกำลังกายส่วนบนของร่างกายด้วยจักรยานออกกำลังกายแบบอยู่กับที่ - Airdyne (เฉพาะแขน) 40 รอบต่อนาที ความเข้มข้นปานกลาง,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2120,5.3,"Water aerobics, water calisthenics, water exercise","แอโรบิกในน้ำ, กายบริหารในน้ำ, การออกกำลังกายในน้ำ",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2135,1.3,"Whirlpool, sitting","กระแสน้ำวน, นั่ง",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2140,2.5,"Video, exercise workouts, TV conditioning programs (e.g., yoga, stretching, seated), light effort","วิดีโอ, การออกกำลังกาย, รายการโทรทัศน์เกี่ยวกับการฝึกความแข็งแรงของร่างกาย (เช่น โยคะ, การยืดเหยียด, การออกกำลังกายแบบนั่ง), การออกแรงเบาๆ",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2143,4,"Video, exercise workouts, TV conditioning programs (e.g., cardio-resistance training), moderate","วิดีโอ, การออกกำลังกาย, รายการโทรทัศน์เกี่ยวกับการฝึกความแข็งแรงของกล้ามเนื้อ (เช่น การฝึกคาร์ดิโอและฝึกความแข็งแรงของกล้ามเนื้อ) ระดับปานกลาง",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2145,6,"Video, exercise workouts, TV conditioning programs (e.g., cardio-resistance training), vigorous","วิดีโอ, การออกกำลังกาย, รายการโทรทัศน์เกี่ยวกับการฝึกความแข็งแรงของกล้ามเนื้อ (เช่น การฝึกคาร์ดิโอและฝึกความแข็งแรงของกล้ามเนื้อ), การออกกำลังกายอย่างหนัก",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2150,2.3,"Yoga, Hatha","โยคะ, ฮาฐะ",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2153,8,"Yoga, Hatha, high intensity","โยคะ, ฮาธา, ความเข้มข้นสูง",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2155,3,"Yoga, Hot",โยคะร้อน,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2160,4,"Yoga, Power","โยคะ, พลัง",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2170,2,"Yoga, Nadisodhana","โยคะ, นาดีโสธนะ",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2175,2.3,"Yoga, General",โยคะทั่วไป,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2180,3.5,"Yoga, Surya Namaskar",โยคะ สุริยานมาสการ,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2185,2.7,"Yoga, Vinyasa",โยคะ วินยาสะ,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2200,5.3,"Native New Zealander PA, (e.g., Haka Powhiri, Poi, Moteatea, etc.), general moderate effort","PA ชาวนิวซีแลนด์พื้นเมือง (เช่น Haka Powhiri, Poi, Moteatea ฯลฯ) ความพยายามปานกลางโดยทั่วไป",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2205,6.8,"Native New Zealander PA, general, vigorous effort","ชาวนิวซีแลนด์พื้นเมือง PA, ทั่วไป, ความพยายามอย่างแข็งขัน",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2210,7,"High intensity interval exercise,  moderate effort",การออกกำลังกายแบบหนักสลับเบา (High intensity interval exercise) ด้วยความพยายามระดับปานกลาง,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2214,11,"High intensity interval exercise,  burpees, mountain climbers, squat jumps, Tabata, vigorous effort","การออกกำลังกายแบบหนักสลับเบา (HIIT), เบอร์พี, ปีนเขา, กระโดดสควอท, ทาบาตะ, การออกแรงอย่างหนัก",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2225,2.3,"Balance Exercise Assist Robot (BEAR), simulated skiing, tennis, rodeo",หุ่นยนต์ช่วยฝึกการทรงตัว (BEAR) จำลองการเล่นสกี เทนนิส และโรดีโอ,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2230,5.8,Hooping (formerly known as hula® hooping),การเล่นฮูลาฮูป (เดิมเรียกว่า ฮูลาฮูป),adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2240,9,"Impulse Training System, Inertial Exercise Trainer","ระบบฝึกแบบแรงกระตุ้น, เครื่องฝึกออกกำลังกายแบบแรงเฉื่อย",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2280,7.9,"Virtual Reality Fitness,  Supernatural™ “Flow”, “Boxing"" vigorous intensity","ฟิตเนสเสมือนจริง, Supernatural™ “Flow”, “Boxing” ความเข้มข้นสูง",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2284,9.3,"ExerCube, workout series",ExerCube ชุดอุปกรณ์ออกกำลังกาย,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2288,13,"Blackbox Immersive virtual reality exergaming system, vigorous intensity",ระบบเกมออกกำลังกายเสมือนจริงแบบดื่มด่ำ Blackbox ความเข้มข้นสูง,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2300,3,"Wand exercise, Life-Build-Line","แบบฝึกหัดไม้กายสิทธิ์, เส้นทางสร้างชีวิต",adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2310,6.5,"Zumba, group class",ซุมบ้า คลาสเรียนแบบกลุ่ม,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2315,5.5,"Zumba, home video",ซุมบ้า วิดีโอสำหรับใช้ที่บ้าน,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2340,2.8,"Sit to stand exercise, 6-12 times/min",ออกกำลังกายแบบลุกนั่ง 6-12 ครั้ง/นาที,adult
+Conditioning Exercise,การออกกำลังกายเพื่อเสริมสร้างความแข็งแรง,2344,4,"Sit to stand exercise, 18-24 times/min",ออกกำลังกายแบบลุกนั่ง 18-24 ครั้ง/นาที,adult
+Dancing,เต้น,3005,6,"Afro-Cuban salsa (Cuban cha-cha-cha, mambo, Afro rumba, contratiempo son steps, orisha/santo movements)","ซัลซ่าแอฟโฟร-คิวบา (ชา-ชา-ชาของคิวบา, แมมโบ, จังหวะรุมบาแอฟโฟร, สเต็ปคอนทราตีเอมโป, การเคลื่อนไหวโอริชา/ซันโต)",adult
+Dancing,เต้น,3010,5,"Ballet, modern, or jazz general, rehearsal or class",บัลเลต์ โมเดิร์น หรือแจ๊ส ทั่วไป การฝึกซ้อม หรือชั้นเรียน,adult
+Dancing,เต้น,3011,6.3,"Ballet exercises (plie, tendus, jetes, rond de Jambes, fondus, grand battement, grand adage, sautes, temp Leve's)","แบบฝึกหัดบัลเล่ต์ (plie, tendus, jetes, rond de Jambes, fondus, grand battement, grand adage, sautes, temp Leve's)",adult
+Dancing,เต้น,3012,6.8,"Ballet, modern, or jazz, performance, vigorous effort",การแสดงบัลเลต์ โมเดิร์น หรือแจ๊ส ที่ใช้ความพยายามอย่างเต็มที่,adult
+Dancing,เต้น,3014,4.8,Tap,แตะ,adult
+Dancing,เต้น,3025,4.5,"Ethnic or cultural dancing (e.g. Greek, Middle Eastern, hula, salsa, merengue, bamba y plena,  flamenco, belly, and swing)",การเต้นรำตามชาติพันธุ์หรือวัฒนธรรม (เช่น การเต้นรำกรีก ตะวันออกกลาง ฮูล่า ซัลซ่า เมเรนเก้ บัมบา อี เปลนา ฟลาเมงโก เบลลี่แดนซ์ และสวิง),adult
+Dancing,เต้น,3028,5.5,"Chinese square dance, Ballet & Tibetan dance",ระบำจีน บัลเลต์ และระบำทิเบต,adult
+Dancing,เต้น,3029,7.3,"Chinese square dance, aerobic dance","การเต้นรำแบบจีน, การเต้นแอโรบิก",adult
+Dancing,เต้น,3030,5.5,"Ballroom dancing, fast (Taylor Code 125)",การเต้นรำบอลรูมแบบเร็ว (รหัสเทย์เลอร์ 125),adult
+Dancing,เต้น,3031,9.8,"Nightclub or folk dancing, vigorous effort (e.g., nightclub, disco, folk, line dancing, Irish step dancing, polka, contra)",การเต้นรำในไนท์คลับหรือการเต้นรำพื้นบ้าน ที่ใช้แรงกายอย่างมาก (เช่น ไนต์คลับ ดิสโก้ โฟล์คแดนซ์ ไลน์แดนซ์ ไอริชสเต็ปแดนซ์ โพลก้า คอนทรา),adult
+Dancing,เต้น,3033,5,"Folk dancing, moderate effort","การเต้นรำพื้นบ้าน, ระดับความพยายามปานกลาง",adult
+Dancing,เต้น,3038,11.3,"Ballroom dancing, competitive, general","การเต้นรำบอลรูม, การแข่งขัน, ทั่วไป",adult
+Dancing,เต้น,3039,13,"ballroom dance, DanceSport competition (modern waltz, tango, Viennese waltz, slow fox, quick step, samba, chacha, rumba, paso doble, jive)","การเต้นรำบอลรูม, การแข่งขันกีฬาเต้นรำ (วอลซ์สมัยใหม่, แทงโก้, วอลซ์เวียนนา, สโลว์ฟ็อกซ์, ควิกสเต็ป, แซมบ้า, ชาชา, รุมบา, ปาโซโดเบล, จิฟ)",adult
+Dancing,เต้น,3040,3,"Ballroom, slow, examples: waltz, foxtrot, slow dancing, samba tango, rumba, 19th century dance, mambo, cha cha",การเต้นรำในห้องบอลรูมแบบช้าๆ ตัวอย่างเช่น วอลซ์ ฟ็อกซ์ทรอต การเต้นรำช้าๆ แซมบ้า แทงโก้ รุมบา การเต้นรำในศตวรรษที่ 19 แมมโบ้ ชาชา,adult
+Dancing,เต้น,3042,6,"Ballroom Dance, Recreational (Waltz, Foxtrot, Cha-cha, Swing)",การเต้นรำบอลรูมเพื่อความบันเทิง (วอลซ์ ฟ็อกซ์ทร็อต ชาชา สวิง),adult
+Dancing,เต้น,3050,5.5,"Anishinaabe Jingle dancing, brisk pace, other traditional American Indian dancing performed by women, moderate effort",การรำจิงเกิลของชาวอนิชินาเบะ จังหวะเร็ว การเต้นรำพื้นเมืองดั้งเดิมอื่นๆ ของชนพื้นเมืองอเมริกันที่แสดงโดยผู้หญิง ใช้แรงปานกลาง,adult
+Dancing,เต้น,3060,3.5,"Caribbean dance (Abakua, Beguine, Bellair, Bongo, Brukin’s, Caribbean Quadrills, Dinki  Mini, Gere, Gumbay, Ibo, Jonkonnu,
+Kumina,  Oreisha, Jambu)","การเต้นรำแคริบเบียน (Abakua, Beguine, Bellair, Bongo, Brukin's, Caribbean Quadrills, Dinki Mini, Gere, Gumbay, Ibo, Jonkonnu,
+คูมินา, โอไรชา, จัมบู)",adult
+Dancing,เต้น,3070,3.8,"Contemporary dancing, general",การเต้นรำร่วมสมัยทั่วไป,adult
+Dancing,เต้น,3072,4.3,"Contemporary dancing, nightclub","การเต้นรำร่วมสมัย, ไนต์คลับ",adult
+Dancing,เต้น,3075,8.5,Flamenco dance,ระบำฟลาเมงโก,adult
+Dancing,เต้น,3078,4.5,"Jazz dancing, general",การเต้นแจ๊สทั่วไป,adult
+Dancing,เต้น,3080,10.3,"Musical Theater, Singing/dancing","ละครเพลง, การร้องเพลง/การเต้นรำ",adult
+Dancing,เต้น,3085,5.8,"Polynesian dance, Hawaiian hula slow, Maori haka, Tongan","การเต้นรำโพลินีเซีย, ฮูล่าฮาวายแบบช้า, ฮากาของชาวเมารี, การเต้นรำของชาวตองกา",adult
+Dancing,เต้น,3086,7,"Polynesian dance, Hawaiian hula fast, Samoan sasa, Fijian style fast, Filipino Tinikling","การเต้นรำแบบโพลีนีเซียน, การเต้นฮูลาแบบฮาวาย, ซามัวแบบซามัว, การเต้นสไตล์ฟิจิ, การเล่นทินิกลิงของชาวฟิลิปปินส์",adult
+Dancing,เต้น,3087,8.8,"Polynesian dance, Samoan slap, Tahitian","การเต้นรำแบบโพลินีเซีย, การตบแบบซามัว, การเต้นแบบตาฮิติ",adult
+Dancing,เต้น,3090,4.8,"Salsa Dancing, with partner",เต้นซัลซ่ากับคู่เต้น,adult
+Dancing,เต้น,3091,6.3,"Salsa dancing, to a video",เต้นซัลซ่าตามวิดีโอ,adult
+Dancing,เต้น,3093,5.5,"Square Dancing, American Western, country","สแควร์แดนซ์, อเมริกันเวสเทิร์น, คันทรี",adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4001,3.5,"Fishing, general",การตกปลาทั่วไป,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4005,4.5,"Fishing, crab fishing",การตกปลา การจับปู,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4007,4,"Fishing, catching fish with hands",การตกปลา การจับปลาด้วยมือ,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4010,4.3,"Fishing related, digging worms, with shovel",เกี่ยวกับการตกปลา การขุดหาหนอนด้วยพลั่ว,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4020,4,Fishing from river bank and walking,การตกปลาจากริมฝั่งแม่น้ำและการเดินเท้า,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4030,2,"Fishing from boat or canoe, sitting",ตกปลาจากเรือหรือเรือแคนู ขณะนั่ง,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4040,3.5,"Fishing from river bank, standing (Taylor Code 660)",การตกปลาจากริมฝั่งแม่น้ำ โดยยืนตก (รหัสเทย์เลอร์ 660),adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4050,6,"Fishing in stream, in waders (Taylor Code 670)",ตกปลาในลำธารโดยสวมรองเท้าบูทกันน้ำ (รหัสเทย์เลอร์ 670),adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4060,2,"Fishing, ice, sitting",การตกปลา น้ำแข็ง การนั่ง,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4061,1.8,"Fishing, jig or line, standing, general",การตกปลาแบบยืนตก โดยใช้เหยื่อล่อหรือสายเบ็ดทั่วไป,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4062,3.5,"Fishing, dip net, setting net and retrieving fish, general","การตกปลา, การใช้แหตักปลา, การวางแหและการดึงแหขึ้น, ทั่วไป",adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4063,3.8,"Fishing, set net, setting net and retrieving fish, general","การตกปลา, การวางอวน, การวางอวนและการดึงปลาขึ้นจากอวน, ทั่วไป",adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4064,3,"Fishing, fishing wheel, setting net and retrieving fish, general","การตกปลา, วงล้อตกปลา, การวางอวนและการดึงปลาขึ้นฝั่ง, ทั่วไป",adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4065,2.3,"Fishing with a spear, standing",การตกปลาด้วยหอก ยืน,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4070,2.5,"Hunting, bow and arrow or crossbow",การล่าสัตว์ด้วยธนูและลูกศร หรือหน้าไม้,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4080,6,"Hunting, deer, elk, large game (Taylor Code 170)","การล่าสัตว์, กวาง, กวางเอลก์, สัตว์ป่าขนาดใหญ่ (รหัสเทย์เลอร์ 170)",adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4081,9.8,"Hunting large game, dragging carcass",การล่าสัตว์ใหญ่ การลากซากสัตว์,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4083,4,Hunting large marine animals,การล่าสัตว์ทะเลขนาดใหญ่,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4085,2.5,"Hunting, large game from a hunting stand, limited walking","การล่าสัตว์, สัตว์ใหญ่จากหอสังเกตการณ์ล่าสัตว์, การเดินในระยะทางจำกัด",adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4086,2,"Hunting large game from a car, plane, or boat",การล่าสัตว์ใหญ่จากรถยนต์ เครื่องบิน หรือเรือ,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4090,2.5,"Hunting, duck, wading","การล่าสัตว์, เป็ด, ลุยน้ำ",adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4095,3,"Hunting flying fox, squirrel",การล่าค้างคาวผลไม้และกระรอก,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4100,5,"Hunting, general",การล่าสัตว์ทั่วไป,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4110,6,"Hunting, pheasants or grouse (Taylor Code 680)",การล่าสัตว์ เช่น นกกระทาหรือไก่ป่า (รหัสเทย์เลอร์ 680),adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4115,3.3,Hunting birds,นกที่ล่ามา,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4120,5,"Hunting, rabbit, squirrel, prairie chick, raccoon, small game (Taylor Code 690)","การล่าสัตว์, กระต่าย, กระรอก, ลูกไก่ป่า, แรคคูน, สัตว์เล็ก (รหัสเทย์เลอร์ 690)",adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4123,3.3,"Hunting pigs, wild",การล่าหมูป่า,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4124,2,"Trapping game, general",เกมดักจับสัตว์ทั่วไป,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4125,9.5,Hunting - hiking with hunting gear,การล่าสัตว์ - การเดินป่าพร้อมอุปกรณ์ล่าสัตว์,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4130,2.5,"Pistol shooting or trap shooting, standing",การยิงปืนพกหรือการยิงเป้าบินแบบยืน,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4140,2.3,"Rifle exercises, shooting, lying down",การฝึกใช้ปืนไรเฟิล การยิงปืนในท่านอน,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4145,2.5,"Rifle exercises, shooting, kneeling or standing",การฝึกยิงปืน การยิงในท่าคุกเข่าหรือยืน,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4150,2.8,"Foraging, 0-9.9kg backpack","การหาอาหารตามธรรมชาติ, กระเป๋าเป้สะพายหลังน้ำหนัก 0-9.9 กก.",adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4152,3,"Foraging, 10-15kg backpack",การหาอาหารตามธรรมชาติ โดยแบกเป้หนัก 10-15 กิโลกรัม,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4160,1,"Sitting in boat, passenger",นั่งอยู่บนเรือ ผู้โดยสาร,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4164,1.5,Standing in boat,ยืนอยู่ในเรือ,adult
+Fishing & Hunting,การตกปลาและการล่าสัตว์,4168,3.3,"Activities in a boat, lifting, lowering",กิจกรรมต่างๆ บนเรือ เช่น การยก การลดระดับ,adult
+Home Activities,กิจกรรมภายในบ้าน,5010,3.3,"Cleaning, sweeping carpet or floors, general",การทำความสะอาดทั่วไป เช่น การกวาดพรมหรือพื้น,adult
+Home Activities,กิจกรรมภายในบ้าน,5011,2.3,"Cleaning, sweeping, slow, light effort",การทำความสะอาด การกวาดพื้น ช้าๆ ใช้แรงน้อย,adult
+Home Activities,กิจกรรมภายในบ้าน,5012,3.8,"Cleaning, sweeping, fast, moderate effort","การทำความสะอาด, การกวาด, รวดเร็ว, ใช้แรงปานกลาง",adult
+Home Activities,กิจกรรมภายในบ้าน,5020,3.5,"Cleaning  heavy or major (e.g., wash car, clean garage), moderate effort",การทำความสะอาดครั้งใหญ่หรือสำคัญ (เช่น ล้างรถ ทำความสะอาดโรงรถ) ใช้แรงปานกลาง,adult
+Home Activities,กิจกรรมภายในบ้าน,5021,3.5,"Cleaning, mopping, standing, moderate effort","การทำความสะอาด, การถูพื้น, การยืน, ออกแรงปานกลาง",adult
+Home Activities,กิจกรรมภายในบ้าน,5022,3.3,"Cleaning windows, washing windows, general",การทำความสะอาดหน้าต่าง การล้างหน้าต่าง ทั่วไป,adult
+Home Activities,กิจกรรมภายในบ้าน,5023,2.5,"Mopping, standing, light effort","การถูพื้น, การยืน, ออกแรงเล็กน้อย",adult
+Home Activities,กิจกรรมภายในบ้าน,5024,4.5,"Polishing floors, standing, walking slowly, using electric polishing machine","การขัดพื้น, ยืน, เดินช้าๆ, ใช้เครื่องขัดพื้นไฟฟ้า",adult
+Home Activities,กิจกรรมภายในบ้าน,5025,2.8,"Multiple household tasks all at once, light effort",ทำงานบ้านหลายอย่างพร้อมกันโดยใช้แรงน้อย,adult
+Home Activities,กิจกรรมภายในบ้าน,5026,3.3,"Multiple household tasks all at once, moderate effort",ทำงานบ้านหลายอย่างพร้อมกัน ใช้แรงปานกลาง,adult
+Home Activities,กิจกรรมภายในบ้าน,5027,4.3,"Multiple household tasks all at once, vigorous effort",ทำงานบ้านหลายอย่างพร้อมกัน ต้องใช้แรงอย่างมาก,adult
+Home Activities,กิจกรรมภายในบ้าน,5030,3.3,"Cleaning, house or cabin, general, moderate effort",งานทำความสะอาดบ้านหรือกระท่อมทั่วไป ใช้แรงปานกลาง,adult
+Home Activities,กิจกรรมภายในบ้าน,5032,2.5,"Dusting or polishing furniture, general",การปัดฝุ่นหรือขัดเงาเฟอร์นิเจอร์ทั่วไป,adult
+Home Activities,กิจกรรมภายในบ้าน,5035,3.3,"Kitchen activity, general, (e.g., cooking, washing dishes, cleaning up) moderate effort",กิจกรรมในครัวทั่วไป (เช่น การทำอาหาร การล้างจาน การทำความสะอาด) ใช้แรงปานกลาง,adult
+Home Activities,กิจกรรมภายในบ้าน,5040,2.5,"Cleaning, general (straightening up, changing linen, carrying out trash), light effort",งานทำความสะอาดทั่วไป (จัดระเบียบห้อง เปลี่ยนผ้าปูที่นอน ทิ้งขยะ) ใช้แรงน้อย,adult
+Home Activities,กิจกรรมภายในบ้าน,5041,2,"Wash dishes, standing or in general (not broken into stand/walk components)",ล้างจานแบบยืนหรือแบบทั่วไป (ไม่ได้แบ่งเป็นส่วนยืน/เดิน),adult
+Home Activities,กิจกรรมภายในบ้าน,5042,2,"Wash dishes, clearing dishes from table, walking, light effort",ล้างจาน เก็บจานชามจากโต๊ะ เดิน ใช้แรงเล็กน้อย,adult
+Home Activities,กิจกรรมภายในบ้าน,5043,3,"Vacuuming, general, moderate effort",การดูดฝุ่นทั่วไป ใช้แรงปานกลาง,adult
+Home Activities,กิจกรรมภายในบ้าน,5044,3,"Butchering animals, small",การชำแหละสัตว์ขนาดเล็ก,adult
+Home Activities,กิจกรรมภายในบ้าน,5045,6,"Butchering animals, large, vigorous effort",การชำแหละสัตว์ เป็นงานที่ต้องใช้แรงกายอย่างมาก,adult
+Home Activities,กิจกรรมภายในบ้าน,5046,2.3,"Cutting and smoking fish, drying fish or meat",การหั่นและรมควันปลา การตากแห้งปลาหรือเนื้อสัตว์,adult
+Home Activities,กิจกรรมภายในบ้าน,5048,4,"Tanning hides, general",การฟอกหนังโดยทั่วไป,adult
+Home Activities,กิจกรรมภายในบ้าน,5049,3.5,"Cooking or food preparation, moderate effort",การทำอาหารหรือการเตรียมอาหาร ต้องใช้ความพยายามปานกลาง,adult
+Home Activities,กิจกรรมภายในบ้าน,5050,2,"Cooking or food preparation - standing or sitting or in general (not broken into stand/walk components), manual appliances,
+light effort","การทำอาหารหรือการเตรียมอาหาร - โดยการยืน นั่ง หรือโดยทั่วไป (ไม่ได้แยกเป็นส่วนของการยืน/เดิน) เครื่องใช้แบบใช้มือ
+ใช้แรงน้อย",adult
+Home Activities,กิจกรรมภายในบ้าน,5051,2.3,"Cooking or food preparation, walking",การทำอาหารหรือการเตรียมอาหาร การเดิน,adult
+Home Activities,กิจกรรมภายในบ้าน,5052,2.3,"Serving food, setting/cleaning table, implied walking or standing",การเสิร์ฟอาหาร การจัด/ทำความสะอาดโต๊ะอาหาร ซึ่งหมายถึงการเดินหรือยืน,adult
+Home Activities,กิจกรรมภายในบ้าน,5053,2.5,Feeding household animals,การให้อาหารสัตว์ในบ้าน,adult
+Home Activities,กิจกรรมภายในบ้าน,5054,3.5,"carrying groceries, on level ground, walking",ถือถุงของชำ เดินบนพื้นราบ,adult
+Home Activities,กิจกรรมภายในบ้าน,5055,2.5,"Putting away groceries (e.g. carrying groceries, carrying packages)",การจัดเก็บของชำ (เช่น การถือของชำ การถือห่อของ),adult
+Home Activities,กิจกรรมภายในบ้าน,5056,5.3,Carrying groceries upstairs,แบกของชำขึ้นบันได,adult
+Home Activities,กิจกรรมภายในบ้าน,5057,3,Cooking Indian bread or other food on an outside stove,การทำขนมปังอินเดียหรืออาหารอื่นๆ บนเตาภายนอกอาคาร,adult
+Home Activities,กิจกรรมภายในบ้าน,5060,3.3,Food shopping with or without a grocery cart; carrying a 10 lb bag; standing or walking,การซื้อของชำโดยใช้หรือไม่ใช้รถเข็น; การถือถุงหนัก 10 ปอนด์; การยืนหรือการเดิน,adult
+Home Activities,กิจกรรมภายในบ้าน,5065,2.3,"Non-food shopping, with or without cart, standing or walking",ซื้อสินค้าที่ไม่ใช่อาหาร ไม่ว่าจะใช้รถเข็นหรือไม่ก็ตาม ยืนซื้อหรือเดินซื้อ,adult
+Home Activities,กิจกรรมภายในบ้าน,5070,1.8,Ironing,การรีดผ้า,adult
+Home Activities,กิจกรรมภายในบ้าน,5080,1.3,"Knitting, sewing, light effort, wrapping presents, sitting",การถักไหมพรม การเย็บปักถักร้อย การออกแรงเล็กน้อย การห่อของขวัญ การนั่ง,adult
+Home Activities,กิจกรรมภายในบ้าน,5082,2.8,Sewing with a machine,การเย็บด้วยจักร,adult
+Home Activities,กิจกรรมภายในบ้าน,5090,2.3,"Laundry, fold or hang clothes, put clothes in washer or dryer, packing suitcase, washing clothes by hand,  implied standing, light
+effort","ซักผ้า พับหรือแขวนผ้า ใส่ผ้าลงเครื่องซักผ้าหรือเครื่องอบผ้า จัดกระเป๋าเดินทาง ซักผ้าด้วยมือ (โดยนัยคือยืน) ใช้แรงเล็กน้อย
+",adult
+Home Activities,กิจกรรมภายในบ้าน,5091,2,"Laundry, fold or hang clothes, sitting",ซักผ้า พับหรือตากผ้า นั่ง,adult
+Home Activities,กิจกรรมภายในบ้าน,5092,4,"Laundry,  moderate effort",การซักผ้า (ระดับความพยายามปานกลาง),adult
+Home Activities,กิจกรรมภายในบ้าน,5095,2,"Laundry,  putting away clothes, gathering clothes to pack, putting away laundry, implied walking",การซักผ้า การเก็บเสื้อผ้า การรวบรวมเสื้อผ้าเพื่อแพ็ค การเก็บผ้าที่ซักแล้ว การเดินโดยนัย,adult
+Home Activities,กิจกรรมภายในบ้าน,5100,3,"Making bed, changing linens",จัดเตียง เปลี่ยนผ้าปูที่นอน,adult
+Home Activities,กิจกรรมภายในบ้าน,5110,5,"Maple syruping/sugar bushing (including carrying buckets, carrying wood)",การเก็บน้ำเชื่อมเมเปิล/น้ำเชื่อมจากพุ่มไม้ (รวมถึงการแบกถังและการแบกฟืน),adult
+Home Activities,กิจกรรมภายในบ้าน,5120,5.8,"Moving furniture, household items, carrying boxes",การขนย้ายเฟอร์นิเจอร์ ของใช้ในบ้าน และการยกกล่อง,adult
+Home Activities,กิจกรรมภายในบ้าน,5121,5,"Moving, lifting light loads",การเคลื่อนย้าย การยกของเบาๆ,adult
+Home Activities,กิจกรรมภายในบ้าน,5125,4.8,Organizing a room,การจัดห้อง,adult
+Home Activities,กิจกรรมภายในบ้าน,5130,3.5,"Scrubbing floors, on hands and knees, scrubbing bathroom, bathtub, moderate effort",ขัดพื้นด้วยมือและเข่า ขัดห้องน้ำ ขัดอ่างอาบน้ำ ใช้แรงปานกลาง,adult
+Home Activities,กิจกรรมภายในบ้าน,5131,2,"Scrubbing floors, on hands and knees, scrubbing bathroom, bathtub, light effort",ขัดพื้นด้วยมือและเข่า ขัดห้องน้ำ ขัดอ่างอาบน้ำ ใช้แรงไม่มาก,adult
+Home Activities,กิจกรรมภายในบ้าน,5132,6.5,"Scrubbing floors, on hands and knees, scrubbing bathroom, bathtub, vigorous effort",ขัดพื้นด้วยมือและเข่า ขัดห้องน้ำ ขัดอ่างอาบน้ำ ออกแรงอย่างเต็มที่,adult
+Home Activities,กิจกรรมภายในบ้าน,5140,3,"Sweeping garage, sidewalk, or outside house",กวาดโรงรถ ทางเท้า หรือบริเวณภายนอกบ้าน,adult
+Home Activities,กิจกรรมภายในบ้าน,5146,3.8,"Standing, packing/unpacking boxes, occasional lifting lightweight household items, loading or unloading items into a car,
+moderate effort","การยืน, การแพ็ค/แกะกล่อง, การยกของใช้ในบ้านที่มีน้ำหนักเบาเป็นครั้งคราว, การขนของขึ้นหรือลงจากรถ,
+ใช้แรงปานกลาง",adult
+Home Activities,กิจกรรมภายในบ้าน,5147,3,"Implied walking, putting away household items, moderate effort",การเดินโดยนัย การจัดเก็บสิ่งของในบ้าน การออกแรงปานกลาง,adult
+Home Activities,กิจกรรมภายในบ้าน,5148,2,Watering  plants,รดน้ำต้นไม้,adult
+Home Activities,กิจกรรมภายในบ้าน,5149,2.5,Building a fire inside,การก่อไฟภายในบ้าน,adult
+Home Activities,กิจกรรมภายในบ้าน,5150,9,"Moving household items upstairs, carrying boxes or furniture",การขนย้ายสิ่งของในบ้านขึ้นไปชั้นบน การยกกล่องหรือเฟอร์นิเจอร์,adult
+Home Activities,กิจกรรมภายในบ้าน,5160,2,"Standing, light effort tasks (pump gas, change light bulb, etc.)",งานที่ต้องใช้แรงน้อยและต้องยืน (เช่น เติมน้ำมัน เปลี่ยนหลอดไฟ เป็นต้น),adult
+Home Activities,กิจกรรมภายในบ้าน,5165,3.5,"Walking, moderate effort tasks, non-cleaning (readying to leave, shut/lock doors, close windows, etc.",การเดิน การทำงานที่ต้องใช้แรงปานกลาง งานที่ไม่เกี่ยวกับการทำความสะอาด (เช่น เตรียมตัวออกจากบ้าน ปิด/ล็อคประตู ปิดหน้าต่าง เป็นต้น),adult
+Home Activities,กิจกรรมภายในบ้าน,5170,2.3,"Sitting, playing with child(ren), light effort, only active periods",การนั่ง การเล่นกับเด็ก การออกแรงเบาๆ เฉพาะช่วงเวลาที่เคลื่อนไหวเท่านั้น,adult
+Home Activities,กิจกรรมภายในบ้าน,5171,2.8,"Standing, playing with child(ren), light effort, only active periods",การยืน การเล่นกับเด็ก การออกแรงเบาๆ เฉพาะช่วงเวลาที่เคลื่อนไหวร่างกายเท่านั้น,adult
+Home Activities,กิจกรรมภายในบ้าน,5175,3.5,"Walking/running, playing with child(ren), moderate effort, only active periods","การเดิน/วิ่ง, การเล่นกับเด็ก, การออกแรงปานกลาง, เฉพาะช่วงเวลาที่เคลื่อนไหวร่างกายเท่านั้น",adult
+Home Activities,กิจกรรมภายในบ้าน,5180,5.8,"Walking/running, playing with child(ren), vigorous effort, only active periods","การเดิน/วิ่ง, การเล่นกับเด็ก, การออกแรงอย่างหนัก, เฉพาะช่วงเวลาที่เคลื่อนไหวร่างกายเท่านั้น",adult
+Home Activities,กิจกรรมภายในบ้าน,5181,3,"Walking and carrying small child, child weighing 15 lbs or more",การเดินและอุ้มเด็กเล็ก น้ำหนัก 15 ปอนด์ขึ้นไป,adult
+Home Activities,กิจกรรมภายในบ้าน,5182,2.5,"Walking and carrying small child, child weighing less than 15 lbs",การเดินและอุ้มเด็กเล็ก น้ำหนักเด็กน้อยกว่า 15 ปอนด์,adult
+Home Activities,กิจกรรมภายในบ้าน,5183,2,"Standing, holding child",ยืนอยู่โดยอุ้มเด็กไว้,adult
+Home Activities,กิจกรรมภายในบ้าน,5184,2.5,"Child care, infant, general",การดูแลเด็กเล็ก ทารก ทั่วไป,adult
+Home Activities,กิจกรรมภายในบ้าน,5185,2,"Child care: sitting or kneeling, dressing, bathing, grooming, feeding, occasional lifting of child-light effort, general",การดูแลเด็ก: การนั่งหรือคุกเข่า การแต่งตัว การอาบน้ำ การดูแลสุขอนามัย การป้อนอาหาร การอุ้มเด็กเป็นครั้งคราว (ใช้แรงน้อย) ทั่วไป,adult
+Home Activities,กิจกรรมภายในบ้าน,5186,3.5,"Child care: standing, dressing, bathing, grooming, feeding, occasional lifting of child- light effort",การดูแลเด็ก: การยืน การแต่งตัว การอาบน้ำ การดูแลสุขอนามัย การป้อนอาหาร การอุ้มเด็กเป็นครั้งคราว - ใช้แรงน้อย,adult
+Home Activities,กิจกรรมภายในบ้าน,5188,1.5,Reclining with baby,นอนเอนกายกับลูกน้อย,adult
+Home Activities,กิจกรรมภายในบ้าน,5189,2,"Breastfeeding, sitting or reclining",การให้นมบุตร การนั่ง หรือการนอน,adult
+Home Activities,กิจกรรมภายในบ้าน,5190,2.5,"Sit, playing with animals, light, only active period",นั่ง เล่นกับสัตว์ แสงสว่าง เฉพาะช่วงเวลาที่เคลื่อนไหวเท่านั้น,adult
+Home Activities,กิจกรรมภายในบ้าน,5191,2.8,"Stand, playing with animals, light effort, only active periods",การยืน การเล่นกับสัตว์ การออกแรงเบาๆ เฉพาะช่วงเวลาที่เคลื่อนไหวเท่านั้น,adult
+Home Activities,กิจกรรมภายในบ้าน,5192,2.8,"Walk or run, playing with animals, general, light effort, only active periods",เดินหรือวิ่ง เล่นกับสัตว์ กิจกรรมทั่วไปที่ใช้แรงน้อย เฉพาะช่วงเวลาที่เคลื่อนไหวร่างกายเท่านั้น,adult
+Home Activities,กิจกรรมภายในบ้าน,5193,4,"Walk/run, playing with animals, moderate effort, only active periods",เดิน/วิ่ง เล่นกับสัตว์ ออกแรงปานกลาง เฉพาะช่วงเวลาที่เคลื่อนไหวร่างกายเท่านั้น,adult
+Home Activities,กิจกรรมภายในบ้าน,5194,5,"Walk/run, playing with animals, vigorous effort, only active periods",เดิน/วิ่ง เล่นกับสัตว์ ออกแรงอย่างหนัก เฉพาะช่วงเวลาที่เคลื่อนไหวเท่านั้น,adult
+Home Activities,กิจกรรมภายในบ้าน,5195,3.5,"Standing, bathing dog",สุนัขยืนอาบน้ำ,adult
+Home Activities,กิจกรรมภายในบ้าน,5197,2.3,"Animal care, household animals, general","การดูแลสัตว์, สัตว์เลี้ยงในบ้าน, ทั่วไป",adult
+Home Activities,กิจกรรมภายในบ้าน,5200,3,"Elder care, disabled adult, bathing, dressing, moving into and out of bed, only active periods",การดูแลผู้สูงอายุ ผู้พิการ การอาบน้ำ การแต่งตัว การช่วยพยุงขึ้นและลงจากเตียง เฉพาะช่วงเวลาที่สามารถเคลื่อนไหวได้เอง,adult
+Home Activities,กิจกรรมภายในบ้าน,5205,1.8,"Elder care, disabled adult, feeding, combing hair, light effort, only active periods","การดูแลผู้สูงอายุ, ผู้พิการ, การป้อนอาหาร, การหวีผม, งานเบา, เฉพาะช่วงเวลาที่ต้องเคลื่อนไหว",adult
+Home Activities,กิจกรรมภายในบ้าน,5300,1.3,Handwashing,การล้างมือ,adult
+Home Repair,ซ่อมแซมบ้าน,6010,3,Airplane repair,ซ่อมเครื่องบิน,adult
+Home Repair,ซ่อมแซมบ้าน,6020,4,Automobile body work,งานซ่อมตัวถังรถยนต์,adult
+Home Repair,ซ่อมแซมบ้าน,6030,3.3,"Automobile repair, light or moderate effort",งานซ่อมรถยนต์ (งานเบาถึงปานกลาง),adult
+Home Repair,ซ่อมแซมบ้าน,6040,3,"Carpentry, general, workshop (Taylor Code 620)",งานช่างไม้ทั่วไป (รหัสเทย์เลอร์ 620),adult
+Home Repair,ซ่อมแซมบ้าน,6050,6,"Carpentry, outside house, (Taylor Code 640)",งานไม้ภายนอกบ้าน (รหัสเทย์เลอร์ 640),adult
+Home Repair,ซ่อมแซมบ้าน,6052,3.8,"Carpentry, outside house, building a fence",งานไม้ภายนอกบ้าน การสร้างรั้ว,adult
+Home Repair,ซ่อมแซมบ้าน,6060,3.3,"Carpentry, finishing, varnishing, or refinishing cabinets or furniture",งานไม้ งานตกแต่ง งานเคลือบเงา หรือการซ่อมแซมตู้หรือเฟอร์นิเจอร์,adult
+Home Repair,ซ่อมแซมบ้าน,6070,6,"Carpentry, sawing hardwood, planing and drilling wood, moderate-to-vigorous effort",งานช่างไม้ การเลื่อยไม้เนื้อแข็ง การไสและการเจาะไม้ ต้องใช้แรงปานกลางถึงแรงมาก,adult
+Home Repair,ซ่อมแซมบ้าน,6072,4,"Carpentry, home remodeling tasks, moderate effort",งานช่างไม้ งานปรับปรุงบ้าน งานระดับปานกลาง,adult
+Home Repair,ซ่อมแซมบ้าน,6074,2.3,"Carpentry, home remodeling tasks, light effort",งานช่างไม้ งานปรับปรุงบ้าน งานใช้แรงน้อย,adult
+Home Repair,ซ่อมแซมบ้าน,6080,5,"Caulking, chinking log cabin",การอุดรอยรั่ว การยาแนวไม้ซุงในบ้านไม้ซุง,adult
+Home Repair,ซ่อมแซมบ้าน,6090,4.5,"Caulking, except log cabin",การอุดรอยรั่ว ยกเว้นบ้านไม้ซุง,adult
+Home Repair,ซ่อมแซมบ้าน,6100,5,Cleaning gutters,การทำความสะอาดรางน้ำ,adult
+Home Repair,ซ่อมแซมบ้าน,6110,5,Excavating garage,ขุดโรงรถ,adult
+Home Repair,ซ่อมแซมบ้าน,6120,5,Hanging storm windows,หน้าต่างกันพายุแบบแขวน,adult
+Home Repair,ซ่อมแซมบ้าน,6122,5,Hanging sheet rock inside house,แผ่นยิปซัมแขวนภายในบ้าน,adult
+Home Repair,ซ่อมแซมบ้าน,6124,3,Hammering nails,การตอกตะปู,adult
+Home Repair,ซ่อมแซมบ้าน,6126,2.5,"Home repair, general, light effort",งานซ่อมแซมบ้านทั่วไป งานเบาๆ,adult
+Home Repair,ซ่อมแซมบ้าน,6127,4.5,"Home repair, general, moderate effort",งานซ่อมแซมบ้านทั่วไป ระดับความยากปานกลาง,adult
+Home Repair,ซ่อมแซมบ้าน,6128,6,"Home repair, general, vigorous effort",งานซ่อมแซมบ้านทั่วไป ทำด้วยความพยายามอย่างเต็มที่,adult
+Home Repair,ซ่อมแซมบ้าน,6130,4.5,Laying or removing carpet,การปูหรือถอดพรม,adult
+Home Repair,ซ่อมแซมบ้าน,6140,3.8,Laying tile or linoleum,การปูกระเบื้องหรือเสื่อน้ำมัน,adult
+Home Repair,ซ่อมแซมบ้าน,6144,3,Repairing appliances,ซ่อมเครื่องใช้ไฟฟ้า,adult
+Home Repair,ซ่อมแซมบ้าน,6150,5,"Painting, outside home (Taylor Code 650)",งานทาสีภายนอกบ้าน (รหัสเทย์เลอร์ 650),adult
+Home Repair,ซ่อมแซมบ้าน,6160,3.3,"Painting inside house, wallpapering, scraping paint",ทาสีภายในบ้าน ติดวอลเปเปอร์ ขูดสี,adult
+Home Repair,ซ่อมแซมบ้าน,6165,4.5,Painting (Taylor Code 630),งานทาสี (รหัสเทย์เลอร์ 630),adult
+Home Repair,ซ่อมแซมบ้าน,6167,3,"Plumbing, general",งานประปาทั่วไป,adult
+Home Repair,ซ่อมแซมบ้าน,6170,3,Put on and removal of tarp – sailboat,การคลุมและการถอดผ้าใบกันน้ำ – เรือใบ,adult
+Home Repair,ซ่อมแซมบ้าน,6180,6,Roofing,หลังคา,adult
+Home Repair,ซ่อมแซมบ้าน,6190,4.5,Sanding floors with a power sander,การขัดพื้นด้วยเครื่องขัดไฟฟ้า,adult
+Home Repair,ซ่อมแซมบ้าน,6200,4.5,Scraping and painting sailboat or powerboat,การขูดและทาสีเรือใบหรือเรือยนต์,adult
+Home Repair,ซ่อมแซมบ้าน,6205,2,Sharpening tools,เครื่องมือลับคม,adult
+Home Repair,ซ่อมแซมบ้าน,6210,5,Spreading dirt with a shovel,การเกลี่ยดินด้วยพลั่ว,adult
+Home Repair,ซ่อมแซมบ้าน,6220,4.5,Washing and waxing hull of sailboat or airplane,การล้างและขัดเงาตัวเรือใบหรือเครื่องบิน,adult
+Home Repair,ซ่อมแซมบ้าน,6225,2,Washing and waxing car,การล้างและเคลือบสีรถ,adult
+Home Repair,ซ่อมแซมบ้าน,6230,4.5,"Washing fence, painting fence, moderate effort",การล้างรั้ว การทาสีรั้ว (ต้องใช้ความพยายามปานกลาง),adult
+Home Repair,ซ่อมแซมบ้าน,6240,3.3,"Wiring, tapping-splicing",การเดินสายไฟ การต่อสาย และการต่อพ่วง,adult
+Inactivity,การไม่เคลื่อนไหว,7009,1,Lying quietly and watching television,นอนนิ่งๆ และดูโทรทัศน์,adult
+Inactivity,การไม่เคลื่อนไหว,7011,1,"Lying quietly, doing nothing, lying in bed awake, listening to music (not talking or reading)",นอนนิ่งๆ ไม่ทำอะไรเลย นอนอยู่บนเตียงแต่ยังรู้สึกตัว ฟังเพลง (โดยไม่พูดหรืออ่านอะไร),adult
+Inactivity,การไม่เคลื่อนไหว,7020,1,"Sit, watch television",นั่งดูโทรทัศน์,adult
+Inactivity,การไม่เคลื่อนไหว,7021,1,"Sitting quietly, general",นั่งเงียบๆ นายพล,adult
+Inactivity,การไม่เคลื่อนไหว,7022,1.5,"Sitting quietly, fidgeting, general, fidgeting hands",นั่งเงียบๆ กระสับกระส่าย มืออยู่ไม่สุข,adult
+Inactivity,การไม่เคลื่อนไหว,7023,1.8,"Sitting, fidget feet",นั่งอยู่เฉยๆ เท้ากระดิกไปมา,adult
+Inactivity,การไม่เคลื่อนไหว,7024,1.3,Sitting smoking,นั่งสูบบุหรี่,adult
+Inactivity,การไม่เคลื่อนไหว,7025,1.5,"Sitting, listening to music (not talking or reading) or watching a movie in a theater",นั่งฟังเพลง (โดยไม่พูดคุยหรืออ่านหนังสือ) หรือดูหนังในโรงภาพยนตร์,adult
+Inactivity,การไม่เคลื่อนไหว,7026,1.3,"Sitting at a desk, resting head in hands",นั่งอยู่ที่โต๊ะทำงาน ซบศีรษะด้วยมือ,adult
+Inactivity,การไม่เคลื่อนไหว,7030,1,Sleeping,นอนหลับ,adult
+Inactivity,การไม่เคลื่อนไหว,7040,1.3,Standing quietly (standing in a line),ยืนนิ่งๆ (ยืนเข้าแถว),adult
+Inactivity,การไม่เคลื่อนไหว,7041,1.5,Standing (fidgeting),ยืนอยู่ (กระสับกระส่าย),adult
+Inactivity,การไม่เคลื่อนไหว,7045,1.3,Standing watching television,ยืนดูโทรทัศน์,adult
+Inactivity,การไม่เคลื่อนไหว,7050,1.5,"Reclining, writing",เอนกายเขียนหนังสือ,adult
+Inactivity,การไม่เคลื่อนไหว,7060,1.3,"Reclining, talking or talking on phone",นอนเอนกาย พูดคุย หรือคุยโทรศัพท์,adult
+Inactivity,การไม่เคลื่อนไหว,7070,1.3,"Reclining, reading",เอนกายอ่านหนังสือ,adult
+Inactivity,การไม่เคลื่อนไหว,7075,1,Meditating,การทำสมาธิ,adult
+Lawn & Garden,สนามหญ้าและสวน,8009,4.1,"Carrying, loading or stacking wood, loading/unloading or carrying lumber, light-to- moderate effort",การยก การขน หรือการเรียงซ้อนไม้ การขนถ่าย หรือการเคลื่อนย้ายไม้แปรรูป โดยใช้แรงเบาถึงปานกลาง,adult
+Lawn & Garden,สนามหญ้าและสวน,8010,5.5,"Carrying, loading or stacking wood, loading/unloading or carrying lumber, moderate effort",การยก การขน หรือการเรียงซ้อนไม้ การขนถ่าย หรือการเคลื่อนย้ายไม้แปรรูป ใช้แรงปานกลาง,adult
+Lawn & Garden,สนามหญ้าและสวน,8019,4.5,"Chopping wood, splitting logs, moderate effort",การตัดไม้ การผ่าท่อนซุง ใช้แรงปานกลาง,adult
+Lawn & Garden,สนามหญ้าและสวน,8020,6.5,"Chopping wood, splitting logs, vigorous effort",การสับฟืน การผ่าท่อนซุง การออกแรงอย่างหนัก,adult
+Lawn & Garden,สนามหญ้าและสวน,8025,3.5,"Clearing light brush, thinning garden, moderate effort",การกำจัดพุ่มไม้ขนาดเล็ก การตัดแต่งสวน การใช้แรงปานกลาง,adult
+Lawn & Garden,สนามหญ้าและสวน,8030,6.3,"Clearing land, haul brush, undergrowth, or ground, vigorous effort",การถางพื้นที่ การขนย้ายเศษไม้ พุ่มไม้ หรือดิน ต้องใช้แรงกายอย่างมาก,adult
+Lawn & Garden,สนามหญ้าและสวน,8040,5,"Digging sandbox, shoveling sand",ขุดบ่อทราย ตักทราย,adult
+Lawn & Garden,สนามหญ้าและสวน,8045,3.5,"Digging, spading, filling garden, composting, light-to-moderate effort",การขุดดิน การพรวนดิน การถมดินในสวน การทำปุ๋ยหมัก ใช้แรงน้อยถึงปานกลาง,adult
+Lawn & Garden,สนามหญ้าและสวน,8050,5,"Digging, spading, filling garden, composting (Taylor Code 590)",การขุดดิน การพรวนดิน การถมสวน การทำปุ๋ยหมัก (รหัสเทย์เลอร์ 590),adult
+Lawn & Garden,สนามหญ้าและสวน,8052,7.3,"Digging, spading, filling garden, composting, vigorous effort",การขุดดิน การพรวนดิน การถมสวน การทำปุ๋ยหมัก การออกแรงอย่างเต็มที่,adult
+Lawn & Garden,สนามหญ้าและสวน,8055,2.8,Driving tractor,ขับรถแทรกเตอร์,adult
+Lawn & Garden,สนามหญ้าและสวน,8057,8.3,"Felling trees, large size",การตัดต้นไม้ขนาดใหญ่,adult
+Lawn & Garden,สนามหญ้าและสวน,8058,5.3,"Felling trees, small-medium size",การตัดต้นไม้ ขนาดเล็กถึงขนาดกลาง,adult
+Lawn & Garden,สนามหญ้าและสวน,8060,5.8,"Gardening with heavy power tools, using chain saw, tilling a garden",การทำสวนด้วยเครื่องมือไฟฟ้าขนาดใหญ่ การใช้เลื่อยยนต์ การไถพรวนสวน,adult
+Lawn & Garden,สนามหญ้าและสวน,8066,2,"gardening, general",การทำสวนทั่วไป,adult
+Lawn & Garden,สนามหญ้าและสวน,8070,4,"Irrigation channels, opening and closing ports",คลองชลประทาน การเปิดและปิดท่าเรือ,adult
+Lawn & Garden,สนามหญ้าและสวน,8080,6.3,Laying crushed rock or gravel,การปูด้วยหินบดหรือกรวด,adult
+Lawn & Garden,สนามหญ้าและสวน,8090,5,Laying sod,การปูหญ้า,adult
+Lawn & Garden,สนามหญ้าและสวน,8095,5.5,"Mowing lawn, general, walking, moderate effort","การตัดหญ้า, ทั่วไป, การเดิน, ออกแรงปานกลาง",adult
+Lawn & Garden,สนามหญ้าและสวน,8100,2.5,"Mowing lawn, riding mower (Taylor Code 550)",การตัดหญ้าด้วยเครื่องตัดหญ้าแบบนั่งขับ (รหัสเทย์เลอร์ 550),adult
+Lawn & Garden,สนามหญ้าและสวน,8110,6,"Mowing lawn, hand mower, vigorous effort (Taylor Code 570)",การตัดหญ้าด้วยเครื่องตัดหญ้าแบบมือถือ การออกแรงอย่างมาก (รหัสเทย์เลอร์ 570),adult
+Lawn & Garden,สนามหญ้าและสวน,8120,5,"Mowing lawn, walk, power mower,  moderate or vigorous effort",การตัดหญ้า การเดิน การตัดหญ้าด้วยเครื่องตัดหญ้าแบบใช้เครื่องยนต์ การออกแรงปานกลางหรือมาก,adult
+Lawn & Garden,สนามหญ้าและสวน,8125,4.5,"Mowing lawn, power mower, light or moderate effort (Taylor Code 590)",การตัดหญ้าด้วยเครื่องตัดหญ้าแบบใช้เครื่องยนต์ ใช้แรงน้อยถึงปานกลาง (รหัสเทย์เลอร์ 590),adult
+Lawn & Garden,สนามหญ้าและสวน,8130,2.5,"Operating snow blower, walking",การใช้งานเครื่องเป่าหิมะ การเดิน,adult
+Lawn & Garden,สนามหญ้าและสวน,8135,2.6,"Planting, potting, transplanting seedlings or plants, light effort",การปลูก การลงกระถาง การย้ายต้นกล้าหรือต้นไม้ ใช้แรงน้อย,adult
+Lawn & Garden,สนามหญ้าและสวน,8140,4.3,"Planting seedlings, shrubs, stooping, moderate effort",การปลูกต้นกล้า ไม้พุ่ม การก้มตัว ใช้แรงปานกลาง,adult
+Lawn & Garden,สนามหญ้าและสวน,8145,4.3,"Planting crops or garden, stooping, moderate effort",การปลูกพืชหรือทำสวน การก้มตัว ใช้แรงปานกลาง,adult
+Lawn & Garden,สนามหญ้าและสวน,8150,4.5,Planting trees,การปลูกต้นไม้,adult
+Lawn & Garden,สนามหญ้าและสวน,8160,4,"Raking lawn or leaves, moderate effort",การกวาดสนามหญ้าหรือใบไม้ (ใช้แรงปานกลาง),adult
+Lawn & Garden,สนามหญ้าและสวน,8165,4,Raking lawn (Taylor Code 600),การกวาดใบไม้ในสนามหญ้า (รหัสเทย์เลอร์ 600),adult
+Lawn & Garden,สนามหญ้าและสวน,8170,4,Raking roof with snow rake,การกวาดหิมะออกจากหลังคาด้วยคราดหิมะ,adult
+Lawn & Garden,สนามหญ้าและสวน,8180,3,Riding snow blower,เครื่องเป่าหิมะแบบนั่งขับ,adult
+Lawn & Garden,สนามหญ้าและสวน,8190,4,"Sacking grass, leaves","หญ้ากระสอบ, ใบ",adult
+Lawn & Garden,สนามหญ้าและสวน,8192,5.5,Shoveling dirt or mud,การตักดินหรือโคลน,adult
+Lawn & Garden,สนามหญ้าและสวน,8195,5.3,"Shoveling snow, by hand, moderate effort",การโกยหิมะด้วยมือ ใช้แรงปานกลาง,adult
+Lawn & Garden,สนามหญ้าและสวน,8200,6,"Shoveling snow, by hand (Taylor Code 610)",การโกยหิมะด้วยมือ (รหัสเทย์เลอร์ 610),adult
+Lawn & Garden,สนามหญ้าและสวน,8202,7.5,"Shoveling snow, by hand, vigorous effort",การโกยหิมะด้วยมือ ต้องใช้แรงอย่างมาก,adult
+Lawn & Garden,สนามหญ้าและสวน,8210,3.8,"Trimming shrubs or trees, manual cutter",การตัดแต่งพุ่มไม้หรือต้นไม้ด้วยเครื่องตัดมือ,adult
+Lawn & Garden,สนามหญ้าและสวน,8215,3.3,"Trimming shrubs or trees, power cutter, using leaf blower, edger, moderate effort",การตัดแต่งพุ่มไม้หรือต้นไม้ การใช้เครื่องตัดไฟฟ้า การใช้เครื่องเป่าใบไม้ เครื่องตัดขอบ ใช้แรงปานกลาง,adult
+Lawn & Garden,สนามหญ้าและสวน,8220,3,"Walking, applying fertilizer or seeding a lawn, push applicator",การเดิน การใส่ปุ๋ย หรือการหว่านเมล็ดหญ้า การใช้เครื่องมือแบบดัน,adult
+Lawn & Garden,สนามหญ้าและสวน,8230,4,"Watering lawn or garden, standing or walking",รดน้ำสนามหญ้าหรือสวน ยืน หรือเดิน,adult
+Lawn & Garden,สนามหญ้าและสวน,8239,3.8,"Weeding, cultivating garden, light-to-moderate effort",การกำจัดวัชพืช การดูแลสวน ใช้แรงน้อยถึงปานกลาง,adult
+Lawn & Garden,สนามหญ้าและสวน,8240,4.5,"Weeding, cultivating garden, moderate effort (Taylor Code 580)",การกำจัดวัชพืช การดูแลสวน การใช้แรงปานกลาง (รหัสเทย์เลอร์ 580),adult
+Lawn & Garden,สนามหญ้าและสวน,8241,5,"Weeding, cultivating garden, using hoe moderate-to-vigorous effort",การกำจัดวัชพืช การเตรียมดินในสวน การใช้จอบ (ออกแรงปานกลางถึงมาก),adult
+Lawn & Garden,สนามหญ้าและสวน,8245,3.8,"Gardening, general, moderate effort",การทำสวนทั่วไป ใช้ความพยายามปานกลาง,adult
+Lawn & Garden,สนามหญ้าและสวน,8246,3.5,"Picking fruit or coffee from trees, moderate effort",การเก็บผลไม้หรือเมล็ดกาแฟจากต้นไม้ ต้องใช้แรงปานกลาง,adult
+Lawn & Garden,สนามหญ้าและสวน,8248,4.5,"Harvesting Produce, Picking fruit off trees, gleaning fruits, picking fruits/vegetables, climbing ladder to pick fruit, vigorous effort",การเก็บเกี่ยวผลผลิต การเก็บผลไม้จากต้น การเก็บเกี่ยวผลไม้ที่ร่วงหล่น การเก็บผลไม้/ผัก การปีนบันไดเพื่อเก็บผลไม้ การออกแรงอย่างหนัก,adult
+Lawn & Garden,สนามหญ้าและสวน,8250,3,"Implied walking/standing - picking up yard, light, picking flowers or vegetables",แสดงถึงการเดิน/ยืนโดยนัย - เช่น การเก็บกวาดสนามหญ้า ไฟ การเก็บดอกไม้หรือผัก,adult
+Lawn & Garden,สนามหญ้าและสวน,8251,3,"Walking, gathering gardening tools",เดินเล่น รวบรวมอุปกรณ์ทำสวน,adult
+Lawn & Garden,สนามหญ้าและสวน,8255,4.8,"Wheel barrow, pushing garden cart or wheelbarrow, general","รถเข็นล้อเดียว, รถเข็นสวน หรือรถเข็นล้อเดียวทั่วไป",adult
+Lawn & Garden,สนามหญ้าและสวน,8256,6,"Wheel barrow, pushing large garden cart or heavy wheelbarrow up to 150kg",รถเข็นล้อเดียว สำหรับเข็นรถเข็นสวนขนาดใหญ่หรือรถเข็นล้อเดียวหนักที่มีน้ำหนักไม่เกิน 150 กิโลกรัม,adult
+Lawn & Garden,สนามหญ้าและสวน,8260,2.3,"Yardwork, general, light effort",งานดูแลสวนทั่วไป ใช้แรงน้อย,adult
+Lawn & Garden,สนามหญ้าและสวน,8261,4,"Yardwork, general, moderate effort",งานดูแลสวนทั่วไป ใช้แรงปานกลาง,adult
+Lawn & Garden,สนามหญ้าและสวน,8262,6,"Yardwork, general, vigorous effort","งานทำสวน, งานทั่วไป, ต้องใช้แรงกายอย่างมาก",adult
+Miscellaneous,เบ็ดเตล็ด,9000,1.3,"Board game playing, sitting",การเล่นเกมกระดาน นั่งเล่น,adult
+Miscellaneous,เบ็ดเตล็ด,9005,2.5,"Casino gambling, standing","การพนันคาสิโน, การยืน",adult
+Miscellaneous,เบ็ดเตล็ด,9010,1.5,"Card playing, sitting",เล่นไพ่ นั่ง,adult
+Miscellaneous,เบ็ดเตล็ด,9013,1.5,"Chess game, sitting",เกมหมากรุก นั่งเล่น,adult
+Miscellaneous,เบ็ดเตล็ด,9015,1.5,"Copying or filing documents, standing","การคัดลอกหรือจัดเก็บเอกสาร, การยืน",adult
+Miscellaneous,เบ็ดเตล็ด,9020,1.8,"Drawing, writing, painting, standing",วาดรูป เขียนหนังสือ ระบายสี ยืน,adult
+Miscellaneous,เบ็ดเตล็ด,9025,1,"Laughter, sitting","เสียงหัวเราะ, การนั่ง",adult
+Miscellaneous,เบ็ดเตล็ด,9030,1,"Sitting: reading, book, newspaper, magazine",ท่านั่ง: อ่านหนังสือ หนังสือพิมพ์ นิตยสาร,adult
+Miscellaneous,เบ็ดเตล็ด,9034,1.8,"sitting, typing or reading on a balance chair/stability ball",นั่ง พิมพ์ หรืออ่านหนังสือบนเก้าอี้ทรงตัว/ลูกบอลทรงตัว,adult
+Miscellaneous,เบ็ดเตล็ด,9036,2,"watching tv, stepping during commercial breaks",ดูทีวีแล้วก้าวเท้าขณะพักโฆษณา,adult
+Miscellaneous,เบ็ดเตล็ด,9040,1.3,"Sitting: writing, desk work, typing",การนั่ง: การเขียน การทำงานบนโต๊ะ การพิมพ์,adult
+Miscellaneous,เบ็ดเตล็ด,9050,1.3,"Standing:  talking in person, on the phone, computer, text messaging, writing","ท่าทางยืน: พูดคุยต่อหน้า, คุยโทรศัพท์, ใช้คอมพิวเตอร์, ส่งข้อความ, เขียนหนังสือ",adult
+Miscellaneous,เบ็ดเตล็ด,9055,1.3,"Sitting: talking in person, on the phone, computer, or  text messaging, light effort",การนั่ง: พูดคุยต่อหน้า ทางโทรศัพท์ ผ่านคอมพิวเตอร์ หรือส่งข้อความ ใช้แรงน้อย,adult
+Miscellaneous,เบ็ดเตล็ด,9060,1.5,"Sitting - studying, general, including reading and/or writing, light effort",การนั่ง - การเรียนทั่วไป รวมถึงการอ่านและ/หรือการเขียน โดยใช้แรงน้อย,adult
+Miscellaneous,เบ็ดเตล็ด,9065,1.8,"Sitting - in class, general, including note-taking or class discussion",การนั่ง - ในห้องเรียนทั่วไป รวมถึงการจดบันทึกหรือการอภิปรายในชั้นเรียน,adult
+Miscellaneous,เบ็ดเตล็ด,9070,1,Standing - reading,ยืนอ่านหนังสือ,adult
+Miscellaneous,เบ็ดเตล็ด,9071,2.5,Standing: miscellaneous,สถานะ: เบ็ดเตล็ด,adult
+Miscellaneous,เบ็ดเตล็ด,9075,1.8,"Sitting: arts and crafts, carving wood, weaving, spinning wool, light effort",ท่านั่ง: งานศิลปะและหัตถกรรม แกะสลักไม้ ทอผ้า ปั่นด้าย ใช้แรงน้อย,adult
+Miscellaneous,เบ็ดเตล็ด,9080,3,"Sitting: arts and crafts, carving wood, weaving, spinning wool, moderate effort",กิจกรรมที่ต้องนั่ง: งานศิลปะและหัตถกรรม แกะสลักไม้ ทอผ้า ปั่นด้าย ใช้แรงปานกลาง,adult
+Miscellaneous,เบ็ดเตล็ด,9085,2.5,"Standing: arts and crafts, sand painting, carving, weaving, light effort","กิจกรรมยืน: งานศิลปะและหัตถกรรม, การวาดภาพบนทราย, การแกะสลัก, การทอผ้า, กิจกรรมที่ใช้แรงน้อย",adult
+Miscellaneous,เบ็ดเตล็ด,9090,3.3,"Standing - arts and crafts, sand painting, carving, weaving, moderate effort","กิจกรรมยืน - งานศิลปะและหัตถกรรม, การวาดภาพบนทราย, การแกะสลัก, การทอผ้า, ใช้แรงปานกลาง",adult
+Miscellaneous,เบ็ดเตล็ด,9095,3.5,"Standing - arts and crafts, sand painting, carving, weaving, vigorous effort",ยืน - งานศิลปะและหัตถกรรม การวาดภาพบนทราย การแกะสลัก การทอผ้า การออกแรงอย่างแข็งขัน,adult
+Miscellaneous,เบ็ดเตล็ด,9100,1.5,"Retreat/family reunion activities involving sitting, relaxing, talking, eating",กิจกรรมพักผ่อน/สังสรรค์ในครอบครัวที่ประกอบด้วยการนั่งพักผ่อน พูดคุย และรับประทานอาหาร,adult
+Miscellaneous,เบ็ดเตล็ด,9101,2.5,Retreat/family reunion activities involving playing games with children,กิจกรรมพักผ่อน/รวมญาติที่เกี่ยวข้องกับการเล่นเกมกับเด็กๆ,adult
+Miscellaneous,เบ็ดเตล็ด,9105,2,Touring/traveling/vacation involving  riding in vehicle,การท่องเที่ยว/เดินทาง/พักผ่อนโดยใช้ยานพาหนะ,adult
+Miscellaneous,เบ็ดเตล็ด,9106,3.5,Touring/traveling/vacation involving walking,การท่องเที่ยว/เดินทาง/พักผ่อนที่เกี่ยวข้องกับการเดินเท้า,adult
+Miscellaneous,เบ็ดเตล็ด,9110,2.5,"Camping involving standing, walking, sitting, light-to-moderate effort",การตั้งแคมป์ที่เกี่ยวข้องกับการยืน การเดิน การนั่ง และการออกแรงระดับเบาถึงปานกลาง,adult
+Miscellaneous,เบ็ดเตล็ด,9115,1.5,"Sitting at a sporting event, spectator",นั่งชมการแข่งขันกีฬา,adult
+Music Playing,กำลังเล่นเพลง,10010,1.8,"Accordion, sitting","แอคคอร์เดียน, นั่ง",adult
+Music Playing,กำลังเล่นเพลง,10020,2.3,"Cello, sitting",เชลโล่ นั่ง,adult
+Music Playing,กำลังเล่นเพลง,10030,2.3,"Conducting orchestra, standing",อำนวยเพลงวงออร์เคสตรา (ยืน),adult
+Music Playing,กำลังเล่นเพลง,10035,2.5,"Double bass, standing",ดับเบิลเบสแบบยืน,adult
+Music Playing,กำลังเล่นเพลง,10040,3.8,"Drums, sitting","กลอง, นั่ง",adult
+Music Playing,กำลังเล่นเพลง,10045,3,"Drumming (e.g., bongo, conga, benbe), moderate, sitting",การตีกลอง (เช่น บองโก คองกา เบนเบ) ระดับปานกลาง ขณะนั่ง,adult
+Music Playing,กำลังเล่นเพลง,10048,8.3,"Drumming, concert/live show","การตีกลอง, คอนเสิร์ต/การแสดงสด",adult
+Music Playing,กำลังเล่นเพลง,10050,2,"Flute, sitting","ฟลุต, นั่ง",adult
+Music Playing,กำลังเล่นเพลง,10060,1.8,"Horn, standing",แตรตั้งพื้น,adult
+Music Playing,กำลังเล่นเพลง,10070,2.3,"Piano, sitting","เปียโน, นั่ง",adult
+Music Playing,กำลังเล่นเพลง,10074,2,"Playing musical instruments, general",การเล่นเครื่องดนตรีทั่วไป,adult
+Music Playing,กำลังเล่นเพลง,10077,2,"Organ, sitting","ออร์แกน, นั่ง",adult
+Music Playing,กำลังเล่นเพลง,10080,3.5,"Trombone, standing",ทรอมโบนแบบยืน,adult
+Music Playing,กำลังเล่นเพลง,10090,2.5,"Trumpet, standing",แตรยืน,adult
+Music Playing,กำลังเล่นเพลง,10100,2.5,"Violin, sitting",ไวโอลิน นั่ง,adult
+Music Playing,กำลังเล่นเพลง,10110,1.8,"Woodwind instruments, sitting",เครื่องดนตรีประเภทเครื่องเป่าลมไม้ นั่ง,adult
+Music Playing,กำลังเล่นเพลง,10115,1.8,"Brass instruments, sitting",เครื่องดนตรีทองเหลือง นั่ง,adult
+Music Playing,กำลังเล่นเพลง,10120,2,"Guitar, classical, folk, sitting",กีตาร์ คลาสสิก โฟล์ค นั่ง,adult
+Music Playing,กำลังเล่นเพลง,10125,3,"Guitar, rock and roll band, standing",กีตาร์ วงดนตรีร็อกแอนด์โรล ยืน,adult
+Music Playing,กำลังเล่นเพลง,10130,4,"Marching band, baton twirling, walking, moderate pace, general","วงดนตรีเดินแถว, การหมุนไม้คทา, การเดิน, จังหวะปานกลาง, ทั่วไป",adult
+Music Playing,กำลังเล่นเพลง,10131,5.5,"Marching band, playing an instrument, walking, brisk pace, general","วงดนตรีเดินขบวน, การเล่นเครื่องดนตรี, การเดิน, ก้าวเร็ว, ทั่วไป",adult
+Music Playing,กำลังเล่นเพลง,10135,3.5,"Marching band, drum major, walking","วงดนตรีเดินแถว, หัวหน้าวงดนตรี, การเดิน",adult
+Occupation,อาชีพ,11000,2,"Active workstation, Pedal desk, balance chair/ball, General, light effort",โต๊ะทำงานแบบแอคทีฟ โต๊ะวางเท้า เก้าอี้/ลูกบอลทรงตัว ทั่วไป ใช้แรงเบา,adult
+Occupation,อาชีพ,11001,3.5,"Active workstation, Pedal desk (40 watts)",เวิร์กสเตชั่นแบบแอคทีฟ โต๊ะวางแป้นเหยียบ (40 วัตต์),adult
+Occupation,อาชีพ,11002,5.3,"Active workstation, Pedal desk (80 watts)",เวิร์กสเตชั่นแบบแอคทีฟ โต๊ะวางแป้นเหยียบ (80 วัตต์),adult
+Occupation,อาชีพ,11003,2,"Active workstation, treadmill desk, walking slowly 1.0 mph or less",โต๊ะทำงานแบบเคลื่อนไหวได้ โต๊ะทำงานแบบมีลู่วิ่ง การเดินช้าๆ ที่ความเร็ว 1.0 ไมล์ต่อชั่วโมงหรือน้อยกว่า,adult
+Occupation,อาชีพ,11004,2.8,"Active workstation, treadmill desk, walking  1.0 - 2.0 mph",โต๊ะทำงานแบบเคลื่อนไหวได้ โต๊ะทำงานพร้อมลู่วิ่ง ความเร็วในการเดิน 1.0 - 2.0 ไมล์ต่อชั่วโมง,adult
+Occupation,อาชีพ,11006,3,Airline flight attendant,พนักงานต้อนรับบนเครื่องบิน,adult
+Occupation,อาชีพ,11008,4.8,Apple Harvesting,การเก็บเกี่ยวแอปเปิล,adult
+Occupation,อาชีพ,11010,4,"Bakery, general, moderate effort","ร้านเบเกอรี่ทั่วไป, ระดับความพยายามปานกลาง",adult
+Occupation,อาชีพ,11015,2,"Bakery, light effort",ร้านเบเกอรี่ ทำง่าย,adult
+Occupation,อาชีพ,11020,2.3,Bookbinding,การเข้าเล่มหนังสือ,adult
+Occupation,อาชีพ,11030,6,"Building road, driving heavy machinery",การสร้างถนน การขับเครื่องจักรหนัก,adult
+Occupation,อาชีพ,11035,2,"Building road, directing traffic, standing",สร้างถนน ควบคุมการจราจร ยืนอยู่,adult
+Occupation,อาชีพ,11038,2.5,"Carpentry, general, light effort",งานช่างไม้ทั่วไป งานเบา,adult
+Occupation,อาชีพ,11040,4.3,"Carpentry, general, moderate effort",งานช่างไม้ทั่วไป ระดับความพยายามปานกลาง,adult
+Occupation,อาชีพ,11042,7,"Carpentry, general, heavy or vigorous effort",งานช่างไม้ทั่วไป งานที่ต้องใช้แรงหนักหรือแรงมาก,adult
+Occupation,อาชีพ,11050,8,"Carrying heavy loads (e.g., bricks, tools)",การแบกของหนัก (เช่น อิฐ เครื่องมือ),adult
+Occupation,อาชีพ,11060,8,"Carrying moderate loads up stairs, moving  boxes, 25-49 lbs",การยกของหนักปานกลางขึ้นบันได เช่น กล่องบรรจุของหนัก 25-49 ปอนด์,adult
+Occupation,อาชีพ,11070,4,"Chambermaid, hotel housekeeper, making bed,  cleaning bathroom, pushing cart","พนักงานทำความสะอาดห้องพักในโรงแรม, การจัดเตียง, การทำความสะอาดห้องน้ำ, การเข็นรถเข็น",adult
+Occupation,อาชีพ,11072,4.3,"Cleaning, vacuuming commercial space",การทำความสะอาดและดูดฝุ่นในพื้นที่เชิงพาณิชย์,adult
+Occupation,อาชีพ,11080,5.3,"Coal mining, drilling coal, rock",การทำเหมืองถ่านหิน การขุดเจาะถ่านหิน หิน,adult
+Occupation,อาชีพ,11090,5,"Coal mining, erecting supports",การทำเหมืองถ่านหิน การติดตั้งโครงสร้างค้ำยัน,adult
+Occupation,อาชีพ,11100,5.5,"Coal mining, general",การทำเหมืองถ่านหินโดยทั่วไป,adult
+Occupation,อาชีพ,11110,6.3,"Coal mining, shoveling coal, by hand",การทำเหมืองถ่านหิน การตักถ่านหินด้วยมือ,adult
+Occupation,อาชีพ,11115,2.5,"Cook, chef","พ่อครัว, เชฟ",adult
+Occupation,อาชีพ,11120,4,"Construction, outside, remodeling, new  structures (e.g., roof repair, miscellaneous)",งานก่อสร้างภายนอก ปรับปรุง ต่อเติม ก่อสร้างใหม่ (เช่น ซ่อมหลังคา งานเบ็ดเตล็ด),adult
+Occupation,อาชีพ,11124,2.3,"Construction, rebar, bar bending/fixing","งานก่อสร้าง, เหล็กเส้นเสริมแรง, การดัด/ติดตั้งเหล็กเส้น",adult
+Occupation,อาชีพ,11125,2.3,"Custodial work, light effort (e.g., cleaning sink  and toilet, dusting, vacuuming, light cleaning)",งานทำความสะอาดทั่วไป ใช้แรงน้อย (เช่น ทำความสะอาดอ่างล้างหน้าและโถสุขภัณฑ์ ปัดฝุ่น ดูดฝุ่น ทำความสะอาดทั่วไป),adult
+Occupation,อาชีพ,11126,3.8,"Custodial work, moderate effort (e.g., buffing  floors with electric buffer, feathering or  sweeping arena floors, mopping, taking
+out the  trash, vaccuming)",งานทำความสะอาดทั่วไป ใช้แรงปานกลาง (เช่น ขัดพื้นด้วยเครื่องขัดไฟฟ้า ปัดหรือกวาดพื้นสนาม ถูพื้น ทิ้งขยะ ดูดฝุ่น),adult
+Occupation,อาชีพ,11130,3.3,"Electrical work (e.g., hook up wire, tapping splicing); plumbing moved to11516",งานไฟฟ้า (เช่น การต่อสายไฟ การต่อสาย); งานประปาย้ายไปที่ 11516,adult
+Occupation,อาชีพ,11135,1.8,"Engineer (e.g., mechanical or electrical)",วิศวกร (เช่น วิศวกรเครื่องกล หรือวิศวกรไฟฟ้า),adult
+Occupation,อาชีพ,11145,7.8,"Farming, vigorous effort (e.g., baling hay,  cleaning barn), includes former code 11200",การทำฟาร์ม การใช้แรงงานอย่างหนัก (เช่น การอัดฟาง การทำความสะอาดโรงนา) รวมถึงรหัสเดิม 11200,adult
+Occupation,อาชีพ,11146,4.8,"Farming, moderate effort (e.g., feeding  animals, chasing cattle by walking and/or  horseback, spreading manure, harvesting
+crops)",การทำเกษตรกรรม ใช้แรงปานกลาง (เช่น การให้อาหารสัตว์ การไล่ต้อนวัวด้วยการเดินและ/หรือขี่ม้า การกระจายปุ๋ยคอก การเก็บเกี่ยวพืชผล),adult
+Occupation,อาชีพ,11147,2,"Farming, light effort, (e.g., cleaning animal  sheds, preparing animal feed)",งานเกษตรกรรม ใช้แรงงานเบา (เช่น ทำความสะอาดโรงเลี้ยงสัตว์ เตรียมอาหารสัตว์),adult
+Occupation,อาชีพ,11170,2.8,"Farming, driving tasks (e.g., driving tractor or  harvester)","งานเกษตรกรรม, งานที่ต้องขับรถ (เช่น ขับรถแทรกเตอร์หรือรถเก็บเกี่ยว)",adult
+Occupation,อาชีพ,11180,3.5,"Farming, feeding small animals",การทำฟาร์ม การให้อาหารสัตว์ขนาดเล็ก,adult
+Occupation,อาชีพ,11190,4.3,"Farming, feeding cattle, horses",การทำฟาร์ม การเลี้ยงวัวและม้า,adult
+Occupation,อาชีพ,11191,4.3,"Farming, hauling water for animals, fetching  water from well or stream",การทำเกษตรกรรม การขนน้ำให้สัตว์ การตักน้ำจากบ่อหรือลำธาร,adult
+Occupation,อาชีพ,11192,4.5,"Farming, taking care of animals (e.g.,  grooming, brushing, shearing sheep, assisting  with birthing, medical care, branding),
+general","การทำฟาร์ม การดูแลสัตว์ (เช่น การดูแลขน การแปรงขน การตัดขนแกะ การช่วยเหลือในการคลอด การดูแลทางการแพทย์ การตีตรา)
+ทั่วไป",adult
+Occupation,อาชีพ,11195,3.8,"Farming, rice, planting, grain milling activities",การทำฟาร์ม การปลูกข้าว การสีข้าว,adult
+Occupation,อาชีพ,11210,3.5,"Farming, milking by hand, cleaning pails,  moderate effort",การทำฟาร์ม การรีดนมด้วยมือ การล้างถัง ใช้แรงปานกลาง,adult
+Occupation,อาชีพ,11220,1.3,"Farming, milking by machine, light effort",การทำฟาร์ม การรีดนมด้วยเครื่องจักร ใช้แรงน้อย,adult
+Occupation,อาชีพ,11222,3,"Farming, milking Cows, full milking process, modern milking parlor with milking machines",การทำฟาร์ม การรีดนมวัว กระบวนการรีดนมทั้งหมด โรงรีดนมที่ทันสมัยพร้อมเครื่องรีดนม,adult
+Occupation,อาชีพ,11240,8,"Fire fighter, general","นักดับเพลิง, นายพล",adult
+Occupation,อาชีพ,11244,6.8,"Fire fighter, rescue victim, automobile  accident, using pike pole",นักดับเพลิงช่วยเหลือผู้ประสบอุบัติเหตุทางรถยนต์ โดยใช้ไม้ค้ำ,adult
+Occupation,อาชีพ,11245,8,"Fire fighter, raising and climbing ladder with  full gear, simulated fire suppression",นักดับเพลิง ยกและปีนบันไดพร้อมอุปกรณ์ครบชุด จำลองการดับเพลิง,adult
+Occupation,อาชีพ,11246,9,"Fire fighter, hauling hoses on ground,  carrying/hoisting equipment, breaking down  walls etc., wearing full gear",นักดับเพลิง กำลังลากสายดับเพลิงบนพื้น ขน/ยกอุปกรณ์ ทุบกำแพง ฯลฯ โดยสวมอุปกรณ์ครบชุด,adult
+Occupation,อาชีพ,11247,3.5,"Fishing, commercial, light effort",การประมงเชิงพาณิชย์ ใช้แรงงานเบา,adult
+Occupation,อาชีพ,11248,5,"Fishing, commercial, moderate effort",การประมงเชิงพาณิชย์ ความพยายามปานกลาง,adult
+Occupation,อาชีพ,11250,17.5,"Forestry, ax chopping, very fast, 1.25 kg axe,  51 blows/min, extremely vigorous effort","งานป่าไม้, การสับไม้ด้วยขวาน, เร็วมาก, ขวานหนัก 1.25 กก., ฟาด 51 ครั้ง/นาที, ออกแรงอย่างมาก",adult
+Occupation,อาชีพ,11260,5,"Forestry, ax chopping, slow, 1.25 kg axe, 19  blows/min, moderate effort","งานป่าไม้, การสับไม้ด้วยขวาน, ช้าๆ, ขวานหนัก 1.25 กก., 19 ครั้ง/นาที, ออกแรงปานกลาง",adult
+Occupation,อาชีพ,11262,8,"Forestry, ax chopping, fast, 1.25 kg axe, 35  blows/min, vigorous effort","งานป่าไม้, การสับไม้ด้วยขวาน, รวดเร็ว, ขวานหนัก 1.25 กก., 35 ครั้ง/นาที, ออกแรงอย่างมาก",adult
+Occupation,อาชีพ,11264,5,"Forestry, moderate effort (e.g., sawing wood  with power saw, weeding, hoeing)",งานป่าไม้ ระดับความพยายามปานกลาง (เช่น การเลื่อยไม้ด้วยเลื่อยไฟฟ้า การกำจัดวัชพืช การพรวนดิน),adult
+Occupation,อาชีพ,11266,8.5,"Forestry, vigorous effort (e.g., barking, felling,  or trimming trees, carrying or stacking logs,  planting seeds, sawing lumber by
+hand )",งานป่าไม้ หมายถึง การใช้แรงงานอย่างหนัก (เช่น การลอกเปลือก การตัดโค่น หรือการเล็มต้นไม้ การแบกหรือเรียงท่อนซุง การปลูกเมล็ดพืช การเลื่อยไม้ด้วยมือ),adult
+Occupation,อาชีพ,11370,4.8,Furriery,เฟอร์รี่,adult
+Occupation,อาชีพ,11375,3.8,"Garbage collector, walking, dumping bins into truck, street cleaning",พนักงานเก็บขยะ เดินเก็บขยะลงรถบรรทุก ทำความสะอาดถนน,adult
+Occupation,อาชีพ,11378,1.8,"Hairstylist (e.g., plaiting hair, manicure, make up artist)",ช่างทำผม (เช่น ถักเปียผม ทำเล็บ แต่งหน้า),adult
+Occupation,อาชีพ,11380,7.3,"Horse grooming, including feeding, cleaning  stalls, bathing, brushing, clipping, longeing and  exercising horses.",การดูแลม้า รวมถึงการให้อาหาร การทำความสะอาดคอก การอาบน้ำ การแปรงขน การตัดขน การจูงม้า และการออกกำลังกายม้า,adult
+Occupation,อาชีพ,11381,4.3,"Horse, feeding, watering, cleaning stalls, implied walking and lifting loads","ม้า, การให้อาหาร, การให้น้ำ, การทำความสะอาดคอก, การเดิน และการยกของ (โดยนัย)",adult
+Occupation,อาชีพ,11383,4.5,"Horseback riding, working, cutting cows",การขี่ม้า การทำงาน การต้อนวัว,adult
+Occupation,อาชีพ,11390,7.8,"Horse racing, galloping, cantor","การแข่งม้า, การควบม้า, การวิ่งเหยาะๆ",adult
+Occupation,อาชีพ,11400,6.3,"Horse racing, Jockey, trotting","การแข่งม้า, จ็อกกี้, การวิ่งเหยาะๆ",adult
+Occupation,อาชีพ,11410,2.3,"Horse racing, Jockey, walking","การแข่งม้า, จ็อกกี้, เดิน",adult
+Occupation,อาชีพ,11413,3,Kitchen maid,แม่บ้านในครัว,adult
+Occupation,อาชีพ,11415,4,"Lawn keeper, yardwork, general","คนดูแลสนามหญ้า, งานดูแลสวน, งานทั่วไป",adult
+Occupation,อาชีพ,11416,3,"Lawn keeper, weeding, gas powered","เครื่องดูแลสนามหญ้า, กำจัดวัชพืช, ใช้พลังงานแก๊ส",adult
+Occupation,อาชีพ,11418,3.3,Laundry worker,พนักงานซักรีด,adult
+Occupation,อาชีพ,11420,3,Locksmith,ช่างทำกุญแจ,adult
+Occupation,อาชีพ,11430,3,"Machine tooling (e.g., machining, working  sheet metal, machine fitter, operating lathe,  welding) light-to-moderate effort",งานใช้เครื่องมือกล (เช่น การกลึง การทำงานกับแผ่นโลหะ การประกอบเครื่องจักร การใช้งานเครื่องกลึง การเชื่อม) ใช้แรงเบาถึงปานกลาง,adult
+Occupation,อาชีพ,11450,5,"Machine tooling, operating punch press,  moderate effort","เครื่องมือกล, การใช้งานเครื่องปั๊มขึ้นรูป, แรงปานกลาง",adult
+Occupation,อาชีพ,11472,1.8,"Manager, property",ผู้จัดการทรัพย์สิน,adult
+Occupation,อาชีพ,11475,2.8,"Manual or unskilled labor, general, light effort",งานใช้แรงงานทั่วไปหรือแรงงานไร้ฝีมือ งานเบา,adult
+Occupation,อาชีพ,11476,4.5,"Manual or unskilled labor, general, moderate effort",งานใช้แรงงานทั่วไปหรือแรงงานไร้ฝีมือ ใช้แรงปานกลาง,adult
+Occupation,อาชีพ,11477,6.5,"Manual or unskilled labor, general, vigorous effort",งานใช้แรงงานหรือแรงงานไร้ฝีมือทั่วไป ที่ต้องออกแรงอย่างหนัก,adult
+Occupation,อาชีพ,11480,4.3,"Masonary, concrete, moderate effort",งานก่อสร้างด้วยอิฐ คอนกรีต ใช้แรงปานกลาง,adult
+Occupation,อาชีพ,11482,2.5,"Masonry, concrete, light effort",งานก่ออิฐ คอนกรีต ใช้แรงน้อย,adult
+Occupation,อาชีพ,11485,5.5,"Massage therapist, standing",นักนวดบำบัด (ยืน),adult
+Occupation,อาชีพ,11486,2.3,"Mail carrier, walking to deliver mail",บุรุษไปรษณีย์ เดินส่งจดหมาย,adult
+Occupation,อาชีพ,11487,1.5,"Mail delivery, motorbike",บริการส่งจดหมายด้วยรถจักรยานยนต์,adult
+Occupation,อาชีพ,11488,3.5,"Mail delivery, Electronically Assisted Bicycle",บริการส่งจดหมาย จักรยานไฟฟ้าช่วยปั่น,adult
+Occupation,อาชีพ,11490,7.5,"Moving, carrying or pushing heavy objects, 75  lbs or more, only active time (e.g., desks,  moving van work)",การเคลื่อนย้าย ยก หรือผลักวัตถุหนัก 75 ปอนด์ขึ้นไป เฉพาะช่วงเวลาที่ลงมือทำ (เช่น การทำงานกับโต๊ะทำงาน งานขนย้ายของด้วยรถขนส่ง),adult
+Occupation,อาชีพ,11493,8.5,"Mining, general services, drilling, mining support jobs (mechanical, welding, pipe installation, general construction)","งานเหมืองแร่, งานบริการทั่วไป, งานขุดเจาะ, งานสนับสนุนงานเหมืองแร่ (งานเครื่องกล, งานเชื่อม, งานติดตั้งท่อ, งานก่อสร้างทั่วไป)",adult
+Occupation,อาชีพ,11495,12,"Skindiving or SCUBA diving as a frogman,  Navy Seal",การดำน้ำตื้นหรือดำน้ำลึกในฐานะนักดำน้ำกบ หน่วยซีลของกองทัพเรือ,adult
+Occupation,อาชีพ,11500,2.5,"Operating heavy duty equipment, automated,  not driving",ใช้งานเครื่องจักรกลหนักอัตโนมัติ ไม่ใช่ขับเอง,adult
+Occupation,อาชีพ,11510,3.5,"Orange grove work, picking fruit",งานในสวนส้ม การเก็บผลไม้,adult
+Occupation,อาชีพ,11514,3.3,"Painting, house, furniture, moderate effort","งานทาสี, บ้าน, เฟอร์นิเจอร์, ใช้ความพยายามปานกลาง",adult
+Occupation,อาชีพ,11516,3,Plumbing activities,กิจกรรมด้านประปา,adult
+Occupation,อาชีพ,11520,2,"Printing, paper industry worker, standing",คนงานในอุตสาหกรรมการพิมพ์และกระดาษ ยืนอยู่,adult
+Occupation,อาชีพ,11524,3.8,"Police Officer, Walking",เจ้าหน้าที่ตำรวจ กำลังเดิน,adult
+Occupation,อาชีพ,11525,2.5,"Police, directing traffic, standing",ตำรวจกำลังอำนวยการจราจร ยืนอยู่,adult
+Occupation,อาชีพ,11526,2,"Police, driving a squad car, sitting",ตำรวจขับรถสายตรวจ นั่งอยู่,adult
+Occupation,อาชีพ,11527,1.3,"Police, riding in a squad car, sitting",ตำรวจนั่งอยู่ในรถสายตรวจ,adult
+Occupation,อาชีพ,11528,4,"Police, making an arrest, standing",ตำรวจกำลังจับกุมผู้ต้องหา โดยยืนอยู่,adult
+Occupation,อาชีพ,11529,9,"Counter terrorism maneuvers, clearing building",การซ้อมรบต่อต้านการก่อการร้าย การเคลียร์อาคาร,adult
+Occupation,อาชีพ,11530,2,"Shoe repair, general",ซ่อมรองเท้าทั่วไป,adult
+Occupation,อาชีพ,11540,7.3,"Shoveling, digging ditches",การขุดดิน การขุดคู,adult
+Occupation,อาชีพ,11550,8.8,"Shoveling, more than 16 lbs/minute, deep  digging, vigorous effort",การขุดด้วยพลั่ว หนักกว่า 16 ปอนด์ต่อนาที ขุดลึก ต้องใช้แรงอย่างมาก,adult
+Occupation,อาชีพ,11560,5,"Shoveling, less than 10 lbs/minute, moderate  effort",การตักดิน น้อยกว่า 10 ปอนด์ต่อนาที ใช้แรงปานกลาง,adult
+Occupation,อาชีพ,11570,6.5,"Shoveling, 10 to 15 lbs/minute, vigorous effort",การขุดดินด้วยพลั่ว หนัก 10-15 ปอนด์ต่อนาที ออกแรงอย่างมาก,adult
+Occupation,อาชีพ,11580,1.5,"Sitting tasks, light effort (e.g., office work,  chemistry lab work, light  assembly repair, watch repair, reading, desk  work)",งานที่ต้องนั่งเป็นเวลานาน ใช้แรงน้อย (เช่น งานในสำนักงาน งานในห้องปฏิบัติการเคมี งานประกอบและซ่อมแซมสิ่งของขนาดเล็ก งานซ่อมนาฬิกา การอ่านหนังสือ งานนั่งโต๊ะ),adult
+Occupation,อาชีพ,11582,1.3,"Sitting, computer work",นั่งทำงานหน้าคอมพิวเตอร์,adult
+Occupation,อาชีพ,11583,1.3,"Standing workstation, typing, computer work","โต๊ะทำงานแบบยืน, การพิมพ์, การทำงานกับคอมพิวเตอร์",adult
+Occupation,อาชีพ,11585,1.3,"Sitting meetings, light effort, general, and/or with talking involved (e.g., eating at a business meeting)",การประชุมแบบนั่ง การใช้แรงน้อย ทั่วไป และ/หรือมีการพูดคุย (เช่น การรับประทานอาหารในระหว่างการประชุมทางธุรกิจ),adult
+Occupation,อาชีพ,11590,2.5,"Sitting tasks, moderate effort (e.g. pushing  heavy levers, riding mower/forklift, crane  operation)",งานที่ต้องนั่งทำ ใช้แรงปานกลาง (เช่น การดันคันโยกหนักๆ การขับรถตัดหญ้า/รถยก การใช้งานเครน),adult
+Occupation,อาชีพ,11593,2.8,"Sitting, teaching stretching or yoga, or light  effort exercise classes",การนั่ง การสอนการยืดเหยียดหรือโยคะ หรือชั้นเรียนออกกำลังกายเบาๆ,adult
+Occupation,อาชีพ,11600,1.8,"Standing tasks, light effort (e.g., bartending,  store clerk, assembling, filing, duplicating,  librarian, putting up a Christmas tree,
+standing and talking at work, changing clothes when teaching physical education)",งานที่ต้องยืน ใช้แรงน้อย (เช่น การเป็นบาร์เทนเดอร์ พนักงานขายในร้านค้า การประกอบ การจัดเก็บเอกสาร การถ่ายเอกสาร บรรณารักษ์ การตกแต่งต้นคริสต์มาส การยืนและพูดคุยในที่ทำงาน การเปลี่ยนเสื้อผ้าขณะสอนพลศึกษา),adult
+Occupation,อาชีพ,11610,3.3,"Standing, light/moderate effort (e.g., assemble/repair heavy parts, welding, stocking  parts, auto repair, packing boxes, nursing
+patient care, laundry)",ยืนทำงาน ใช้แรงเบาถึงปานกลาง (เช่น ประกอบ/ซ่อมชิ้นส่วนหนัก เชื่อมโลหะ จัดเก็บชิ้นส่วน ซ่อมรถยนต์ บรรจุกล่อง พยาบาล ดูแลผู้ป่วย ซักรีด),adult
+Occupation,อาชีพ,11615,4.5,"Standing, moderate effort, lifting items  continuously, 10 – 20 lbs, with limited walking  or resting",ยืนทำงาน ออกแรงปานกลาง ยกสิ่งของหนัก 10-20 ปอนด์อย่างต่อเนื่อง โดยมีการเดินหรือพักน้อย,adult
+Occupation,อาชีพ,11620,3.8,"Standing, moderate effort, intermittent lifting  50 lbs, hitch or twisting ropes",การยืน การออกแรงปานกลาง การยกของหนัก 50 ปอนด์เป็นระยะ การผูกหรือบิดเชือก,adult
+Occupation,อาชีพ,11630,4.5,"Standing, moderate/heavy tasks (e.g., lifting  more than 50 lbs, masonry, painting, paper  hanging)",การยืนทำงาน และงานที่ต้องใช้แรงปานกลางถึงหนัก (เช่น การยกของหนักเกิน 50 ปอนด์ งานก่อสร้าง งานทาสี งานติดวอลเปเปอร์),adult
+Occupation,อาชีพ,11650,2.3,"Patient care, healthcare activites",การดูแลผู้ป่วย กิจกรรมด้านการดูแลสุขภาพ,adult
+Occupation,อาชีพ,11660,3.5,"Patient care, room cleaning/preperation",การดูแลผู้ป่วย การทำความสะอาด/เตรียมห้องพัก,adult
+Occupation,อาชีพ,11708,5.3,"Steel mill, moderate effort (e.g., fettling,  forging, tipping molds)",โรงงานเหล็กกล้า งานที่ใช้แรงงานปานกลาง (เช่น การตกแต่งเหล็ก การตีขึ้นรูป การเทแม่พิมพ์),adult
+Occupation,อาชีพ,11710,8.3,"Steel mill, vigorous effort (e.g., hand rolling,  merchant mill rolling, removing slag, tending  furnace)","โรงงานเหล็กกล้า, งานที่ต้องใช้แรงงานอย่างหนัก (เช่น การรีดด้วยมือ, การรีดเหล็กโดยโรงงานรับซื้อเหล็ก, การกำจัดตะกรัน, การดูแลเตาหลอม)",adult
+Occupation,อาชีพ,11720,2.3,"Tailoring, cutting fabric",การตัดเย็บ การตัดผ้า,adult
+Occupation,อาชีพ,11730,2.5,"Tailoring, general",การตัดเย็บเสื้อผ้าทั่วไป,adult
+Occupation,อาชีพ,11740,1.8,"Tailoring, hand sewing","การตัดเย็บ, การเย็บด้วยมือ",adult
+Occupation,อาชีพ,11750,2.5,"Tailoring, machine sewing","การตัดเย็บ, การเย็บด้วยจักร",adult
+Occupation,อาชีพ,11760,3.5,"Tailoring, pressing",การตัดเย็บ การรีด,adult
+Occupation,อาชีพ,11763,2,"Tailoring, weaving, light effort (e.g., finishing operations, washing, dyeing, inspecting cloth, counting yards, paperwork)",งานตัดเย็บ งานทอผ้า งานใช้แรงงานเบา (เช่น การตกแต่งสำเร็จ การซัก การย้อมสี การตรวจสอบผ้า การนับหลา งานเอกสาร),adult
+Occupation,อาชีพ,11765,4,"Tailoring, weaving, moderate effort (e.g.,  spinning and weaving operations, delivering  boxes of yarn to spinners, loading of warp bean, pinwinding, conewinding, warping, cloth  clutting)",การตัดเย็บ การทอผ้า งานที่ต้องใช้แรงปานกลาง (เช่น การปั่นด้ายและการทอผ้า การส่งกล่องเส้นด้ายให้คนปั่นด้าย การใส่เมล็ดด้ายยืน การม้วนด้าย การม้วนด้ายทรงกรวย การเตรียมเส้นด้ายยืน การผูกผ้า),adult
+Occupation,อาชีพ,11766,6.5,"Truck driving, loading and unloading truck,  tying down load, standing, walking and  carrying heavy loads",การขับรถบรรทุก การขนถ่ายสินค้า การผูกมัดสินค้า การยืน การเดิน และการแบกของหนัก,adult
+Occupation,อาชีพ,11767,2,"Truck driving, delivery truck, taxi, shuttlebus,  school bus","การขับรถบรรทุก, รถส่งของ, รถแท็กซี่, รถรับส่ง, รถโรงเรียน",adult
+Occupation,อาชีพ,11770,1.3,"Typing, electric, manual or computer",การพิมพ์ ไม่ว่าจะเป็นแบบไฟฟ้า แบบใช้มือ หรือแบบใช้คอมพิวเตอร์,adult
+Occupation,อาชีพ,11780,6.3,"Using heavy power tools such as pneumatic  tools (e.g., jackhammers, drills, etc.)",การใช้เครื่องมือไฟฟ้าขนาดใหญ่ เช่น เครื่องมือลม (เช่น ค้อนลม สว่าน ฯลฯ),adult
+Occupation,อาชีพ,11790,7.8,"Using heavy tools (not power) such as shovel,  pick, tunnel bar, spade",ใช้เครื่องมือหนัก (ไม่ใช่เครื่องมือไฟฟ้า) เช่น พลั่ว จอบ เหล็กงัดอุโมงค์ และจอบตัก,adult
+Occupation,อาชีพ,11791,2,"Walking on job, less than 2.0 mph, very slow  speed, in office or lab area",เดินขณะทำงาน ความเร็วต่ำกว่า 2 ไมล์ต่อชั่วโมง (ช้ามาก) ในบริเวณสำนักงานหรือห้องปฏิบัติการ,adult
+Occupation,อาชีพ,11792,3.8,"Walking on job, 2.8 to 3.4 mph, in office, moderate  speed, not carrying anything",เดินขณะทำงาน ความเร็ว 2.8 ถึง 3.4 ไมล์ต่อชั่วโมง ในสำนักงาน ความเร็วปานกลาง ไม่ได้ถือสิ่งของใดๆ,adult
+Occupation,อาชีพ,11793,4.8,"Walking on job, 3.5 to 3.9 mph, in office, brisk speed,  not carrying anything",เดินขณะทำงานด้วยความเร็ว 3.5 ถึง 3.9 ไมล์ต่อชั่วโมง ในออฟฟิศด้วยความเร็วปานกลาง ไม่ได้ถือสิ่งของใดๆ,adult
+Occupation,อาชีพ,11795,3.5,"Walking on job, 2.5 mph, slow speed, carrying  light objects less than 25 lbs",เดินขณะปฏิบัติงานด้วยความเร็ว 2.5 ไมล์ต่อชั่วโมง (ความเร็วต่ำ) และถือสิ่งของที่มีน้ำหนักเบาไม่เกิน 25 ปอนด์,adult
+Occupation,อาชีพ,11796,3,"Walking, gathering things at work, ready to  leave",เดินเก็บของที่ทำงาน เตรียมตัวออกเดินทาง,adult
+Occupation,อาชีพ,11797,3.8,"Walking, 2.5 mph, slow speed, carrying heavy  objects more than 25 lbs",เดินด้วยความเร็ว 2.5 ไมล์ต่อชั่วโมง (ความเร็วต่ำ) ขณะถือของหนักเกิน 25 ปอนด์,adult
+Occupation,อาชีพ,11800,4.5,"Walking, 3.0 mph, moderately and carrying  light objects less than 25 lbs",เดินด้วยความเร็ว 3.0 ไมล์ต่อชั่วโมง ในระดับปานกลาง และถือสิ่งของเบาๆ ที่มีน้ำหนักไม่เกิน 25 ปอนด์,adult
+Occupation,อาชีพ,11805,3.8,"Walking, pushing a wheelchair",การเดิน การเข็นรถเข็น,adult
+Occupation,อาชีพ,11810,4.5,"Walking, 3.5 mph, briskly and carrying objects  less than 25 lbs",เดินเร็ว 3.5 ไมล์ต่อชั่วโมง และถือสิ่งของที่มีน้ำหนักน้อยกว่า 25 ปอนด์,adult
+Occupation,อาชีพ,11820,4,"Walking or walk downstairs or standing,  carrying objects about 25 to 49 lbs",การเดินหรือเดินลงบันได หรือการยืน ขณะถือสิ่งของที่มีน้ำหนักประมาณ 25 ถึง 49 ปอนด์,adult
+Occupation,อาชีพ,11830,5.5,"Walking or walk downstairs or standing,  carrying objects about 50 to 74 lbs",การเดินหรือเดินลงบันได หรือการยืน ขณะถือสิ่งของที่มีน้ำหนักประมาณ 50 ถึง 74 ปอนด์,adult
+Occupation,อาชีพ,11840,7,"Walking or walk downstairs or standing,  carrying objects about 75 to 99 lbs",การเดินหรือเดินลงบันได หรือการยืน ขณะถือสิ่งของที่มีน้ำหนักประมาณ 75 ถึง 99 ปอนด์,adult
+Occupation,อาชีพ,11850,7.3,"Walking or walk downstairs or standing,  carrying objects about 100 lbs or more",การเดินหรือเดินลงบันได หรือการยืน การถือสิ่งของที่มีน้ำหนักประมาณ 100 ปอนด์ขึ้นไป,adult
+Occupation,อาชีพ,11860,2.3,"Warehouse/Shipping Center, Loading/Unloading boxes","คลังสินค้า/ศูนย์จัดส่งสินค้า, ขนถ่ายกล่องสินค้า",adult
+Occupation,อาชีพ,11862,4.3,"Warehouse/Shipping Center, Moving boxes (~5kg)",คลังสินค้า/ศูนย์จัดส่งสินค้า กล่องสำหรับขนย้าย (~5 กก.),adult
+Occupation,อาชีพ,11870,3,"Working in scene shop, theater actor, backstage  employee",ทำงานในแผนกจัดเตรียมฉาก นักแสดงละครเวที พนักงานเบื้องหลัง,adult
+Occupation,อาชีพ,11880,3.5,"Soldiers, military marching, unloaded 1.5-2.5 mph",ทหารเดินสวนสนามด้วยความเร็ว 1.5-2.5 ไมล์ต่อชั่วโมง (ไม่มีสัมภาระ),adult
+Occupation,อาชีพ,11882,4,"Soldiers, military marching, 1.5-2.5 mph, 10 to 30 kg load",ทหาร เดินสวนสนาม ความเร็ว 1.5-2.5 ไมล์ต่อชั่วโมง แบกสัมภาระ 10-30 กิโลกรัม,adult
+Occupation,อาชีพ,11884,5,"Airborne Shuffle, 2.5 to 3.5 mph, 20-30 kg load",การเคลื่อนที่แบบ Airborne Shuffle ด้วยความเร็ว 2.5 ถึง 3.5 ไมล์ต่อชั่วโมง น้ำหนักบรรทุก 20-30 กิโลกรัม,adult
+Occupation,อาชีพ,11886,6.3,"Soldiers, military loaded marching, varying terrain, 25-40 kg load",ทหารเดินแถวพร้อมสัมภาระหนัก บนภูมิประเทศที่หลากหลาย น้ำหนักบรรทุก 25-40 กิโลกรัม,adult
+Occupation,อาชีพ,11887,6,"Soldiers, walking, 2.8 mph, 5% grade, up to 21.5 kg load",ทหาร เดินด้วยความเร็ว 2.8 ไมล์ต่อชั่วโมง ความลาดชัน 5% แบกน้ำหนักได้สูงสุด 21.5 กิโลกรัม,adult
+Occupation,อาชีพ,11888,8.5,"Soldiers, walking,  2.8 mph, 10% grade, up to 21.5 kg load",ทหาร เดินด้วยความเร็ว 2.8 ไมล์ต่อชั่วโมง บนทางลาดชัน 10% แบกสัมภาระได้สูงสุด 21.5 กิโลกรัม,adult
+Occupation,อาชีพ,11889,11,"Soldiers, walking,  2.8 mph, 15% grade, up to 21.5 kg load",ทหาร เดินด้วยความเร็ว 2.8 ไมล์ต่อชั่วโมง ความลาดชัน 15% แบกสัมภาระได้สูงสุด 21.5 กิโลกรัม,adult
+Occupation,อาชีพ,11892,6,"Military activities, arterial field preparation, digging defensive positions",กิจกรรมทางทหาร การเตรียมพื้นที่แนวรบ การขุดสนามเพลาะป้องกัน,adult
+Running,วิ่ง,12010,6,Jog/walk combination (jogging component of less than 10 minutes) (Taylor Code 180),ออกกำลังกายแบบผสมผสานระหว่างวิ่งเหยาะๆ และเดิน (โดยวิ่งเหยาะๆ ไม่เกิน 10 นาที) (รหัสเทย์เลอร์ 180),adult
+Running,วิ่ง,12020,7.5,"Jogging, general, self-selected pace",การวิ่งเหยาะๆ ทั่วไป ด้วยความเร็วที่เลือกเอง,adult
+Running,วิ่ง,12025,4.8,"Jogging, in place",การวิ่งอยู่กับที่,adult
+Running,วิ่ง,12026,3.3,Jogging 2.6 to 3.7 mph,วิ่งเหยาะๆ ด้วยความเร็ว 2.6 ถึง 3.7 ไมล์ต่อชั่วโมง,adult
+Running,วิ่ง,12027,4.5,Jogging on a mini-tramp,วิ่งเหยาะๆ บนแทรมโพลีนขนาดเล็ก,adult
+Running,วิ่ง,12028,6.5,"Running, 4 to 4.2 mph (13 min/mile)",วิ่งด้วยความเร็ว 4 ถึง 4.2 ไมล์ต่อชั่วโมง (13 นาทีต่อไมล์),adult
+Running,วิ่ง,12029,7.8,Running 4.3 to 4.8 mph,วิ่งด้วยความเร็ว 4.3 ถึง 4.8 ไมล์ต่อชั่วโมง,adult
+Running,วิ่ง,12030,8.5,"Running, 5.0 to 5.2 mph (12 min/mile)",วิ่งด้วยความเร็ว 5.0 ถึง 5.2 ไมล์ต่อชั่วโมง (12 นาทีต่อไมล์),adult
+Running,วิ่ง,12045,9,"Running, 5.5 -5.8 mph",วิ่งด้วยความเร็ว 5.5 - 5.8 ไมล์ต่อชั่วโมง,adult
+Running,วิ่ง,12050,9.3,"Running, 6-6.3 mph (10 min/mile)",วิ่งด้วยความเร็ว 6-6.3 ไมล์ต่อชั่วโมง (10 นาทีต่อไมล์),adult
+Running,วิ่ง,12060,10.5,"Running, 6.7 mph (9 min/mile)",วิ่งด้วยความเร็ว 6.7 ไมล์ต่อชั่วโมง (9 นาทีต่อไมล์),adult
+Running,วิ่ง,12070,11,"Running, 7 mph (8.5 min/mile)",วิ่งด้วยความเร็ว 7 ไมล์ต่อชั่วโมง (8.5 นาทีต่อไมล์),adult
+Running,วิ่ง,12080,11.8,"Running, 7.5 mph (8 min/mile)",วิ่งด้วยความเร็ว 7.5 ไมล์ต่อชั่วโมง (8 นาทีต่อไมล์),adult
+Running,วิ่ง,12090,12,"Running, 8 mph (7.5 min/mile)",วิ่งด้วยความเร็ว 8 ไมล์ต่อชั่วโมง (7.5 นาทีต่อไมล์),adult
+Running,วิ่ง,12100,12.5,"Running, 8.6 mph (7 min/mile)",วิ่งด้วยความเร็ว 8.6 ไมล์ต่อชั่วโมง (7 นาทีต่อไมล์),adult
+Running,วิ่ง,12110,13,"Running, 9 mph (6.5 min/mile)",วิ่งด้วยความเร็ว 9 ไมล์ต่อชั่วโมง (6.5 นาทีต่อไมล์),adult
+Running,วิ่ง,12115,14.8,"Running, 9.3 to 9.6 mph",วิ่งด้วยความเร็ว 9.3 ถึง 9.6 ไมล์ต่อชั่วโมง,adult
+Running,วิ่ง,12120,14.8,"Running, 10 mph (6 min/mile)",วิ่งด้วยความเร็ว 10 ไมล์ต่อชั่วโมง (6 นาทีต่อไมล์),adult
+Running,วิ่ง,12130,16.8,"Running, 11 mph (5.5 min/mile)",วิ่งด้วยความเร็ว 11 ไมล์ต่อชั่วโมง (5.5 นาทีต่อไมล์),adult
+Running,วิ่ง,12132,18.5,"Running, 12 mph (5.0 min/mile)",วิ่งด้วยความเร็ว 12 ไมล์ต่อชั่วโมง (5.0 นาทีต่อไมล์),adult
+Running,วิ่ง,12134,19.8,"Running, 13 mph (4.6 min/mile)",วิ่งด้วยความเร็ว 13 ไมล์ต่อชั่วโมง (4.6 นาทีต่อไมล์),adult
+Running,วิ่ง,12135,23,"Running, 14 mph (4.3 min/mile)",วิ่งด้วยความเร็ว 14 ไมล์ต่อชั่วโมง (4.3 นาทีต่อไมล์),adult
+Running,วิ่ง,12140,9.3,"Running, cross country","การวิ่ง, วิ่งครอสคันทรี",adult
+Running,วิ่ง,12145,10.5,"Running, self-selected pace",การวิ่ง ด้วยความเร็วที่เลือกเอง,adult
+Running,วิ่ง,12150,8,Running (Taylor Code 200),การวิ่ง (รหัสเทย์เลอร์ 200),adult
+Running,วิ่ง,12170,15,"Running, stairs, up",วิ่ง ขึ้นบันได,adult
+Running,วิ่ง,12180,10,"Running, on a track, team practice",การวิ่งบนลู่ การฝึกซ้อมของทีม,adult
+Running,วิ่ง,12184,18,"Running, on track, 500-1500m, competitive",วิ่งแข่งระยะ 500-1500 เมตร,adult
+Running,วิ่ง,12186,19.3,"Running, on track, 2000-3000m, competitive",วิ่งแข่งระยะ 2000-3000 เมตร,adult
+Running,วิ่ง,12190,8,"Running, training, pushing a wheelchair or baby carrier",การวิ่ง การฝึกซ้อม การเข็นรถเข็น หรือเป้อุ้มเด็ก,adult
+Running,วิ่ง,12200,13.3,"Running, marathon","การวิ่ง, มาราธอน",adult
+Running,วิ่ง,12255,10.3,"Running uphill, 4.5mph, 5% incline",วิ่งขึ้นเนิน ความเร็ว 4.5 ไมล์ต่อชั่วโมง ความชัน 5%,adult
+Running,วิ่ง,12260,13.3,"Running uphill, 6.0 mph, 5% incline",วิ่งขึ้นเนิน ความเร็ว 6.0 ไมล์ต่อชั่วโมง ความลาดชัน 5%,adult
+Running,วิ่ง,12265,15.5,"Running uphill, 7.0 mph, 5% incline",วิ่งขึ้นเนิน ความเร็ว 7.0 ไมล์ต่อชั่วโมง ความลาดชัน 5%,adult
+Running,วิ่ง,12325,17.5,"Running uphill, 5.0 to 5.9 mph, 15% incline",วิ่งขึ้นเนิน ความเร็ว 5.0 ถึง 5.9 ไมล์ต่อชั่วโมง ความลาดชัน 15%,adult
+Running,วิ่ง,12335,8.8,"Running uphill, 0.6 to 0.79 mph, 30% incline",วิ่งขึ้นเนิน ความเร็ว 0.6 ถึง 0.79 ไมล์ต่อชั่วโมง ความลาดชัน 30%,adult
+Running,วิ่ง,12337,10.3,"Running uphill, 0.8 to 0.99 mph, 30% incline",วิ่งขึ้นเนิน ความเร็ว 0.8 ถึง 0.99 ไมล์ต่อชั่วโมง ความลาดชัน 30%,adult
+Running,วิ่ง,12339,11.8,"Running uphill, 1.0 to 1.19 mph, 30% incline",วิ่งขึ้นเนิน ความเร็ว 1.0 ถึง 1.19 ไมล์ต่อชั่วโมง ความลาดชัน 30%,adult
+Running,วิ่ง,12341,13.5,"Running uphill, 1.2 to 1.39 mph, 30-40% incline",วิ่งขึ้นเนิน ความเร็ว 1.2 ถึง 1.39 ไมล์ต่อชั่วโมง ความลาดชัน 30-40%,adult
+Running,วิ่ง,12343,14.8,"Running uphill, 1.4 to 1.59 mph, 30% incline",วิ่งขึ้นเนิน ความเร็ว 1.4 ถึง 1.59 ไมล์ต่อชั่วโมง ความลาดชัน 30%,adult
+Running,วิ่ง,12345,16.3,"Running uphill, >1.6mph, 10-30% incline",วิ่งขึ้นเนิน ความเร็วมากกว่า 1.6 ไมล์ต่อชั่วโมง ความลาดชัน 10-30%,adult
+Running,วิ่ง,12350,16,"Running, hilly terrain, ±100m change in elevation",การวิ่งบนพื้นที่เป็นเนินเขา ความสูงเปลี่ยนแปลงประมาณ ±100 เมตร,adult
+Running,วิ่ง,12352,5.8,"Running downhill, 5.0 to 5.9 mph, -10% to -15%",วิ่งลงเนิน ความเร็ว 5.0 ถึง 5.9 ไมล์ต่อชั่วโมง ความลาดชัน -10% ถึง -15%,adult
+Running,วิ่ง,12353,7.5,"Running downhill, 6.0 to 6.9 mph, -10% to -15%",วิ่งลงเนิน ความเร็ว 6.0 ถึง 6.9 ไมล์ต่อชั่วโมง ความลาดชัน -10% ถึง -15%,adult
+Running,วิ่ง,12355,9,"Running downhill, 7.0 to 8.9 mph, -10% to -15%",วิ่งลงเนิน ความเร็ว 7.0 ถึง 8.9 ไมล์ต่อชั่วโมง ความลาดชัน -10% ถึง -15%,adult
+Running,วิ่ง,12358,9.3,"Running downhill, 6.0 to 7.9 mph, -3% to -9%",วิ่งลงเนิน ความเร็ว 6.0 ถึง 7.9 ไมล์ต่อชั่วโมง ความลาดชัน -3% ถึง -9%,adult
+Running,วิ่ง,12361,13.8,"Running downhill, 8.0 to 10.5 mph, -3% to -9%",วิ่งลงเนิน ความเร็ว 8.0 ถึง 10.5 ไมล์ต่อชั่วโมง ความลาดชัน -3% ถึง -9%,adult
+Running,วิ่ง,12405,5.3,"Running/jogging, curved treadmill, 3.0 to 3.9 mph",การวิ่ง/จ็อกกิ้ง บนลู่วิ่งแบบโค้ง ความเร็ว 3.0 ถึง 3.9 ไมล์ต่อชั่วโมง,adult
+Running,วิ่ง,12408,6.5,"Running/jogging, curved treadmill, 4.0 to 4.9 mph",การวิ่ง/จ็อกกิ้ง บนลู่วิ่งแบบโค้ง ความเร็ว 4.0 ถึง 4.9 ไมล์ต่อชั่วโมง,adult
+Running,วิ่ง,12410,11,"Running curved treadmill, 5.0 to 5.9 mph",วิ่งบนลู่วิ่งไฟฟ้าแบบโค้ง ความเร็ว 5.0 ถึง 5.9 ไมล์ต่อชั่วโมง,adult
+Running,วิ่ง,12412,12,"Running curved treadmill, 7.0 to 7.9 mph",วิ่งบนลู่วิ่งไฟฟ้าแบบโค้ง ความเร็ว 7.0 ถึง 7.9 ไมล์ต่อชั่วโมง,adult
+Running,วิ่ง,12414,14,"Running curved treadmill, 8.0 to 8.9 mph",วิ่งบนลู่วิ่งไฟฟ้าแบบโค้ง ความเร็ว 8.0 ถึง 8.9 ไมล์ต่อชั่วโมง,adult
+Running,วิ่ง,12416,16.8,"Running curved treadmill, 9.0 to 9.9 mph",วิ่งบนลู่วิ่งโค้ง ความเร็ว 9.0 ถึง 9.9 ไมล์ต่อชั่วโมง,adult
+Running,วิ่ง,12508,8.5,"Running, 5.0 - 5.9 mph, 1.0 to 3.0 kg backpack",วิ่งด้วยความเร็ว 5.0 - 5.9 ไมล์ต่อชั่วโมง พร้อมเป้สะพายหลังน้ำหนัก 1.0 - 3.0 กิโลกรัม,adult
+Running,วิ่ง,12510,9.5,"Running, 6.0 - 6.9 mph, 1.0 to 3.0 kg backpack",วิ่งด้วยความเร็ว 6.0 - 6.9 ไมล์ต่อชั่วโมง พร้อมเป้สะพายหลังน้ำหนัก 1.0 - 3.0 กิโลกรัม,adult
+Running,วิ่ง,12512,9.8,"Running, 7.0 - 7.9 mph, 1.0 to 3.0 kg backpack",วิ่งด้วยความเร็ว 7.0 - 7.9 ไมล์ต่อชั่วโมง พร้อมเป้สะพายหลังน้ำหนัก 1.0 ถึง 3.0 กิโลกรัม,adult
+Running,วิ่ง,12514,12,"Running, 8.0 - 8.9 mph, 1.0 to 3.0 kg backpack",วิ่งด้วยความเร็ว 8.0 - 8.9 ไมล์ต่อชั่วโมง พร้อมเป้สะพายหลังน้ำหนัก 1.0 ถึง 3.0 กิโลกรัม,adult
+Running,วิ่ง,12555,7.8,"Running, barefoot, 3.5-5.9 mph",วิ่งเท้าเปล่าด้วยความเร็ว 3.5-5.9 ไมล์ต่อชั่วโมง,adult
+Running,วิ่ง,12560,12,"Running, barefoot, 6.0-7.9 mph",วิ่งเท้าเปล่าด้วยความเร็ว 6.0-7.9 ไมล์ต่อชั่วโมง,adult
+Running,วิ่ง,12565,13.5,"Running, barefoot, 8.0-8.9 mph",วิ่งเท้าเปล่าด้วยความเร็ว 8.0-8.9 ไมล์ต่อชั่วโมง,adult
+Running,วิ่ง,12585,8,"Running, jogging stroller, indoors, 5 mph","วิ่งออกกำลังกาย, รถเข็นเด็ก, ในร่ม, ความเร็ว 5 ไมล์ต่อชั่วโมง",adult
+Running,วิ่ง,12588,9,"Running, jogging stroller, indoors, 6 mph","วิ่งออกกำลังกาย, รถเข็นเด็ก, ในร่ม, ความเร็ว 6 ไมล์ต่อชั่วโมง",adult
+Running,วิ่ง,12593,10,"Running, jogging stroller, outdoors, 5 mph",วิ่งออกกำลังกายกลางแจ้งด้วยรถเข็นเด็ก ความเร็ว 5 ไมล์ต่อชั่วโมง,adult
+Running,วิ่ง,12595,11.5,"Running, jogging stroller, outdoors, 6 mph",วิ่งออกกำลังกายกลางแจ้งด้วยรถเข็นเด็ก ความเร็ว 6 ไมล์ต่อชั่วโมง,adult
+Running,วิ่ง,12600,11.5,"Skipping, 5.5-6.0 mph",การกระโดดเชือก ความเร็ว 5.5-6.0 ไมล์ต่อชั่วโมง,adult
+Running,วิ่ง,12620,13,"Triathlon, Running","ไตรกีฬา, วิ่ง",adult
+Self Care,การดูแลตนเอง,13000,2.3,"Getting ready for bed, general, standing","เตรียมตัวเข้านอน, ทั่วไป, ยืน",adult
+Self Care,การดูแลตนเอง,13009,2.3,"Sitting on toilet, eliminating while standing or  squatting",การนั่งบนโถส้วม การขับถ่ายขณะยืน หรือขณะนั่งยองๆ,adult
+Self Care,การดูแลตนเอง,13010,1.5,"Bathing, sitting",การอาบน้ำ การนั่ง,adult
+Self Care,การดูแลตนเอง,13020,2.8,"Dressing, undressing, standing or sitting",การแต่งตัว การถอดเสื้อผ้า การยืน หรือการนั่ง,adult
+Self Care,การดูแลตนเอง,13030,1.5,"Eating, sitting",การกิน การนั่ง,adult
+Self Care,การดูแลตนเอง,13035,2,"Talking and eating or eating only, standing",พูดคุยไปกินไป หรือกินอย่างเดียว ขณะยืน,adult
+Self Care,การดูแลตนเอง,13036,1.5,"Taking medication, sitting or standing",การรับประทานยา การนั่ง หรือการยืน,adult
+Self Care,การดูแลตนเอง,13040,2,"Grooming, washing hands, shaving, brushing  teeth, putting on make-up, sitting or standing",การดูแลตัวเอง การล้างมือ การโกนหนวด การแปรงฟัน การแต่งหน้า การนั่ง หรือการยืน,adult
+Self Care,การดูแลตนเอง,13045,2.5,"Hairstyling, standing",การจัดแต่งทรงผมแบบยืน,adult
+Self Care,การดูแลตนเอง,13046,1.3,"Having hair or nails done by someone else,  sitting",การให้ลูกค้าทำผมหรือเล็บให้ การนั่ง,adult
+Self Care,การดูแลตนเอง,13050,2,"Showering, toweling off, standing",อาบน้ำ เช็ดตัว ยืน,adult
+Sexual Activity,กิจกรรมทางเพศ,14010,5.8,"Active, vigorous effort",ความพยายามที่กระตือรือร้นและเต็มเปี่ยม,adult
+Sexual Activity,กิจกรรมทางเพศ,14020,3,"General, moderate effort",โดยทั่วไป ใช้แรงปานกลาง,adult
+Sexual Activity,กิจกรรมทางเพศ,14030,1.8,"Passive, light effort, kissing, hugging",การกระทำที่ไม่ต้องใช้แรงมาก เช่น การจูบ การกอด,adult
+Sports,กีฬา,15000,5.5,"Alaska Native Games, Eskimo Olympics, general","กีฬาพื้นเมืองอะแลสกา, กีฬาโอลิมปิกเอสกิโม, ทั่วไป",adult
+Sports,กีฬา,15010,4.3,Archery (non-hunting),การยิงธนู (ไม่ใช่เพื่อการล่าสัตว์),adult
+Sports,กีฬา,15020,7,"Badminton, competitive (Taylor Code 450)",แบดมินตันประเภทแข่งขัน (รหัสเทย์เลอร์ 450),adult
+Sports,กีฬา,15025,9,"Badminton, competitive, match play","แบดมินตัน, การแข่งขัน, แมตช์เพลย์",adult
+Sports,กีฬา,15030,5.5,"Badminton, social singles and doubles, general","แบดมินตัน, ประเภทเดี่ยวและคู่ (เล่นเพื่อความสนุกสนานทั่วไป)",adult
+Sports,กีฬา,15040,8,"Basketball, game (Taylor Code 490)","บาสเกตบอล, เกม (รหัสเทย์เลอร์ 490)",adult
+Sports,กีฬา,15050,6,"Basketball, non-game, general (Taylor Code 480)",บาสเกตบอล (นอกเกม) ทั่วไป (รหัสเทย์เลอร์ 480),adult
+Sports,กีฬา,15055,7.5,"Basketball, general",บาสเกตบอลทั่วไป,adult
+Sports,กีฬา,15060,7,"Basketball, officiating (Taylor Code 500)","บาสเกตบอล, การทำหน้าที่ผู้ตัดสิน (รหัสเทย์เลอร์ 500)",adult
+Sports,กีฬา,15062,5.8,"Basketball, officiating","บาสเกตบอล, การตัดสิน",adult
+Sports,กีฬา,15070,5,"Basketball, shooting baskets",บาสเกตบอล การชู้ตลูกลงห่วง,adult
+Sports,กีฬา,15072,9.3,"Basketball, drills, practice","บาสเก็ตบอล, การฝึกซ้อม, การฝึกฝน",adult
+Sports,กีฬา,15080,2.5,Billiards,บิลเลียด,adult
+Sports,กีฬา,15090,3,Bowling (Taylor Code 390),โบว์ลิ่ง (รหัสเทย์เลอร์ 390),adult
+Sports,กีฬา,15092,3.8,"Bowling, indoor, bowling alley",โบว์ลิ่งในร่ม ลานโบว์ลิ่ง,adult
+Sports,กีฬา,15100,12.3,"Boxing, in ring, general","มวยสากล, ในเวที, ทั่วไป",adult
+Sports,กีฬา,15110,5.8,"Boxing, punching bag","มวย, กระสอบทราย",adult
+Sports,กีฬา,15113,7,"Boxing, punching bag, 60 b/min","มวยสากล, กระสอบทราย, 60 ครั้ง/นาที",adult
+Sports,กีฬา,15115,8.5,"Boxing, punching bag, 120 b/min","มวยสากล, กระสอบทราย, 120 ครั้ง/นาที",adult
+Sports,กีฬา,15118,10.8,"Boxing, punching bag, 180 b/min","มวยสากล, กระสอบทราย, 180 ครั้ง/นาที",adult
+Sports,กีฬา,15120,7.8,"Boxing, sparring","มวยสากล, การฝึกซ้อม",adult
+Sports,กีฬา,15125,9.3,"Boxing, simulated boxing round, exercise","มวย, การจำลองการชกมวย, การออกกำลังกาย",adult
+Sports,กีฬา,15130,7,Broomball,บรูมบอล,adult
+Sports,กีฬา,15135,5.8,"Children’s games, adults playing  (e.g., hopscotch, 4-square, dodge ball, playground apparatus, t-ball,  tetherball, marbles, jacks,
+arcade games), moderate effort","เกมสำหรับเด็กที่ผู้ใหญ่เล่นด้วย (เช่น เกมกระโดดข้ามช่อง, เกมสี่เหลี่ยม, ดอดจ์บอล, อุปกรณ์ในสนามเด็กเล่น, ทีบอล, เทเทอร์บอล, ลูกแก้ว, แจ็ค,
+เกมตู้) ที่ใช้แรงปานกลาง",adult
+Sports,กีฬา,15138,6,"Cheerleading, gymnastic moves, competitive",การเชียร์ลีดเดอร์ ท่าทางกายกรรม การแข่งขัน,adult
+Sports,กีฬา,15140,4,"Coaching, football, soccer, basketball, baseball, swimming, etc.","การฝึกสอน, ฟุตบอล, บาสเกตบอล, เบสบอล, ว่ายน้ำ ฯลฯ",adult
+Sports,กีฬา,15142,8,"Coaching, actively playing sport with players",การฝึกสอน การเล่นกีฬาร่วมกับผู้เล่นอย่างกระตือรือร้น,adult
+Sports,กีฬา,15150,4.8,"Cricket, batting, bowling, fielding","คริกเก็ต, การตีลูก, การขว้างลูก, การรับลูก",adult
+Sports,กีฬา,15160,3.3,Croquet,โครเกต์,adult
+Sports,กีฬา,15170,4,Curling,เคอร์ลิง,adult
+Sports,กีฬา,15180,2.5,"Darts, wall or lawn",ปาลูกดอก เล่นบนกำแพงหรือสนามหญ้า,adult
+Sports,กีฬา,15190,6,"Drag racing, pushing or driving a car",การแข่งรถทางตรง การผลักหรือขับรถ,adult
+Sports,กีฬา,15192,8.5,"Auto racing, open wheel",การแข่งรถยนต์แบบล้อเปิด,adult
+Sports,กีฬา,15195,7.8,Futsal,ฟุตซอล,adult
+Sports,กีฬา,15200,6,"Fencing, general",ฟันดาบทั่วไป,adult
+Sports,กีฬา,15203,9.8,"Fencing, epee, competitive",ฟันดาบ เอเป้ แข่งขัน,adult
+Sports,กีฬา,15205,10.5,Floorball,ฟลอร์บอล,adult
+Sports,กีฬา,15210,8,"Football, competitive","ฟุตบอล, การแข่งขัน",adult
+Sports,กีฬา,15230,8,"Football, touch, flag, general (Taylor Code 510)","ฟุตบอล (ทัชฟุตบอล, ฟุตบอลธง, ทั่วไป) (รหัสเทย์เลอร์ 510)",adult
+Sports,กีฬา,15232,4,"Football, touch, flag, light effort","ฟุตบอล, ทัช, ธง, ออกแรงเบาๆ",adult
+Sports,กีฬา,15235,2.5,"Football or baseball, playing catch",ฟุตบอลหรือเบสบอล การเล่นรับส่งลูก,adult
+Sports,กีฬา,15240,3,"Frisbee playing, general",การเล่นฟริสบี้ทั่วไป,adult
+Sports,กีฬา,15250,8,"Frisbee, ultimate","ฟริสบี้, อัลติเมท",adult
+Sports,กีฬา,15252,3.8,Frisbee golf,กอล์ฟจานร่อน,adult
+Sports,กีฬา,15255,4.5,"Golf, general",กอล์ฟทั่วไป,adult
+Sports,กีฬา,15265,4.3,"Golf, walking, carrying clubs","กอล์ฟ, การเดิน, การแบกไม้กอล์ฟ",adult
+Sports,กีฬา,15270,3.5,"Golf, miniature, driving range",กอล์ฟขนาดเล็ก สนามฝึกซ้อมตีไกล,adult
+Sports,กีฬา,15285,4.5,"Golf, walking, pulling clubs","กอล์ฟ, การเดิน, การดึงไม้กอล์ฟ",adult
+Sports,กีฬา,15290,3.5,"Golf, using power cart (Taylor Code 070)",กอล์ฟ โดยใช้รถกอล์ฟไฟฟ้า (รหัส Taylor 070),adult
+Sports,กีฬา,15300,3.8,"Gymnastics, general",ยิมนาสติกทั่วไป,adult
+Sports,กีฬา,15310,4,Hacky sack,ลูกบอลฮักกี้,adult
+Sports,กีฬา,15320,12,"Handball, general (Taylor Code 520)",แฮนด์บอล ทั่วไป (รหัสเทย์เลอร์ 520),adult
+Sports,กีฬา,15330,8,"Handball, team","แฮนด์บอล, ทีม",adult
+Sports,กีฬา,15335,4,"High ropes course, multiple elements",สนามฝึกปีนป่ายบนที่สูง ประกอบด้วยองค์ประกอบหลากหลาย,adult
+Sports,กีฬา,15340,3.5,Hang gliding,การร่อนร่ม,adult
+Sports,กีฬา,15350,7.8,"Hockey, field",ฮอกกี้สนาม,adult
+Sports,กีฬา,15360,8,"Hockey, ice, general","ฮอกกี้, น้ำแข็ง, ทั่วไป",adult
+Sports,กีฬา,15362,10,"Hockey, ice, competitive",ฮอกกี้น้ำแข็งแบบแข่งขัน,adult
+Sports,กีฬา,15370,5.5,"Horseback riding, general",การขี่ม้าทั่วไป,adult
+Sports,กีฬา,15380,4.5,"Horse grooming, maintenance, saddling tasks",งานดูแลม้า การบำรุงรักษา และการใส่อานม้า,adult
+Sports,กีฬา,15390,5.8,"Horseback riding, trotting",การขี่ม้า การวิ่งเหยาะๆ,adult
+Sports,กีฬา,15395,7.3,"Horseback riding, canter or gallop",การขี่ม้า วิ่งเหยาะๆ หรือวิ่งควบ,adult
+Sports,กีฬา,15400,3.8,"Horseback riding, walking","ขี่ม้า, เดิน",adult
+Sports,กีฬา,15402,9,"Horseback riding, jumping",การขี่ม้า การกระโดดข้ามสิ่งกีดขวาง,adult
+Sports,กีฬา,15403,6,"Horseback riding, reining","การขี่ม้า, การบังคับม้า",adult
+Sports,กีฬา,15406,2.1,"Horseback riding, simulator",การจำลองการขี่ม้า,adult
+Sports,กีฬา,15408,1.8,"Horse cart, driving, standing or sitting",รถม้า การขับขี่ การยืน หรือการนั่ง,adult
+Sports,กีฬา,15410,3,"Horseshoe pitching, quoits","การขว้างเกือกม้า, ควอยต์",adult
+Sports,กีฬา,15420,12,Jai alai,ไจอาไล,adult
+Sports,กีฬา,15425,5.3,"Martial Arts, different types, slower pace, novice performers, practice",ศิลปะการต่อสู้ ประเภทต่างๆ จังหวะช้าๆ ผู้แสดงมือใหม่ การฝึกฝน,adult
+Sports,กีฬา,15430,10.3,"Martial Arts, different types, moderate pace (e.g., judo, jujitsu, karate, kick boxing, tae kwon do, tai-bo, Muay Thai boxing)",ศิลปะการต่อสู้ประเภทต่างๆ ที่มีจังหวะปานกลาง (เช่น ยูโด ยูยิตสู คาราเต้ คิกบ็อกซิ่ง เทควันโด ไทโบ มวยไทย),adult
+Sports,กีฬา,15432,14.3,"Taekwondo, combat simulation","เทควันโด, การจำลองการต่อสู้",adult
+Sports,กีฬา,15433,11.3,Judo,ยูโด,adult
+Sports,กีฬา,15440,4,Juggling,การเล่นกล,adult
+Sports,กีฬา,15444,6.5,"Kendo, kihon-keiko style, moderate intensity",เคนโด้สไตล์คิฮอนเคอิโกะ ความเข้มข้นปานกลาง,adult
+Sports,กีฬา,15445,9.6,"Kendo, kirikaeshi style, high intensity",เคนโด สไตล์คิริคาเอชิ ความเข้มข้นสูง,adult
+Sports,กีฬา,15446,11.3,"Kendo, kakari keiko style, very high intensity",เคนโด้ สไตล์คาคาริเคอิโกะ ความเข้มข้นสูงมาก,adult
+Sports,กีฬา,15450,7,Kickball,คิกบอล,adult
+Sports,กีฬา,15455,5.5,Kung Fu Gymnastics,กังฟูยิมนาสติก,adult
+Sports,กีฬา,15457,7.3,Kickboxing,คิกบ็อกซิ่ง,adult
+Sports,กีฬา,15460,8,Lacrosse,ลาครอส,adult
+Sports,กีฬา,15465,3.3,"Lawn bowling, bocce ball, outdoor","โบว์ลิ่งสนามหญ้า, โบชเช่บอล, กลางแจ้ง",adult
+Sports,กีฬา,15470,4,"Motocross, off-road motor sports, all-terrain vehicle, general","โมโตครอส, กีฬามอเตอร์สปอร์ตออฟโรด, รถเอทีวี, ทั่วไป",adult
+Sports,กีฬา,15475,5.3,"Motorcycle racing, Supormoto racing","การแข่งรถจักรยานยนต์, การแข่งซูปอร์โมโต",adult
+Sports,กีฬา,15477,7,Netball,เน็ตบอล,adult
+Sports,กีฬา,15480,9,Orienteering,การวิ่งหาเส้นทาง,adult
+Sports,กีฬา,15490,10,"Paddleball, competitive","แพดเดิลบอล, การแข่งขัน",adult
+Sports,กีฬา,15500,6,"Paddleball, casual, general (Taylor Code 460)","กีฬาแพดเดิลบอล, ลำลอง, ทั่วไป (รหัสเทย์เลอร์ 460)",adult
+Sports,กีฬา,15503,1.8,"Paragliding, moderate altitude",ร่มร่อน ระดับความสูงปานกลาง,adult
+Sports,กีฬา,15506,6.5,Prusik climbing,การปีนเขาพรูซิก,adult
+Sports,กีฬา,15510,8,"Polo, on horseback",โปโลบนหลังม้า,adult
+Sports,กีฬา,15520,10,"Racquetball, competitive","แร็กเก็ตบอล, การแข่งขัน",adult
+Sports,กีฬา,15525,10.3,"Race Walking, 3.1 m/s (6.9 mph)",การเดินเร็ว 3.1 เมตร/วินาที (6.9 ไมล์ต่อชั่วโมง),adult
+Sports,กีฬา,15527,13.8,"Race Walking, 3.7 m/s (8.3 mph)",การเดินเร็ว 3.7 เมตร/วินาที (8.3 ไมล์ต่อชั่วโมง),adult
+Sports,กีฬา,15528,15.5,"Race Walking, racing speed, 4.0 m/s (8.95 mph)",การเดินเร็ว (Race Walking) ความเร็วในการแข่งขัน 4.0 เมตร/วินาที (8.95 ไมล์ต่อชั่วโมง),adult
+Sports,กีฬา,15530,7,"Racquetball, general (Taylor Code 470)",กีฬาแร็กเก็ตบอลทั่วไป (รหัสเทย์เลอร์ 470),adult
+Sports,กีฬา,15533,8,"Rock or mountain climbing (Taylor Code 060), (formerly code 17120)",การปีนผาหรือปีนเขา (รหัสเทย์เลอร์ 060) (เดิมคือรหัส 17120),adult
+Sports,กีฬา,15534,8.8,"Rock climbing, free boulder","ปีนผา, ปีนโขดหินอิสระ",adult
+Sports,กีฬา,15535,7.3,"Rock climbing, ascending rock, high difficulty","ปีนหน้าผา, ไต่หิน, ความยากระดับสูง",adult
+Sports,กีฬา,15536,10.5,"Rock climbing, speed climbing, very difficult","ปีนผา, ปีนเร็ว, ยากมาก",adult
+Sports,กีฬา,15537,5.8,"Rock climbing, ascending or traversing rock, low-to-moderate difficulty",การปีนหน้าผา การไต่หรือเดินบนโขดหิน ระดับความยากต่ำถึงปานกลาง,adult
+Sports,กีฬา,15538,10.5,"Rock climbing, treadwall, 4-6 m/min","ปีนผา, ผนังปีนผา, 4-6 เมตร/นาที",adult
+Sports,กีฬา,15539,10.5,"Rock climbing, treadwall, 7-10 m/min","ปีนผา, ผนังปีนผา, 7-10 เมตร/นาที",adult
+Sports,กีฬา,15540,5,"Rock climbing, rappelling,","ปีนหน้าผา, โรยตัวลงจากหน้าผา",adult
+Sports,กีฬา,15542,4,"Rodeo sports, general, light effort",กีฬาโรดีโอ ทั่วไป ใช้แรงน้อย,adult
+Sports,กีฬา,15544,5.5,"Rodeo sports, general, moderate effort",กีฬาโรดีโอ ทั่วไป ใช้แรงปานกลาง,adult
+Sports,กีฬา,15546,7,"Rodeo sports, general, vigorous effort","กีฬาโรดีโอ, โดยทั่วไป, การออกแรงอย่างหนัก",adult
+Sports,กีฬา,15550,12.3,"Rope jumping, fast pace, 120-160 skips/min",กระโดดเชือก ความเร็วสูง 120-160 ครั้ง/นาที,adult
+Sports,กีฬา,15551,11.8,"Rope jumping, moderate pace, general, 100 to 120 skips/min, 2 foot skip, plain bounce","กระโดดเชือก, จังหวะปานกลาง, ทั่วไป, 100 ถึง 120 ครั้ง/นาที, กระโดดด้วยเท้า 2 ข้าง, กระเด้งธรรมดา",adult
+Sports,กีฬา,15552,8.3,"Rope jumping, slow pace, < 100 skips/min, 2 foot skip, rhythm bounce",กระโดดเชือก จังหวะช้าๆ น้อยกว่า 100 ครั้ง/นาที กระโดดด้วยเท้า 2 ข้าง จังหวะกระเด้ง,adult
+Sports,กีฬา,15554,10,"Rope jumping, double under or more",กระโดดเชือก กระโดดสองรอบขึ้นไป,adult
+Sports,กีฬา,15560,8.3,"Rugby, union, team, competitive","รักบี้, ยูเนี่ยน, ทีม, แข่งขัน",adult
+Sports,กีฬา,15562,6.3,"Rugby, touch, non-competitive",รักบี้แบบสัมผัส (ไม่เน้นการแข่งขัน),adult
+Sports,กีฬา,15570,3,Shuffleboard,ชัฟเฟิลบอร์ด,adult
+Sports,กีฬา,15580,5,"Skateboarding, general, moderate effort",การเล่นสเก็ตบอร์ดทั่วไป ระดับความพยายามปานกลาง,adult
+Sports,กีฬา,15582,6,"Skateboarding, competitive, vigorous effort",การเล่นสเก็ตบอร์ด เป็นกิจกรรมแข่งขันที่ต้องใช้ความพยายามอย่างมาก,adult
+Sports,กีฬา,15590,7,"Skating, roller (Taylor Code 360)",สเก็ตลูกล้อ (เทย์เลอร์ โค้ด 360),adult
+Sports,กีฬา,15591,7.5,"Roller blading, in-line skating, 14.4 km/h (9.0 mph), recreational pace",การเล่นโรลเลอร์เบลด สเก็ตอินไลน์ ความเร็ว 14.4 กม./ชม. (9.0 ไมล์/ชม.) ระดับความยากเพื่อการพักผ่อนหย่อนใจ,adult
+Sports,กีฬา,15592,9.8,"Roller blading, in-line skating, 17.7 km/h (11.0 mph), moderate pace, exercise training","การเล่นโรลเลอร์เบลด, สเก็ตอินไลน์, ความเร็ว 17.7 กม./ชม. (11.0 ไมล์/ชม.), ความเร็วปานกลาง, การฝึกออกกำลังกาย",adult
+Sports,กีฬา,15593,12.3,"Roller blading, in-line skating, 21.0 to 21.7 km/h (13.0 to 13.6 mph), fast pace, exercise training","การเล่นโรลเลอร์เบลด, การเล่นสเก็ตอินไลน์, ความเร็ว 21.0 ถึง 21.7 กิโลเมตรต่อชั่วโมง (13.0 ถึง 13.6 ไมล์ต่อชั่วโมง), ความเร็วสูง, การฝึกออกกำลังกาย",adult
+Sports,กีฬา,15594,15.5,"Rollerblading, in-line skating, 24.0 km/h (15.0 mph), maximal effort",การเล่นโรลเลอร์เบลด สเก็ตอินไลน์ ความเร็ว 24.0 กม./ชม. (15.0 ไมล์/ชม.) ด้วยความพยายามสูงสุด,adult
+Sports,กีฬา,15595,6.8,"Skateboard, longboard, 13.3 km/h, slow speed","สเก็ตบอร์ด, ลองบอร์ด, 13.3 กม./ชม., ความเร็วต่ำ",adult
+Sports,กีฬา,15596,8.3,"Skateboard, longboard, 16.2 km/h, typical speed","สเก็ตบอร์ด, ลองบอร์ด, ความเร็วทั่วไป 16.2 กม./ชม.",adult
+Sports,กีฬา,15597,10.5,"Skateboard, longboard, 18.4 km/h, fast speed","สเก็ตบอร์ด, ลองบอร์ด, 18.4 กม./ชม., ความเร็วสูง",adult
+Sports,กีฬา,15600,3.5,"Skydiving, base-jumping, bungee jumping","การกระโดดร่ม, การกระโดดจากที่สูง, การกระโดดบันจี้จัมพ์",adult
+Sports,กีฬา,15605,9.5,"Soccer, competitive",ฟุตบอล (ประเภทแข่งขัน),adult
+Sports,กีฬา,15610,7,"Soccer, casual, general (Taylor Code 540)","ฟุตบอล, ชุดลำลอง, ทั่วไป (รหัสเทย์เลอร์ 540)",adult
+Sports,กีฬา,15615,3.5,Walking football/soccer,ฟุตบอลเดินเล่น,adult
+Sports,กีฬา,15620,5,"Softball or baseball, fast or slow pitch, general, moderate effort (Taylor Code 440)",ซอฟต์บอลหรือเบสบอล แบบขว้างเร็วหรือขว้างช้า ประเภททั่วไป ใช้แรงปานกลาง (รหัสเทย์เลอร์ 440),adult
+Sports,กีฬา,15625,4,"Softball, practice",ซอฟต์บอล ฝึกซ้อม,adult
+Sports,กีฬา,15630,4,"Softball, officiating",ซอฟต์บอล การตัดสิน,adult
+Sports,กีฬา,15640,6,"Softball, pitching",ซอฟต์บอล การขว้าง,adult
+Sports,กีฬา,15645,3.3,"Sports spectator, very excited, emotional, physically moving",ผู้ชมกีฬา ตื่นเต้นมาก อารมณ์พลุ่งพล่าน และเคลื่อนไหวร่างกายอย่างเร้าใจ,adult
+Sports,กีฬา,15650,12,Squash (Taylor Code 530),สควอช (รหัสเทย์เลอร์ 530),adult
+Sports,กีฬา,15652,7.3,"Squash, general",สควอชทั่วไป,adult
+Sports,กีฬา,15660,4,"Table tennis, ping pong (Taylor Code 410)","เทเบิลเทนนิส, ปิงปอง (รหัสเทย์เลอร์ 410)",adult
+Sports,กีฬา,15670,3.3,"Tai chi, qi gong, general",ไทเก๊ก ชี่กง ทั่วไป,adult
+Sports,กีฬา,15672,1.5,"Tai chi, qi gong, sitting, light effort",ไทเก๊ก ชี่กง นั่ง พยายามเบาๆ,adult
+Sports,กีฬา,15674,6,"Tai chi chuan, Yang style",ไทเก็กชวนสไตล์หยาง,adult
+Sports,กีฬา,15675,6.8,"Tennis, general, moderate effort","เทนนิส, ทั่วไป, ระดับความพยายามปานกลาง",adult
+Sports,กีฬา,15676,8,"Tennis, general, competitive","เทนนิส, ทั่วไป, แข่งขัน",adult
+Sports,กีฬา,15680,6,"Tennis, doubles (Taylor Code 430)",เทนนิส ประเภทคู่ (รหัสเทย์เลอร์ 430),adult
+Sports,กีฬา,15685,4.5,"Tennis, doubles",เทนนิส ประเภทคู่,adult
+Sports,กีฬา,15690,8,"Tennis, singles (Taylor Code 420)",เทนนิส ประเภทเดี่ยว (รหัสเทย์เลอร์ 420),adult
+Sports,กีฬา,15695,5,"Tennis, hitting balls, non-game play, moderate effort","เทนนิส, การตีลูกบอล, การเล่นนอกเกม, ความพยายามปานกลาง",adult
+Sports,กีฬา,15700,6.3,"Trampoline, recreational","แทรมโพลีน, เพื่อการพักผ่อนหย่อนใจ",adult
+Sports,กีฬา,15702,10.3,"Trampoline, competitive",แทรมโพลีนแบบแข่งขัน,adult
+Sports,กีฬา,15710,4,Volleyball (Taylor Code 400),วอลเลย์บอล (รหัสเทย์เลอร์ 400),adult
+Sports,กีฬา,15711,6,"Volleyball, competitive, in gymnasium",วอลเลย์บอล (แข่งขัน) ในโรงยิม,adult
+Sports,กีฬา,15720,3,"Volleyball, non-competitive, 6 - 9 member team, general",วอลเลย์บอล ไม่เน้นการแข่งขัน ทีมละ 6-9 คน ทั่วไป,adult
+Sports,กีฬา,15725,8,"Volleyball, beach, in sand",วอลเลย์บอลชายหาด บนทราย,adult
+Sports,กีฬา,15730,6,"Wrestling, competitive (one match = 5 minutes)",มวยปล้ำ (แบบแข่งขัน) (หนึ่งแมตช์ = 5 นาที),adult
+Sports,กีฬา,15731,7,"Wallyball, general",วอลลี่บอล นายพล,adult
+Sports,กีฬา,15732,4,"Track and field (e.g., shot, discus, hammer throw)",กีฬาประเภทลู่และสนาม (เช่น ขว้างลูกเหล็ก ขว้างจาน ขว้างค้อน),adult
+Sports,กีฬา,15733,6,"Track and field (e.g., high jump, long jump, triple jump, javelin, pole vault)",กรีฑา (เช่น กระโดดสูง กระโดดไกล กระโดดสามจังหวะ พุ่งแหลง กระโดดค้ำถ่อ),adult
+Sports,กีฬา,15734,10,"Track and field (e.g., steeplechase, hurdles)","กรีฑา (เช่น วิ่งวิบาก, วิ่งข้ามรั้ว)",adult
+Transportation,การเดินทาง,16002,6.8,"Bicycling for transportation, moderate effort",การปั่นจักรยานเพื่อการเดินทาง ระดับความพยายามปานกลาง,adult
+Transportation,การเดินทาง,16004,9.3,"Bicycling for transportation, high effort",การปั่นจักรยานเพื่อการเดินทาง ต้องใช้แรงมาก,adult
+Transportation,การเดินทาง,16005,6.8,E-bike (electrically assisted) for transportation,จักรยานไฟฟ้า (ระบบช่วยขับเคลื่อนด้วยไฟฟ้า) สำหรับการเดินทาง,adult
+Transportation,การเดินทาง,16010,2,Automobile or light truck (not a semi) driving,การขับขี่รถยนต์หรือรถบรรทุกขนาดเล็ก (ไม่ใช่รถบรรทุกขนาดใหญ่),adult
+Transportation,การเดินทาง,16015,1.3,Riding in a car or truck,การนั่งรถยนต์หรือรถบรรทุก,adult
+Transportation,การเดินทาง,16016,1.3,Riding in a bus or train,การเดินทางโดยรถบัสหรือรถไฟ,adult
+Transportation,การเดินทาง,16020,1.8,Flying airplane or helicoptor,เครื่องบินหรือเฮลิคอปเตอร์,adult
+Transportation,การเดินทาง,16030,2.8,"Motor scooter, motorcycle","รถมอเตอร์ไซค์, รถจักรยานยนต์",adult
+Transportation,การเดินทาง,16035,6.3,Pulling rickshaw,การลากรถลาก,adult
+Transportation,การเดินทาง,16040,6,Pushing plane in and out of hangar,การเข็นเครื่องบินเข้าและออกจากโรงเก็บเครื่องบิน,adult
+Transportation,การเดินทาง,16050,2.5,"Truck, semi, tractor, ≥1 ton, or bus, driving",รถบรรทุก รถกึ่งพ่วง รถหัวลาก ขนาด ≥1 ตัน หรือรถโดยสาร กำลังขับขี่,adult
+Transportation,การเดินทาง,16060,3.5,"Walking for transportation, 2.8-3.2 mph, level, moderate pace, firm surface",การเดินเพื่อการเดินทาง ความเร็ว 2.8-3.2 ไมล์ต่อชั่วโมง พื้นราบ ก้าวเดินปานกลาง พื้นผิวแข็ง,adult
+Walking,เดิน,17010,7,Backpacking (Taylor Code 050),การท่องเที่ยวแบบแบ็คแพ็ค (รหัสเทย์เลอร์ 050),adult
+Walking,เดิน,17011,3.5,"Walking with a day pack, level ground, assumed in the city",เดินแบกเป้สะพายหลังบนพื้นราบ ซึ่งคาดว่าอยู่ในเมือง,adult
+Walking,เดิน,17012,7.8,"Backpacking,  hiking with a daypack, organized walking with daypack","การแบกเป้เดินทางไกล, การเดินป่าโดยใช้เป้สะพายหลังขนาดเล็ก, การเดินเป็นกลุ่มโดยใช้เป้สะพายหลังขนาดเล็ก",adult
+Walking,เดิน,17016,4,"Carrying 5 to 14 lb (2.3 to 6.4 kg) load (e.g. suitcase, boxes, groceries), level ground, moderate pace",แบกสัมภาระหนัก 5 ถึง 14 ปอนด์ (2.3 ถึง 6.4 กิโลกรัม) (เช่น กระเป๋าเดินทาง กล่อง ของชำ) บนพื้นราบ ด้วยความเร็วปานกลาง,adult
+Walking,เดิน,17018,4.5,"Carrying 15 - 155 lb (6.8 - 70.4 kg) load (e.g. suitcase, boxes, furniture), level ground or downstairs, slow pace",แบกของหนัก 15 - 155 ปอนด์ (6.8 - 70.4 กิโลกรัม) (เช่น กระเป๋าเดินทาง กล่อง เฟอร์นิเจอร์) บนพื้นราบหรือชั้นล่าง เดินด้วยความเร็วต่ำ,adult
+Walking,เดิน,17019,6.5,"Carrying 50 to 150 pound load (e.g., equine or bovine feed, fence pipes, furniture), level ground, moderate pace",แบกของหนัก 50 ถึง 150 ปอนด์ (เช่น อาหารม้าหรือวัว ท่อรั้ว เฟอร์นิเจอร์) บนพื้นราบ ด้วยความเร็วปานกลาง,adult
+Walking,เดิน,17021,2.3,"Carrying ~10 lb child, slow walking",อุ้มเด็กหนักประมาณ 10 ปอนด์ เดินช้าๆ,adult
+Walking,เดิน,17025,8.3,"Carrying load upstairs, general",การขนของขึ้นชั้นบนทั่วไป,adult
+Walking,เดิน,17026,5.5,"Carrying load, 1 to 15 lb load, upstairs",การยกของหนัก 1-15 ปอนด์ ขึ้นชั้นบน,adult
+Walking,เดิน,17027,6,"Carrying load, 16 to 24 lb load, upstairs",ยกของหนัก 16-24 ปอนด์ ขึ้นชั้นบน,adult
+Walking,เดิน,17028,8,"Carrying load, 25 to 49 lb load, upstairs",ยกของหนัก 25 ถึง 49 ปอนด์ ขึ้นชั้นบน,adult
+Walking,เดิน,17029,10,"Carrying load, 50 to 74 lb load, upstairs",ยกของหนัก 50 ถึง 74 ปอนด์ ขึ้นชั้นบน,adult
+Walking,เดิน,17030,12,"Carrying load, >74 lb load, upstairs",ยกของหนักเกิน 74 ปอนด์ ขึ้นชั้นบน,adult
+Walking,เดิน,17031,3.8,"Loading  and/or unloading a car, implied walking",การขนถ่ายสินค้าขึ้นและ/หรือลงจากรถ โดยนัยคือการเดิน,adult
+Walking,เดิน,17032,5,"Climbing hills, no load, 5 to 20% grade, very slow pace",ปีนเขา ไม่มีสัมภาระ ความลาดชัน 5 ถึง 20% ปั่นด้วยความเร็วต่ำมาก,adult
+Walking,เดิน,17033,3.8,"Climbing hills, 15-50 lb load, 1 to 2% grade, slow pace",ปีนเขา บรรทุกของหนัก 15-50 ปอนด์ ความลาดชัน 1-2% เดินช้าๆ,adult
+Walking,เดิน,17034,5.3,"Climbing hills, no load, 1 to 5% grade, moderate-to-brisk pace",ปั่นขึ้นเนินเขา ไม่มีสัมภาระ ความลาดชัน 1-5% ด้วยความเร็วปานกลางถึงเร็ว,adult
+Walking,เดิน,17035,7,"Climbing hills, no load, 6 to 10% grade, moderate-to-brisk pace",ปั่นขึ้นเนินเขา โดยไม่บรรทุกสัมภาระ ความลาดชัน 6-10% ด้วยความเร็วปานกลางถึงเร็ว,adult
+Walking,เดิน,17036,8.8,"Climbing hills, no load, 11 to 20% grade, slow-to-moderate pace",ปั่นขึ้นเนินเขา โดยไม่บรรทุกสัมภาระ ความลาดชัน 11 ถึง 20% ด้วยความเร็วปานกลางถึงช้า,adult
+Walking,เดิน,17037,10,"Climbing hills, no load, 4.0 to 5.0 mph, 3 to 5% grade, very fast pace",ขึ้นเนินเขา โดยไม่มีน้ำหนักบรรทุก ความเร็ว 4.0 ถึง 5.0 ไมล์ต่อชั่วโมง ความลาดชัน 3 ถึง 5% ด้วยความเร็วสูง,adult
+Walking,เดิน,17038,8.5,"Climbing hills, no load, steep grade (30%), slow pace (less than 1.2 mph)",ขึ้นเนินเขา ไม่มีน้ำหนักบรรทุก ความลาดชันสูง (30%) ความเร็วต่ำ (น้อยกว่า 1.2 ไมล์ต่อชั่วโมง),adult
+Walking,เดิน,17039,15.5,"Climbing hills, no load, very steep grade (30-40%), 1.2 to 1.8 mph",ขึ้นเนินเขา โดยไม่มีน้ำหนักบรรทุก ความลาดชันสูงมาก (30-40%) ความเร็ว 1.2 ถึง 1.8 ไมล์ต่อชั่วโมง,adult
+Walking,เดิน,17040,16.3,"Climbing hills, no load, steep grade (10-40%), 1.8 to 5.0 mph",ขึ้นเนินเขา โดยไม่มีน้ำหนักบรรทุก ความลาดชันสูง (10-40%) ความเร็ว 1.8 ถึง 5.0 ไมล์ต่อชั่วโมง,adult
+Walking,เดิน,17045,6.5,"Climbing hills, 10 to 20 lb load, 5 to 10% grade, moderate","ปีนเขา, น้ำหนักบรรทุก 10-20 ปอนด์, ความลาดชัน 5-10%, ระดับความยากปานกลาง",adult
+Walking,เดิน,17050,7.5,"Climbing hills, 21 to 40 lb load, 3 to 10% grade, moderate-to-brisk pace",ปีนเขา บรรทุกสัมภาระ 21 ถึง 40 ปอนด์ ความลาดชัน 3 ถึง 10% ด้วยความเร็วปานกลางถึงเร็ว,adult
+Walking,เดิน,17060,10,"Climbing hills, 20+ pound load, 5 to 20% grade, moderate to brisk pace",ปีนเขา บรรทุกสัมภาระหนัก 20 ปอนด์ขึ้นไป ความลาดชัน 5 ถึง 20% ด้วยความเร็วปานกลางถึงเร็ว,adult
+Walking,เดิน,17070,3.5,Descending stairs,บันไดลง,adult
+Walking,เดิน,17076,4.5,"Hauling water, head hauling, walking on flat surface",การแบกน้ำ การลากของด้วยหัว การเดินบนพื้นราบ,adult
+Walking,เดิน,17080,6,"Hiking, cross country (Taylor Code 040)",การเดินป่าแบบครอสคันทรี (รหัสเทย์เลอร์ 040),adult
+Walking,เดิน,17081,3.8,"Hiking slowly or ambling through fields and hillsides, no load",เดินป่าช้าๆ หรือเดินเล่นสบายๆ ผ่านทุ่งนาและเนินเขา โดยไม่มีสัมภาระ,adult
+Walking,เดิน,17082,5.3,"Hiking or walking at a normal pace through fields and hillsides, no load",การเดินป่าหรือเดินเล่นด้วยความเร็วปกติผ่านทุ่งนาและเนินเขา โดยไม่มีสัมภาระ,adult
+Walking,เดิน,17085,2.5,"Bird watching, walking and stopping",การดูนก การเดิน และการหยุดพัก,adult
+Walking,เดิน,17088,4.5,"Marching, moderate speed, military, no pack",การเดินแถว ความเร็วปานกลาง แบบทหาร ไม่สะพายเป้,adult
+Walking,เดิน,17090,8,"Marching rapidly, military, no pack",เดินแถวอย่างรวดเร็ว แบบทหาร ไม่มีเป้สะพายหลัง,adult
+Walking,เดิน,17100,3.8,"Pushing or pulling stroller with child or walking with children, 2.5 to 3.1 mph",การเข็นหรือดึงรถเข็นเด็ก หรือการเดินกับเด็ก ๆ ด้วยความเร็ว 2.5 ถึง 3.1 ไมล์ต่อชั่วโมง,adult
+Walking,เดิน,17105,3.8,"Pushing a wheelchair, non-occupational",การเข็นรถเข็นคนพิการ (ไม่เกี่ยวข้องกับอาชีพ),adult
+Walking,เดิน,17110,6.5,Race walking,การเดินแข่ง,adult
+Walking,เดิน,17130,8,"Stair climbing, using or climbing up ladder (Taylor Code 030)",การขึ้นบันได การใช้หรือปีนบันได (รหัสเทย์เลอร์ 030),adult
+Walking,เดิน,17131,6.8,"Stair climbing, general",การปีนบันไดโดยทั่วไป,adult
+Walking,เดิน,17133,4.5,"Stair climbing, slow pace","การปีนบันได, ก้าวช้าๆ",adult
+Walking,เดิน,17134,9.3,"Stair climbing, fast pace, one step at a time",การปีนบันได ก้าวเร็ว ทีละขั้น,adult
+Walking,เดิน,17136,7.5,"Stair climbing, two steps at a time",ปีนบันไดทีละสองขั้น,adult
+Walking,เดิน,17138,7.5,"Stair climbing, ascending and descending stairs",การปีนบันได การขึ้นและลงบันได,adult
+Walking,เดิน,17140,4.5,"Using crutches, level ground, general",ใช้ไม้ค้ำยัน พื้นราบ ทั่วไป,adult
+Walking,เดิน,17142,7,"Using crutches, fast pace",ใช้ไม้ค้ำยัน เดินเร็ว,adult
+Walking,เดิน,17145,4.3,Using medical knee scooter,การใช้สกูตเตอร์สำหรับเข่าทางการแพทย์,adult
+Walking,เดิน,17150,2.3,"Walking, household","การเดิน, ของใช้ในบ้าน",adult
+Walking,เดิน,17151,2.3,"Walking, less than 2.0 mph, level, strolling, very slow","เดิน, ความเร็วต่ำกว่า 2.0 ไมล์ต่อชั่วโมง, พื้นราบ, เดินเล่น, ช้ามาก",adult
+Walking,เดิน,17152,2.8,"Walking, 2.0 to 2.4 mph, level, slow pace, firm surface",การเดิน ความเร็ว 2.0 ถึง 2.4 ไมล์ต่อชั่วโมง พื้นราบ เดินช้าๆ พื้นผิวแข็ง,adult
+Walking,เดิน,17160,3.5,Walking for pleasure (Taylor Code 010),การเดินเพื่อความเพลิดเพลิน (รหัสเทย์เลอร์ 010),adult
+Walking,เดิน,17161,2.5,"Walking from house to car or bus, from car or bus to go places, from car or bus to and from the worksite",เดินจากบ้านไปขึ้นรถหรือรถบัส จากรถหรือรถบัสไปสถานที่ต่างๆ จากรถหรือรถบัสไปและกลับจากสถานที่ทำงาน,adult
+Walking,เดิน,17162,2.5,Walking to neighbor’s house or family’s house for social reasons,การเดินไปบ้านเพื่อนบ้านหรือบ้านญาติเพื่อพบปะสังสรรค์,adult
+Walking,เดิน,17165,3,Walking the dog,พาสุนัขเดินเล่น,adult
+Walking,เดิน,17170,3,"Walking, 2.5 mph, firm, level surface",เดินด้วยความเร็ว 2.5 ไมล์ต่อชั่วโมง บนพื้นผิวเรียบและแข็ง,adult
+Walking,เดิน,17180,3.3,"Walking, 2.5 mph, downhill",เดินด้วยความเร็ว 2.5 ไมล์ต่อชั่วโมง ลงเนิน,adult
+Walking,เดิน,17190,3.8,"Walking, 2.8 to 3.4 mph, level, moderate pace, firm surface",การเดิน ความเร็ว 2.8 ถึง 3.4 ไมล์ต่อชั่วโมง พื้นราบ จังหวะปานกลาง พื้นผิวแข็ง,adult
+Walking,เดิน,17200,4.8,"Walking, 3.5 to 3.9 mph, level, brisk, firm surface, walking for exercise",การเดิน ความเร็ว 3.5 ถึง 3.9 ไมล์ต่อชั่วโมง บนพื้นราบ เดินเร็ว พื้นผิวแข็ง การเดินเพื่อออกกำลังกาย,adult
+Walking,เดิน,17220,5.5,"Walking, 4.0 to 4.4 mph (6.4 to 7.0 km/h), level, firm surface, very brisk pace",เดินด้วยความเร็ว 4.0 ถึง 4.4 ไมล์ต่อชั่วโมง (6.4 ถึง 7.0 กิโลเมตรต่อชั่วโมง) บนพื้นราบและแข็ง ด้วยจังหวะการเดินที่ค่อนข้างเร็ว,adult
+Walking,เดิน,17230,7,"Walking, 4.5 to 4.9 mph, level, firm surface, very, very brisk",เดินด้วยความเร็ว 4.5 ถึง 4.9 ไมล์ต่อชั่วโมง บนพื้นราบและแข็ง เดินเร็วมาก ๆ,adult
+Walking,เดิน,17231,8.5,"Walking, 5.0 to 5.5 mph (8.8 to 8.9 km/h), level, firm surface",การเดินด้วยความเร็ว 5.0 ถึง 5.5 ไมล์ต่อชั่วโมง (8.8 ถึง 8.9 กิโลเมตรต่อชั่วโมง) บนพื้นราบและแข็ง,adult
+Walking,เดิน,17250,3.5,"Walking, for pleasure, work break (Taylor Code xxx)",เดินเล่นเพื่อความเพลิดเพลิน พักเบรกจากการทำงาน (Taylor Code xxx),adult
+Walking,เดิน,17255,4,"Walking, self-selected speed, indoor track or outdoors, firm surface",การเดินด้วยความเร็วที่เลือกเอง บนลู่วิ่งในร่มหรือกลางแจ้ง พื้นผิวแข็ง,adult
+Walking,เดิน,17260,4.8,"Walking, grass track",ทางเดินบนพื้นหญ้า,adult
+Walking,เดิน,17262,4.5,"Walking, normal pace, plowed field or sand",การเดินด้วยความเร็วปกติ บนทุ่งนาที่ไถแล้วหรือพื้นทราย,adult
+Walking,เดิน,17270,4,"Walking, to work or class (Taylor Code 015)",การเดินไปทำงานหรือไปเรียน (รหัสเทย์เลอร์ 015),adult
+Walking,เดิน,17280,2.5,"Walking, to and from an outhouse",การเดินไปและกลับจากห้องน้ำนอกบ้าน,adult
+Walking,เดิน,17302,4.3,"Walking, for exercise, 2.5 to 3.5 mph (4.0 to 5.6 km/h), with ski poles, Nordic walking, level, moderate pace",การเดินเพื่อออกกำลังกาย ความเร็ว 2.5 ถึง 3.5 ไมล์ต่อชั่วโมง (4.0 ถึง 5.6 กิโลเมตรต่อชั่วโมง) โดยใช้ไม้สกี การเดินแบบนอร์ดิก บนพื้นราบ ความเร็วปานกลาง,adult
+Walking,เดิน,17304,5.3,"Walking, for exercise, 3.6 to 4.4 mph (5.8 to 7.1 km/h), with ski poles, Nordic walking, level, moderate pace",การเดินเพื่อออกกำลังกาย ความเร็ว 3.6 ถึง 4.4 ไมล์ต่อชั่วโมง (5.8 ถึง 7.1 กิโลเมตรต่อชั่วโมง) โดยใช้ไม้สกี การเดินแบบนอร์ดิก บนพื้นราบ ความเร็วปานกลาง,adult
+Walking,เดิน,17305,8.5,"Walking, for exercise, 4.5 to 5.0 mph, with ski poles, Nordic walking, level, fast pace",การเดินเพื่อออกกำลังกาย ความเร็ว 4.5 ถึง 5.0 ไมล์ต่อชั่วโมง โดยใช้ไม้สกี (การเดินแบบนอร์ดิก) บนพื้นราบ ด้วยความเร็วปานกลาง,adult
+Walking,เดิน,17310,8.8,"Walking, for exercise, with ski poles, Nordic walking, uphill, moderate pace",การเดินออกกำลังกายโดยใช้ไม้สกี (นอร์ดิกวอล์คกิ้ง) เดินขึ้นเนิน ด้วยความเร็วปานกลาง,adult
+Walking,เดิน,17313,10.8,"Walking, for exercise, with ski poles, Nordic walking, level ground, carrying 20 to 30 lb load (9.0 to 15.0 kg)",การเดินเพื่อออกกำลังกาย โดยใช้ไม้สกี (การเดินแบบนอร์ดิก) บนพื้นราบ และแบกสัมภาระหนัก 20-30 ปอนด์ (9.0-15.0 กิโลกรัม),adult
+Walking,เดิน,17315,12.3,"Walking, for exercise, with ski poles, Nordic walking, uphill, carrying 20 to 30 lb load (9.0 to 15.0 kg)",การเดินเพื่อออกกำลังกาย โดยใช้ไม้สกี (นอร์ดิกวอล์คกิ้ง) การเดินขึ้นเนิน โดยแบกสัมภาระหนัก 20-30 ปอนด์ (9.0-15.0 กิโลกรัม),adult
+Walking,เดิน,17320,6,"Walking, backward, 3.5 mph, level",เดินถอยหลังด้วยความเร็ว 3.5 ไมล์ต่อชั่วโมง บนพื้นราบ,adult
+Walking,เดิน,17325,7.8,"Walking, backward, 3.5 mph, uphill, 5% grade",เดินถอยหลังด้วยความเร็ว 3.5 ไมล์ต่อชั่วโมง ขึ้นเนิน ความชัน 5%,adult
+Walking,เดิน,17330,8,"Walking, Teabag walk, Monty Python Ministry of Silly Walks","การเดิน, การเดินแบบถุงชา, กระทรวงการเดินสุดเพี้ยนของมอนตี้ ไพธอน",adult
+Walking,เดิน,17332,3.5,"Walking, Putey walk, Monty Python Ministry of Silly Walks","การเดิน, การเดินแบบตลกๆ, กระทรวงการเดินสุดเพี้ยนของมอนตี้ ไพธอน",adult
+Walking,เดิน,17340,2.1,"Walking, treadmill, less than 1.0 mph, 0% grade",การเดินบนลู่วิ่งไฟฟ้า ความเร็วต่ำกว่า 1.0 ไมล์ต่อชั่วโมง ความลาดชัน 0%,adult
+Walking,เดิน,17343,2.3,"Walking, treadmill, 1.0 mph, 0% grade",การเดินบนลู่วิ่งไฟฟ้า ความเร็ว 1.0 ไมล์ต่อชั่วโมง ความลาดชัน 0%,adult
+Walking,เดิน,17346,2.8,"Walking, treadmill, 1.2 to 1.9 mph, 0% grade (1.9 to 3.0 km/h)",การเดินบนลู่วิ่งไฟฟ้า ความเร็ว 1.2 ถึง 1.9 ไมล์ต่อชั่วโมง ความลาดชัน 0% (1.9 ถึง 3.0 กิโลเมตรต่อชั่วโมง),adult
+Walking,เดิน,17349,3,"Walking, treadmill, 2.0 to 2.4 mph (3.2 to 3.9 km/h), 0% grade",การเดินบนลู่วิ่งไฟฟ้า ความเร็ว 2.0 ถึง 2.4 ไมล์ต่อชั่วโมง (3.2 ถึง 3.9 กิโลเมตรต่อชั่วโมง) ความลาดชัน 0%,adult
+Walking,เดิน,17352,3.5,"Walking, treadmill, 2.5 to 2.9 mph (4.0 to 4.7 km/h), 0% grade",การเดินบนลู่วิ่งไฟฟ้า ความเร็ว 2.5 ถึง 2.9 ไมล์ต่อชั่วโมง (4.0 ถึง 4.7 กิโลเมตรต่อชั่วโมง) ความลาดชัน 0%,adult
+Walking,เดิน,17355,3.8,"Walking, treadmill, 3.0 to 3.4 mph (4.8 to 5.5 km/h), 0% grade",การเดินบนลู่วิ่งไฟฟ้า ความเร็ว 3.0 ถึง 3.4 ไมล์ต่อชั่วโมง (4.8 ถึง 5.5 กิโลเมตรต่อชั่วโมง) ความลาดชัน 0%,adult
+Walking,เดิน,17358,4.8,"Walking, treadmill, 3.5 to 3.9 mph (5.6 to 6.3 km/h), 0% grade",การเดินบนลู่วิ่งไฟฟ้า ความเร็ว 3.5 ถึง 3.9 ไมล์ต่อชั่วโมง (5.6 ถึง 6.3 กิโลเมตรต่อชั่วโมง) ความลาดชัน 0%,adult
+Walking,เดิน,17361,5.8,"Walking, treadmill, 4.0 to 4.4 mph (6.4 to 7.1 km/h), 0% grade",การเดินบนลู่วิ่งไฟฟ้า ความเร็ว 4.0 ถึง 4.4 ไมล์ต่อชั่วโมง (6.4 ถึง 7.1 กิโลเมตรต่อชั่วโมง) ความลาดชัน 0%,adult
+Walking,เดิน,17364,6.8,"Walking, treadmill, 4.5 to 4.9 mph (7.2 to 7.9 km/h), 0% grade",การเดินบนลู่วิ่งไฟฟ้า ความเร็ว 4.5 ถึง 4.9 ไมล์ต่อชั่วโมง (7.2 ถึง 7.9 กิโลเมตรต่อชั่วโมง) ความลาดชัน 0%,adult
+Walking,เดิน,17367,8.3,"Walking, treadmill, 5.0 to 5.5 mph (8.0 to 8.9 km/h), 0% grade",การเดินบนลู่วิ่งไฟฟ้า ความเร็ว 5.0 ถึง 5.5 ไมล์ต่อชั่วโมง (8.0 ถึง 8.9 กิโลเมตรต่อชั่วโมง) ความลาดชัน 0%,adult
+Walking,เดิน,17382,3.3,"Walking, treadmill, downhill (-3% to -12% grade), 2.8 to 3.1 mph",การเดินบนลู่วิ่งไฟฟ้า ลงเนิน (ความชัน -3% ถึง -12%) ความเร็ว 2.8 ถึง 3.1 ไมล์ต่อชั่วโมง,adult
+Walking,เดิน,17412,3.3,"Walking, treadmill, downhill (-5% to -25% grade), 2.8 mph, with Nordic Poles",การเดินบนลู่วิ่งไฟฟ้าลงเนิน (ความชัน -5% ถึง -25%) ความเร็ว 2.8 ไมล์ต่อชั่วโมง โดยใช้ไม้เท้าแบบนอร์ดิก,adult
+Walking,เดิน,17434,4.8,"Walking, treadmill, 2.5 mph, 0% grade, 5 to 20 degrees C, 40 lb (18.2 kg) load",การเดินบนลู่วิ่งไฟฟ้า ความเร็ว 2.5 ไมล์ต่อชั่วโมง ความลาดชัน 0% อุณหภูมิ 5 ถึง 20 องศาเซลเซียส น้ำหนักบรรทุก 40 ปอนด์ (18.2 กิโลกรัม),adult
+Walking,เดิน,17438,5.8,"Walking, treadmill, 2.5 mph, 0% grade, -10 to 0 degrees C, 40 lb (18.2 kg) load",การเดินบนลู่วิ่งไฟฟ้า ความเร็ว 2.5 ไมล์ต่อชั่วโมง ความลาดชัน 0% อุณหภูมิ -10 ถึง 0 องศาเซลเซียส น้ำหนักบรรทุก 40 ปอนด์ (18.2 กิโลกรัม),adult
+Walking,เดิน,17455,8.3,"Walking, Curved treadmill, 3.0 to 5.0 mph, brisk pace",การเดินบนลู่วิ่งโค้ง ความเร็ว 3.0 ถึง 5.0 ไมล์ต่อชั่วโมง (ระดับปานกลาง),adult
+Walking,เดิน,17475,7.8,"Walking treadmill, backwards, 2.5 mph, +10% grade",เครื่องวิ่งไฟฟ้าแบบเดินถอยหลัง ความเร็ว 2.5 ไมล์ต่อชั่วโมง ความชัน +10%,adult
+Walking,เดิน,17492,1.5,"Walking, with a walker or step-to gait on treadmill, 0.7 mph (1.1 km/h), 0% grade",การเดินโดยใช้เครื่องช่วยเดินหรือการเดินบนลู่วิ่งไฟฟ้าด้วยความเร็ว 0.7 ไมล์ต่อชั่วโมง (1.1 กิโลเมตรต่อชั่วโมง) และความลาดชัน 0%,adult
+Water Activities,กิจกรรมทางน้ำ,18010,2.5,"Boating, power, driving",การพายเรือ พลังงาน การขับขี่,adult
+Water Activities,กิจกรรมทางน้ำ,18012,1.3,"Boating, power, passenger, light","การเดินเรือ, พลังงาน, ผู้โดยสาร, แสงสว่าง",adult
+Water Activities,กิจกรรมทางน้ำ,18020,4,"Canoeing, on camping trip (Taylor Code 270)",การพายเรือแคนูในทริปตั้งแคมป์ (รหัสเทย์เลอร์ 270),adult
+Water Activities,กิจกรรมทางน้ำ,18025,3.3,"Canoeing, harvesting wild rice, knocking rice off the stalks",พายเรือแคนู เก็บเกี่ยวข้าวป่า ปัดเมล็ดข้าวออกจากต้น,adult
+Water Activities,กิจกรรมทางน้ำ,18030,7,"Canoeing, portaging",การพายเรือแคนู การขนย้ายเรือข้ามฝั่ง,adult
+Water Activities,กิจกรรมทางน้ำ,18040,2.8,"Canoeing, rowing, 2.0-3.9 mph, light effort",พายเรือแคนู ความเร็ว 2.0-3.9 ไมล์ต่อชั่วโมง ใช้แรงน้อย,adult
+Water Activities,กิจกรรมทางน้ำ,18050,5.8,"Canoeing, rowing, 4.0-5.9 mph, moderate effort",พายเรือแคนู ความเร็ว 4.0-5.9 ไมล์ต่อชั่วโมง ใช้แรงปานกลาง,adult
+Water Activities,กิจกรรมทางน้ำ,18060,12.5,"Canoeing, rowing, kayaking, competition, > 6 mph, vigorous effort","การพายเรือแคนู, การพายเรือ, การพายเรือคายัค, การแข่งขัน, ความเร็วมากกว่า 6 ไมล์ต่อชั่วโมง, การออกแรงอย่างหนัก",adult
+Water Activities,กิจกรรมทางน้ำ,18070,3.5,"Canoeing, rowing, for pleasure, general (Taylor Code 250)",การพายเรือแคนู การพายเรือเพื่อความเพลิดเพลินทั่วไป (รหัสเทย์เลอร์ 250),adult
+Water Activities,กิจกรรมทางน้ำ,18080,12,"Canoeing or rowing, in competition, crew or sculling (Taylor Code 260)",การพายเรือแคนูหรือเรือพาย ในการแข่งขัน ประเภททีมหรือประเภทเดี่ยว (รหัสเทย์เลอร์ 260),adult
+Water Activities,กิจกรรมทางน้ำ,18090,3,"Diving, springboard or platform","การกระโดดน้ำ, สปริงบอร์ด หรือ แพลตฟอร์ม",adult
+Water Activities,กิจกรรมทางน้ำ,18100,5,"Kayaking, moderate effort","พายเรือคายัค, ระดับความพยายามปานกลาง",adult
+Water Activities,กิจกรรมทางน้ำ,18104,13.5,"Kayaking, competition","การพายเรือคายัค, การแข่งขัน",adult
+Water Activities,กิจกรรมทางน้ำ,18106,9,"Kayaking, slalom, flat water","พายเรือคายัค, สลาลอม, น้ำนิ่ง",adult
+Water Activities,กิจกรรมทางน้ำ,18110,4,Paddle boat,เรือพาย,adult
+Water Activities,กิจกรรมทางน้ำ,18112,15.5,"Rowing, simulated crew in a water tank, single oar, 33 strokes/min,",การพายเรือจำลองในแทงค์น้ำ ใช้ไม้พายเดี่ยว ความเร็ว 33 จังหวะ/นาที,adult
+Water Activities,กิจกรรมทางน้ำ,18114,15.5,"Rowing, single scull, ergometer, ergometer on slides, racing speed (32+ strokes/min, >10 mph)","การพายเรือ, เรือพายเดี่ยว, เครื่องวัดกำลังพายเรือ, เครื่องวัดกำลังพายเรือแบบเลื่อน, ความเร็วในการแข่งขัน (32 จังหวะขึ้นไป/นาที, >10 ไมล์ต่อชั่วโมง)",adult
+Water Activities,กิจกรรมทางน้ำ,18120,3,"Sailing, boat and board sailing, windsurfing, ice sailing, general (Taylor Code 235)","การแล่นเรือใบ, การแล่นเรือใบด้วยเรือและกระดาน, วินด์เซิร์ฟ, การแล่นเรือใบบนน้ำแข็ง, กิจกรรมทั่วไป (รหัสเทย์เลอร์ 235)",adult
+Water Activities,กิจกรรมทางน้ำ,18130,4.5,"Sailing, in competition, general",การแล่นเรือใบ ในการแข่งขัน ทั่วไป,adult
+Water Activities,กิจกรรมทางน้ำ,18132,9.3,"Sailing, in competition, high effort",การแล่นเรือใบ ในการแข่งขัน ต้องใช้ความพยายามสูง,adult
+Water Activities,กิจกรรมทางน้ำ,18140,3.3,"Sailing, Sunfish/Laser/Hobby Cat, Keel boats, ocean sailing, yachting, leisure","การแล่นเรือใบ, เรือซันฟิช/เลเซอร์/ฮอบบี้แคท, เรือใบท้องแบน, การแล่นเรือในมหาสมุทร, การเล่นยอชต์, การพักผ่อนหย่อนใจ",adult
+Water Activities,กิจกรรมทางน้ำ,18142,2,"Sailing, dingy","การแล่นเรือใบ, เรือเล็ก",adult
+Water Activities,กิจกรรมทางน้ำ,18150,6,"Skiing, water or wake boarding (Taylor Code 220)",การเล่นสกีน้ำหรือเวคบอร์ด (รหัสเทย์เลอร์ 220),adult
+Water Activities,กิจกรรมทางน้ำ,18160,7,"Jet skiing, driving, in water",การเล่นเจ็ตสกี การขับรถ ในน้ำ,adult
+Water Activities,กิจกรรมทางน้ำ,18180,15.8,"Skindiving, fast",ดำน้ำตื้นอย่างรวดเร็ว,adult
+Water Activities,กิจกรรมทางน้ำ,18190,11.8,"Skindiving, moderate",ดำน้ำตื้น ระดับปานกลาง,adult
+Water Activities,กิจกรรมทางน้ำ,18200,7,"Skindiving, scuba diving, general (Taylor Code 310)","การดำน้ำตื้น, การดำน้ำลึก, ทั่วไป (รหัสเทย์เลอร์ 310)",adult
+Water Activities,กิจกรรมทางน้ำ,18202,5.3,"Scuba diving, general, light effort","การดำน้ำลึกทั่วไป, ระดับความยากง่ายเบา",adult
+Water Activities,กิจกรรมทางน้ำ,18204,5.8,"Scuba diving, general, moderate effort",การดำน้ำลึกทั่วไป ระดับความพยายามปานกลาง,adult
+Water Activities,กิจกรรมทางน้ำ,18206,5.5,"Scuba diving, professional diver",การดำน้ำลึก นักดำน้ำมืออาชีพ,adult
+Water Activities,กิจกรรมทางน้ำ,18208,6.8,"Scuba diving, recreational diver","การดำน้ำลึก, นักดำน้ำเพื่อการพักผ่อน",adult
+Water Activities,กิจกรรมทางน้ำ,18210,5,Snorkeling (Taylor Code 320),การดำน้ำตื้น (รหัสเทย์เลอร์ 320),adult
+Water Activities,กิจกรรมทางน้ำ,18220,3,"Surfing, body or board, general",การเล่นกระดานโต้คลื่น ไม่ว่าจะเป็นแบบใช้ร่างกายหรือแบบใช้บอร์ด,adult
+Water Activities,กิจกรรมทางน้ำ,18221,6.8,"Surfboard, paddling","กระดานโต้คลื่น, การพายเรือ",adult
+Water Activities,กิจกรรมทางน้ำ,18222,5,"Surfing, body or board, competitive",การเล่นเซิร์ฟ ไม่ว่าจะเป็นแบบใช้ร่างกายหรือใช้กระดาน ในการแข่งขัน,adult
+Water Activities,กิจกรรมทางน้ำ,18224,6.5,"Stand up paddle boarding, general",การเล่นกระดานโต้คลื่นแบบยืน (Stand up paddle boarding) ทั่วไป,adult
+Water Activities,กิจกรรมทางน้ำ,18225,2.8,"Stand up Paddleboard, standing, 10-19 strokes/min",พายเรือยืน (Stand up Paddleboard) ความเร็ว 10-19 จังหวะ/นาที,adult
+Water Activities,กิจกรรมทางน้ำ,18226,3.8,"Stand up Paddleboard, standing, 20-29 strokes/min",พายเรือยืน (Stand up Paddleboard) ความเร็ว 20-29 จังหวะ/นาที,adult
+Water Activities,กิจกรรมทางน้ำ,18227,5,"Stand up Paddleboard, standing, 30-39 strokes/min",พายเรือยืน (Stand up Paddleboard) ความเร็ว 30-39 จังหวะ/นาที,adult
+Water Activities,กิจกรรมทางน้ำ,18228,9.8,"Stand up Paddleboard, standing, 40-49 strokes/min",พายเรือยืน (Stand up Paddleboard) ความเร็ว 40-49 จังหวะ/นาที,adult
+Water Activities,กิจกรรมทางน้ำ,18229,11,"Stand up Paddleboard, standing, 50-69 strokes/min",พายเรือยืน (Stand up Paddleboard) ความเร็ว 50-69 จังหวะ/นาที,adult
+Water Activities,กิจกรรมทางน้ำ,18230,9.8,"Swimming laps, freestyle, fast, vigorous effort",ว่ายน้ำท่าฟรีสไตล์ เร็ว และออกแรงอย่างเต็มที่,adult
+Water Activities,กิจกรรมทางน้ำ,18240,5.8,"Swimming laps, freestyle, slow, recreational",ว่ายน้ำวนเป็นรอบๆ แบบฟรีสไตล์ ช้าๆ เพื่อการพักผ่อน,adult
+Water Activities,กิจกรรมทางน้ำ,18250,9.5,"Swimming, backstroke, training or competition",ว่ายน้ำ ท่ากบ การฝึกซ้อมหรือการแข่งขัน,adult
+Water Activities,กิจกรรมทางน้ำ,18255,4.8,"Swimming, backstroke, recreational",ว่ายน้ำ ท่ากบ เพื่อการพักผ่อนหย่อนใจ,adult
+Water Activities,กิจกรรมทางน้ำ,18260,10.3,"Swimming, breaststroke, general, training or  competition",ว่ายน้ำท่ากบ ทั่วไป ฝึกซ้อม หรือแข่งขัน,adult
+Water Activities,กิจกรรมทางน้ำ,18265,5.3,"Swimming breaststroke, recreational",ว่ายน้ำท่ากบ (เพื่อการพักผ่อนหย่อนใจ),adult
+Water Activities,กิจกรรมทางน้ำ,18270,13.8,"Swimming, butterfly, general",ว่ายน้ำ ท่าผีเสื้อ ทั่วไป,adult
+Water Activities,กิจกรรมทางน้ำ,18280,10.5,"Swimming, crawl, fast speed, ~75 yards/minute,  vigorous effort",ว่ายน้ำท่าฟรีสไตล์ ความเร็วสูง ประมาณ 75 หลาต่อนาที ออกแรงอย่างเต็มที่,adult
+Water Activities,กิจกรรมทางน้ำ,18285,10.5,"Swimming, open water, 5k",ว่ายน้ำในที่โล่ง ระยะ 5 กิโลเมตร,adult
+Water Activities,กิจกรรมทางน้ำ,18290,8,"Swimming, crawl, medium speed, ~50 yards/minute, vigorous effort",ว่ายน้ำท่าฟรีสไตล์ ความเร็วปานกลาง ประมาณ 50 หลาต่อนาที ออกแรงเต็มที่,adult
+Water Activities,กิจกรรมทางน้ำ,18292,5.8,"Swimming, crawl, slow speed, 30-45 yards/minute, moderate effort",ว่ายน้ำท่าฟรีสไตล์ ความเร็วช้า 30-45 หลาต่อนาที ออกแรงปานกลาง,adult
+Water Activities,กิจกรรมทางน้ำ,18294,14.5,"Swimming, crawl, elite swimmers, competition, >90 yards/minute",ว่ายน้ำท่าฟรีสไตล์ นักว่ายน้ำชั้นนำ การแข่งขัน ความเร็วมากกว่า 90 หลาต่อนาที,adult
+Water Activities,กิจกรรมทางน้ำ,18300,6,"Swimming, lake, ocean, river (Taylor Codes 280,  295)","การว่ายน้ำในทะเลสาบ มหาสมุทร และแม่น้ำ (รหัสเทย์เลอร์ 280, 295)",adult
+Water Activities,กิจกรรมทางน้ำ,18310,6,"Swimming, leisurely, not lap swimming, general",ว่ายน้ำแบบสบายๆ ไม่ใช่ว่ายน้ำเป็นรอบๆ ทั่วไป,adult
+Water Activities,กิจกรรมทางน้ำ,18320,7,"Swimming, sidestroke, general",ว่ายน้ำ ท่าว่ายข้าง ทั่วไป,adult
+Water Activities,กิจกรรมทางน้ำ,18330,8,"Swimming, synchronized",ว่ายน้ำประสานท่า,adult
+Water Activities,กิจกรรมทางน้ำ,18340,9.8,"Swimming, treading water, fast, vigorous effort",การว่ายน้ำ การลอยตัวในน้ำ การออกแรงอย่างรวดเร็วและหนักหน่วง,adult
+Water Activities,กิจกรรมทางน้ำ,18350,3.5,"Swimming, treading water, moderate effort,  general","ว่ายน้ำ, ลอยตัวในน้ำ, ออกแรงปานกลาง, ทั่วไป",adult
+Water Activities,กิจกรรมทางน้ำ,18352,2.3,"Tubing, floating on a river, general","ล่องห่วงยาง, ล่องแม่น้ำ, ทั่วไป",adult
+Water Activities,กิจกรรมทางน้ำ,18355,5.5,"Water aerobics, water calisthenics, general","แอโรบิกในน้ำ, กายบริหารในน้ำ, ทั่วไป",adult
+Water Activities,กิจกรรมทางน้ำ,18356,3.8,"Water aerobics, resistance exercises","แอโรบิกในน้ำ, การออกกำลังกายแบบต้านทาน",adult
+Water Activities,กิจกรรมทางน้ำ,18358,7.5,"Water aerobics, high intensity",แอโรบิกในน้ำ ความเข้มข้นสูง,adult
+Water Activities,กิจกรรมทางน้ำ,18360,10,Water polo,โปโลน้ำ,adult
+Water Activities,กิจกรรมทางน้ำ,18365,3,Water volleyball,วอลเลย์บอลน้ำ,adult
+Water Activities,กิจกรรมทางน้ำ,18366,9.8,"Water jogging, vigorous effort",การวิ่งในน้ำ การออกแรงอย่างหนัก,adult
+Water Activities,กิจกรรมทางน้ำ,18367,2.5,"Water walking, light effort, slow pace",การเดินบนน้ำ ออกแรงเล็กน้อย ก้าวช้าๆ,adult
+Water Activities,กิจกรรมทางน้ำ,18368,4.8,"Water walking, moderate effort, moderate pace",การเดินบนน้ำ ระดับความพยายามปานกลาง ความเร็วปานกลาง,adult
+Water Activities,กิจกรรมทางน้ำ,18369,6.8,"Water walking, vigorous effort, brisk pace",การเดินบนน้ำ การออกแรงอย่างหนัก การเดินอย่างรวดเร็ว,adult
+Water Activities,กิจกรรมทางน้ำ,18370,5,"Whitewater rafting, kayaking, or canoeing","การล่องแก่ง, การพายเรือคายัค หรือการพายเรือแคนู",adult
+Water Activities,กิจกรรมทางน้ำ,18374,6.5,"Water running, 30 steps/min, slow",น้ำไหลต่อเนื่อง 30 ขั้น/นาที ช้าๆ,adult
+Water Activities,กิจกรรมทางน้ำ,18375,7.5,"Water running, 40 steps/min, moderate",น้ำไหลต่อเนื่อง 40 ขั้น/นาที ระดับปานกลาง,adult
+Water Activities,กิจกรรมทางน้ำ,18376,8.5,"Water running, 50 steps/min, fast",น้ำไหลแรง 50 ขั้น/นาที เร็ว,adult
+Water Activities,กิจกรรมทางน้ำ,18377,9.8,"Water running, 60 steps/min, very fast",น้ำไหลแรง 60 ขั้นต่อนาที เร็วมาก,adult
+Water Activities,กิจกรรมทางน้ำ,18380,5,"Windsurfing, not pumping for speed",วินด์เซิร์ฟ ไม่ใช่การสูบลมเพื่อเพิ่มความเร็ว,adult
+Water Activities,กิจกรรมทางน้ำ,18385,11,"Windsurfing or kitesurfing, crossing trial",การเล่นวินด์เซิร์ฟหรือไคท์เซิร์ฟข้ามเส้นทาง,adult
+Water Activities,กิจกรรมทางน้ำ,18390,14,"Windsurfing, competition, pumping for speed","วินด์เซิร์ฟ, การแข่งขัน, การสูบลมเพื่อเพิ่มความเร็ว",adult
+Water Activities,กิจกรรมทางน้ำ,18404,2.8,"Aquatic cycling, 25 W, 40-50 RPM",การปั่นจักรยานในน้ำ 25 วัตต์ 40-50 รอบต่อนาที,adult
+Water Activities,กิจกรรมทางน้ำ,18408,4.8,"Aquatic cycling, 25 W, 60-70 RPM",การปั่นจักรยานในน้ำ 25 วัตต์ 60-70 รอบต่อนาที,adult
+Water Activities,กิจกรรมทางน้ำ,18412,3.8,"Aquatic cycling, 50 W, 40-50 RPM",การปั่นจักรยานในน้ำ 50 วัตต์ 40-50 รอบต่อนาที,adult
+Water Activities,กิจกรรมทางน้ำ,18416,6,"Aquatic cycling,  50 W, 60-70 RPM",การปั่นจักรยานในน้ำ 50 วัตต์ 60-70 รอบต่อนาที,adult
+Water Activities,กิจกรรมทางน้ำ,18420,5,"Aquatic cycling, 75 W, 40-50 RPM",การปั่นจักรยานในน้ำ 75 วัตต์ 40-50 รอบต่อนาที,adult
+Water Activities,กิจกรรมทางน้ำ,18424,6.3,"Aquatic cycling, 75 W, 60-70 RPM",การปั่นจักรยานในน้ำ 75 วัตต์ 60-70 รอบต่อนาที,adult
+Water Activities,กิจกรรมทางน้ำ,18428,6.3,"Aquatic cycling, 100 W, 40-50 RPM",การปั่นจักรยานในน้ำ 100 วัตต์ 40-50 รอบต่อนาที,adult
+Water Activities,กิจกรรมทางน้ำ,18432,7.5,"Aquatic cycling, 100 W, 60-70 RPM",การปั่นจักรยานในน้ำ 100 วัตต์ 60-70 รอบต่อนาที,adult
+Water Activities,กิจกรรมทางน้ำ,18436,8.5,"Aquatic cycling, 80-89 RPM","การปั่นจักรยานในน้ำ, 80-89 รอบต่อนาที",adult
+Water Activities,กิจกรรมทางน้ำ,18440,10.3,"Aquatic cycling, 90+ RPM",การปั่นจักรยานในน้ำ ความเร็ว 90+ รอบต่อนาที,adult
+Winter Activities,กิจกรรมฤดูหนาว,19005,7.5,"Dog sledding, mushing","การลากเลื่อนด้วยสุนัข, การขับสุนัขลากเลื่อน",adult
+Winter Activities,กิจกรรมฤดูหนาว,19006,2.5,"Dog sledding, passenger","การนั่งรถเลื่อนสุนัข, ผู้โดยสาร",adult
+Winter Activities,กิจกรรมฤดูหนาว,19010,6,"Moving icehouse, set up/drill holes",การเคลื่อนย้ายโรงเก็บน้ำแข็ง การติดตั้ง/เจาะรู,adult
+Winter Activities,กิจกรรมฤดูหนาว,19011,2,Ice fishing,ตกปลาบนน้ำแข็ง,adult
+Winter Activities,กิจกรรมฤดูหนาว,19018,14,"Skating, ice dancing","สเก็ตน้ำแข็ง, การเต้นรำบนน้ำแข็ง",adult
+Winter Activities,กิจกรรมฤดูหนาว,19020,5.5,"Skating, ice, 9 mph or less",การเล่นสเก็ตน้ำแข็ง ความเร็ว 9 ไมล์ต่อชั่วโมงหรือน้อยกว่า,adult
+Winter Activities,กิจกรรมฤดูหนาว,19030,7,"Skating, ice, general (Taylor Code 360)",การเล่นสเก็ตน้ำแข็งทั่วไป (รหัสเทย์เลอร์ 360),adult
+Winter Activities,กิจกรรมฤดูหนาว,19040,9,"Skating, ice, rapidly, more than 9 mph but not competitive",การเล่นสเก็ตน้ำแข็งด้วยความเร็วสูงกว่า 9 ไมล์ต่อชั่วโมง แต่ไม่ใช่การแข่งขัน,adult
+Winter Activities,กิจกรรมฤดูหนาว,19045,9,"Skating Treadmill, 6 - 6.9 mph, 2% grade",ลู่วิ่งสเก็ต ความเร็ว 6 - 6.9 ไมล์ต่อชั่วโมง ความลาดชัน 2%,adult
+Winter Activities,กิจกรรมฤดูหนาว,19046,10,"Skating Treadmill, 7 - 7.9 mph, 2% grade",ลู่วิ่งสเก็ต ความเร็ว 7 - 7.9 ไมล์ต่อชั่วโมง ความลาดชัน 2%,adult
+Winter Activities,กิจกรรมฤดูหนาว,19047,10.5,"Skating Treadmill, 8 - 8.9 mph, 2% grade",ลู่วิ่งสเก็ต ความเร็ว 8 - 8.9 ไมล์ต่อชั่วโมง ความลาดชัน 2%,adult
+Winter Activities,กิจกรรมฤดูหนาว,19048,11,"Skating Treadmill, 9 - 9.9 mph, 2% grade",ลู่วิ่งสเก็ต ความเร็ว 9 - 9.9 ไมล์ต่อชั่วโมง ความลาดชัน 2%,adult
+Winter Activities,กิจกรรมฤดูหนาว,19050,13.8,"Skating, speed, competitive","สเก็ต, ความเร็ว, การแข่งขัน",adult
+Winter Activities,กิจกรรมฤดูหนาว,19060,7,"Ski jumping, climb up carrying skis",การกระโดดสกี ปีนขึ้นไปโดยแบกสกี,adult
+Winter Activities,กิจกรรมฤดูหนาว,19075,7,"Skiing, general",การเล่นสกีทั่วไป,adult
+Winter Activities,กิจกรรมฤดูหนาว,19080,6.8,"Skiing, cross country, 2.5 mph, slow or light effort, ski walking",การเล่นสกีครอสคันทรี ความเร็ว 2.5 ไมล์ต่อชั่วโมง ใช้แรงน้อยหรือช้า การเดินสกี,adult
+Winter Activities,กิจกรรมฤดูหนาว,19090,8.5,"Skiing, cross country, 4.0-4.9 mph, moderate speed and effort, general",การเล่นสกีครอสคันทรี ความเร็ว 4.0-4.9 ไมล์ต่อชั่วโมง ระดับความเร็วและความพยายามปานกลาง ทั่วไป,adult
+Winter Activities,กิจกรรมฤดูหนาว,19100,11.3,"Skiing, cross country, 5.0-7.9 mph, brisk speed, vigorous effort",สกีครอสคันทรี ความเร็ว 5.0-7.9 ไมล์ต่อชั่วโมง ความเร็วสูง ออกแรงเต็มที่,adult
+Winter Activities,กิจกรรมฤดูหนาว,19110,14,"Skiing, cross country, elite skier, >8.0-11.9 mph, racing",สกีครอสคันทรี นักสกีระดับสูง ความเร็ว 8.0-11.9 ไมล์ต่อชั่วโมง การแข่งขัน,adult
+Winter Activities,กิจกรรมฤดูหนาว,19112,16,"Skiing, cross country, 12-16 mph, elite skier, racing",สกีครอสคันทรี ความเร็ว 12-16 ไมล์ต่อชั่วโมง นักสกีระดับสูง การแข่งขัน,adult
+Winter Activities,กิจกรรมฤดูหนาว,19115,9.5,"Skiing, cross-country skiing high-intensity training","การเล่นสกี, การฝึกซ้อมสกีครอสคันทรีที่มีความเข้มข้นสูง",adult
+Winter Activities,กิจกรรมฤดูหนาว,19130,15.5,"Skiing, cross country, hard snow, uphill, maximum, snow mountaineering","การเล่นสกี, สกีครอสคันทรี, หิมะแข็ง, ขึ้นเขา, สูงสุด, การปีนเขาบนหิมะ",adult
+Winter Activities,กิจกรรมฤดูหนาว,19135,13.3,"Skiing, cross-country, skating","สกี, สกีครอสคันทรี, สเก็ต",adult
+Winter Activities,กิจกรรมฤดูหนาว,19140,13.5,"Skiing, cross-country, biathlon, skating technique","สกี, สกีครอสคันทรี, ไบแอธลอน, เทคนิคการเล่นสเก็ต",adult
+Winter Activities,กิจกรรมฤดูหนาว,19142,12.8,"Biathlon training, 5 degree incline, 8 km/h (5 mph), with/without rifle",การฝึกซ้อมไบแอธลอน บนทางลาด 5 องศา ความเร็ว 8 กม./ชม. (5 ไมล์ต่อชั่วโมง) โดยใช้หรือไม่ใช้ปืนไรเฟิล,adult
+Winter Activities,กิจกรรมฤดูหนาว,19144,12.8,"Biathlon training, 5 degree incline, 10.7 km/h (5 mph), with/without rifle",การฝึกซ้อมไบแอธลอน บนทางลาด 5 องศา ความเร็ว 10.7 กม./ชม. (5 ไมล์ต่อชั่วโมง) โดยมี/ไม่มีปืนไรเฟิล,adult
+Winter Activities,กิจกรรมฤดูหนาว,19146,9.3,"Skiing, slalom","สกี, สลาลอม",adult
+Winter Activities,กิจกรรมฤดูหนาว,19150,4.3,"Skiing, downhill, alpine or snowboarding, light effort, active time only",การเล่นสกี ไม่ว่าจะเป็นสกีลงเขา สกีลงเขา หรือสโนว์บอร์ด ใช้แรงเบาๆ ใช้เวลาทำกิจกรรมเท่านั้น,adult
+Winter Activities,กิจกรรมฤดูหนาว,19160,6.3,"Skiing, downhill, alpine or snowboarding, moderate effort, general, active time only",การเล่นสกี ไม่ว่าจะเป็นสกีลงเขา สกีลงเขา หรือสโนว์บอร์ด เป็นกิจกรรมระดับปานกลาง ทั่วไป ใช้เวลาทำกิจกรรมเท่านั้น,adult
+Winter Activities,กิจกรรมฤดูหนาว,19170,8,"Skiing, downhill, alpine or snowboarding, vigorous effort, active time only",การเล่นสกี ไม่ว่าจะเป็นสกีลงเขา สกีลงเขา หรือสโนว์บอร์ด เป็นกิจกรรมที่ต้องใช้แรงมาก และใช้เวลาทำกิจกรรมเท่านั้น,adult
+Winter Activities,กิจกรรมฤดูหนาว,19174,7.3,"Skiing, Alpine skiing high-intensity training","การเล่นสกี, การฝึกซ้อมสกีลงเขาแบบเข้มข้นสูง",adult
+Winter Activities,กิจกรรมฤดูหนาว,19180,7,"Sledding, tobogganing, bobsledding, luge (Taylor Code 370)","การเล่นเลื่อนหิมะ, การเล่นเลื่อนลงเนิน, การเล่นบอบสเลด, การเล่นลูจ (รหัสเทย์เลอร์ 370)",adult
+Winter Activities,กิจกรรมฤดูหนาว,19190,5.3,"Snow shoeing, moderate effort",การเดินบนหิมะด้วยรองเท้าหิมะ ระดับความยากปานกลาง,adult
+Winter Activities,กิจกรรมฤดูหนาว,19192,10,"Snow shoeing, vigorous effort",การเดินบนหิมะด้วยรองเท้าลุยหิมะ ต้องใช้ความพยายามอย่างมาก,adult
+Winter Activities,กิจกรรมฤดูหนาว,19200,3.8,"Snowmobiling, driving, moderate pace, flat land","การขับขี่รถสโนว์โมบิล, การขับรถ, ความเร็วปานกลาง, พื้นที่ราบ",adult
+Winter Activities,กิจกรรมฤดูหนาว,19201,7.5,"Snowboarding, recreational, moderate pace, mountain","สโนว์บอร์ด, สันทนาการ, ความเร็วปานกลาง, ภูเขา",adult
+Winter Activities,กิจกรรมฤดูหนาว,19202,2,"Snowmobiling, passenger, light",การขับขี่รถสโนว์โมบิลโดยสาร (เบา),adult
+Winter Activities,กิจกรรมฤดูหนาว,19252,5.3,"Snow shoveling, by hand, moderate effort",การโกยหิมะด้วยมือ ใช้แรงปานกลาง,adult
+Winter Activities,กิจกรรมฤดูหนาว,19254,7.5,"Snow shoveling, by hand, vigorous effort",การโกยหิมะด้วยมือ ต้องใช้แรงอย่างมาก,adult
+Winter Activities,กิจกรรมฤดูหนาว,19260,2.5,"Snow blower, walking and pushing",เครื่องเป่าหิมะ การเดินและการผลัก,adult
+Winter Activities,กิจกรรมฤดูหนาว,19300,12.5,"Skiing, roller, elite racers","สกี, โรลเลอร์เบลด, นักแข่งระดับแนวหน้า",adult
+Winter Activities,กิจกรรมฤดูหนาว,19305,5.5,"Rollerskiing, 10 - 12.9 km/h, no incline",โรลเลอร์สกี ความเร็ว 10 - 12.9 กม./ชม. ไม่มีทางลาดชัน,adult
+Winter Activities,กิจกรรมฤดูหนาว,19310,6.8,"Rollerskiing, 13 - 16.9 km/h, no incline",โรลเลอร์สกี ความเร็ว 13 - 16.9 กม./ชม. ไม่มีทางลาดชัน,adult
+Winter Activities,กิจกรรมฤดูหนาว,19315,8.3,"Rollerskiing, 17 - 19.9 km/h, no incline",โรลเลอร์สกี ความเร็ว 17 - 19.9 กม./ชม. ไม่มีทางลาดชัน,adult
+Winter Activities,กิจกรรมฤดูหนาว,19320,10.5,"Rollerskiing, 20 - 23.9 km/h, no incline",โรลเลอร์สกี ความเร็ว 20 - 23.9 กม./ชม. ไม่มีทางลาดชัน,adult
+Winter Activities,กิจกรรมฤดูหนาว,19325,15,"Rollerskiing, 24 - 27.9 km/h, no incline",โรลเลอร์สกี ความเร็ว 24 - 27.9 กม./ชม. ไม่มีทางลาดชัน,adult
+Winter Activities,กิจกรรมฤดูหนาว,19330,12.5,"Rollerskiing, 10-15 km/h, 2-5 degree incline",โรลเลอร์สกี ความเร็ว 10-15 กม./ชม. ความลาดชัน 2-5 องศา,adult
+Winter Activities,กิจกรรมฤดูหนาว,19335,14.3,"Rollerskiing, 16-22 km/h, 2-5 degree incline",โรลเลอร์สกี ความเร็ว 16-22 กม./ชม. ความลาดชัน 2-5 องศา,adult
+Winter Activities,กิจกรรมฤดูหนาว,19340,12.3,"Rollerskiing, 6-9 km/h, 6-10 degree incline",โรลเลอร์สกี ความเร็ว 6-9 กม./ชม. ความลาดชัน 6-10 องศา,adult
+Winter Activities,กิจกรรมฤดูหนาว,19345,16,"Rollerskiing, >10 km/h, 6-10 degree incline",โรลเลอร์สกี ความเร็วมากกว่า 10 กม./ชม. ความลาดชัน 6-10 องศา,adult
+Winter Activities,กิจกรรมฤดูหนาว,19400,9,"Mountaineering, downhill climbing, walking down with rope","การปีนเขา, การไต่เขา, การเดินลงเขาโดยใช้เชือก",adult
+Winter Activities,กิจกรรมฤดูหนาว,19405,10.3,"Mountaineering, downhill climbing/cross-country skiing","การปีนเขา, การเล่นสกีลงเขา/สกีครอสคันทรี",adult
+Religious Activities,กิจกรรมทางศาสนา,20000,1,"Sitting in church, in service, attending a ceremony, sitting quietly",นั่งอยู่ในโบสถ์ ระหว่างทำพิธี เข้าร่วมงานเฉลิมพิธี นั่งอย่างเงียบๆ,adult
+Religious Activities,กิจกรรมทางศาสนา,20001,2,"Sitting, playing an instrument at church",นั่งเล่นเครื่องดนตรีในโบสถ์,adult
+Religious Activities,กิจกรรมทางศาสนา,20005,1.8,"Sitting in church, talking or singing, attending a ceremony, sitting, active participation",การนั่งอยู่ในโบสถ์ การพูดคุยหรือร้องเพลง การเข้าร่วมพิธี การนั่ง การมีส่วนร่วมอย่างแข็งขัน,adult
+Religious Activities,กิจกรรมทางศาสนา,20010,1.5,"Sitting, reading religious materials at home",นั่งอ่านเอกสารทางศาสนาอยู่ที่บ้าน,adult
+Religious Activities,กิจกรรมทางศาสนา,20015,1.3,"Standing quietly in church, attending a ceremony",ยืนนิ่งๆ ในโบสถ์ เข้าร่วมพิธี,adult
+Religious Activities,กิจกรรมทางศาสนา,20020,2,"Standing, singing in church, attending a ceremony, standing, active participation",การยืน การร้องเพลงในโบสถ์ การเข้าร่วมพิธี การยืน การมีส่วนร่วมอย่างแข็งขัน,adult
+Religious Activities,กิจกรรมทางศาสนา,20025,1.3,"Kneeling in church or at home, praying",คุกเข่าในโบสถ์หรือที่บ้านเพื่ออธิษฐาน,adult
+Religious Activities,กิจกรรมทางศาสนา,20030,1.3,"Standing, talking in church",ยืนพูดคุยกันในโบสถ์,adult
+Religious Activities,กิจกรรมทางศาสนา,20035,2,Walking in church,เดินในโบสถ์,adult
+Religious Activities,กิจกรรมทางศาสนา,20036,2,"Walking, less than 2.0 mph, very slow",เดินด้วยความเร็วต่ำกว่า 2 ไมล์ต่อชั่วโมง ช้ามาก,adult
+Religious Activities,กิจกรรมทางศาสนา,20037,3.8,"Walking, 2.8 to 3.4 mph, moderate speed, not carrying anything",เดินด้วยความเร็วปานกลาง 2.8 ถึง 3.4 ไมล์ต่อชั่วโมง ไม่ได้ถือสิ่งของใดๆ,adult
+Religious Activities,กิจกรรมทางศาสนา,20038,4.8,"Walking, 3.5 to 3.9 mph, brisk speed, not carrying anything",เดินด้วยความเร็ว 3.5 ถึง 3.9 ไมล์ต่อชั่วโมง (ค่อนข้างเร็ว) และไม่ได้ถือสิ่งของใดๆ,adult
+Religious Activities,กิจกรรมทางศาสนา,20039,2,"Walk/stand combination for religious purposes, usher","การเดิน/ยืนสลับกันเพื่อจุดประสงค์ทางศาสนา, ผู้ช่วยจัดงาน",adult
+Religious Activities,กิจกรรมทางศาสนา,20040,5,"Praise with dance or run, spiritual dancing in church",การสรรเสริญด้วยการเต้นรำหรือวิ่ง การเต้นรำทางจิตวิญญาณในโบสถ์,adult
+Religious Activities,กิจกรรมทางศาสนา,20045,2.3,Serving food at church,การแจกอาหารที่โบสถ์,adult
+Religious Activities,กิจกรรมทางศาสนา,20046,2,Preparing food at church,การเตรียมอาหารที่โบสถ์,adult
+Religious Activities,กิจกรรมทางศาสนา,20047,3.3,"Washing dishes, cleaning kitchen at church",ล้างจาน ทำความสะอาดครัวที่โบสถ์,adult
+Religious Activities,กิจกรรมทางศาสนา,20050,1.5,Eating at church,การรับประทานอาหารที่โบสถ์,adult
+Religious Activities,กิจกรรมทางศาสนา,20055,2,"Eating/talking at church or standing eating, American Indian Feast days",การรับประทานอาหาร/พูดคุยในโบสถ์ หรือการยืนรับประทานอาหาร ในวันเทศกาลของชนพื้นเมืองอเมริกัน,adult
+Religious Activities,กิจกรรมทางศาสนา,20060,3.3,Cleaning church,การทำความสะอาดโบสถ์,adult
+Religious Activities,กิจกรรมทางศาสนา,20061,4,General yard work at church,งานดูแลสวนทั่วไปของโบสถ์,adult
+Religious Activities,กิจกรรมทางศาสนา,20065,3.8,"Standing , moderate effort (e.g., lifting heavy objects, assembling at fast rate)",ยืนทำงาน ใช้แรงปานกลาง (เช่น ยกของหนัก ประกอบชิ้นส่วนด้วยความเร็วสูง),adult
+Religious Activities,กิจกรรมทางศาสนา,20095,4.5,"Standing, moderate-to-heavy effort, manual labor, lifting ≥ 50 lbs, heavy maintenance",การยืน การออกแรงปานกลางถึงหนัก งานใช้แรงงาน การยกของหนัก ≥ 50 ปอนด์ งานบำรุงรักษาหนัก,adult
+Religious Activities,กิจกรรมทางศาสนา,20100,1.3,"Typing, electric, manual, or computer","การพิมพ์, ไฟฟ้า, ด้วยมือ หรือคอมพิวเตอร์",adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21000,1.3,"Sitting, meeting, general, and/or with talking involved",การนั่ง การประชุม ทั่วไป และ/หรือเกี่ยวข้องกับการพูดคุย,adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21005,1.5,"Sitting, light office work, in general",โดยทั่วไปแล้ว เหมาะสำหรับการนั่งทำงานเบาๆ ในสำนักงาน,adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21010,2.5,"Sitting, moderate work",นั่งทำงานปานกลาง,adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21015,1.8,"Standing, light work (filing, talking, assembling)",งานที่ต้องยืนตลอดเวลา งานเบา (เช่น การจัดเก็บเอกสาร การพูดคุย การประกอบชิ้นส่วน),adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21016,2,"Sitting, child care, only active periods",นั่งดูแลเด็ก เฉพาะช่วงเวลาที่มีกิจกรรมเท่านั้น,adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21017,3.5,"Standing, child care, only active periods",การยืน การดูแลเด็ก เฉพาะช่วงเวลาที่มีกิจกรรม,adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21018,3.5,"Walk/run play with children, moderate, only active periods",เดินเล่น/วิ่งเล่นกับเด็กๆ ในระดับปานกลาง เฉพาะช่วงเวลาที่ออกกำลังกายเท่านั้น,adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21019,5.8,"Walk/run play with children, vigorous, only active periods",เดินเล่น/วิ่งเล่นกับเด็กๆ ออกกำลังกายอย่างกระฉับกระเฉง เฉพาะช่วงเวลาที่ออกกำลังกายเท่านั้น,adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21020,3.3,"Standing, light/moderate work (e.g., pack boxes, assemble/repair, set up chairs/furniture)",งานที่ต้องยืนตลอดเวลา เป็นงานเบาถึงปานกลาง (เช่น บรรจุกล่อง ประกอบ/ซ่อมแซม จัดวางเก้าอี้/เฟอร์นิเจอร์),adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21025,3.5,"Standing, moderate (e.g., lifting 50 lbs., assembling at fast rate)",ยืนทำงานในระดับปานกลาง (เช่น ยกของหนัก 50 ปอนด์ ประกอบชิ้นส่วนด้วยความเร็วสูง),adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21030,4.5,"Standing, moderate/heavy work","ยืนทำงาน, งานระดับปานกลาง/หนัก",adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21035,1.3,"Typing, electric, manual, or computer","การพิมพ์, ไฟฟ้า, ด้วยมือ หรือคอมพิวเตอร์",adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21040,2.3,"Walking, less than 2.0 mph, very slow",เดินด้วยความเร็วต่ำกว่า 2 ไมล์ต่อชั่วโมง ช้ามาก,adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21045,3.8,"Walking, 2.8 to 3.4 mph, moderate speed, not carrying anything",เดินด้วยความเร็วปานกลาง 2.8 ถึง 3.4 ไมล์ต่อชั่วโมง ไม่ได้ถือสิ่งของใดๆ,adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21050,4.8,"Walking, 3.5 to 3.9 mph, brisk speed, not carrying anything",เดินด้วยความเร็ว 3.5 ถึง 3.9 ไมล์ต่อชั่วโมง (ค่อนข้างเร็ว) และไม่ได้ถือสิ่งของใดๆ,adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21055,3.5,"Walking, 2.5 mph slowly and carrying objects less than 25 pounds",เดินช้าๆ ด้วยความเร็ว 2.5 ไมล์ต่อชั่วโมง และถือสิ่งของที่มีน้ำหนักน้อยกว่า 25 ปอนด์,adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21060,4.5,"Walking, 3.0 mph moderately and carrying objects less than 25 pounds, pushing something",เดินด้วยความเร็วปานกลาง 3.0 ไมล์ต่อชั่วโมง และถือสิ่งของที่มีน้ำหนักน้อยกว่า 25 ปอนด์ หรือกำลังผลักสิ่งของอยู่,adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21065,4.5,"Walking, 3.5 mph, briskly and carrying objects less than 25 pounds",เดินเร็ว 3.5 ไมล์ต่อชั่วโมง และถือสิ่งของที่มีน้ำหนักน้อยกว่า 25 ปอนด์,adult
+Volunteer Activities,กิจกรรมอาสาสมัคร,21070,3,"Walk/stand combination, for volunteer purposes",การเดินสลับยืน สำหรับงานอาสาสมัคร,adult
+Video Games,วิดีโอเกม,22040,1.3,"Seated, video game, handheld controller (inactive)",นั่งเล่นวิดีโอเกม ใช้จอยควบคุมแบบพกพา (ไม่ได้ใช้งาน),adult
+Video Games,วิดีโอเกม,22120,1.5,"Video game, handheld controller (light effort)","วิดีโอเกม, จอยควบคุมแบบพกพา (ใช้แรงน้อย)",adult
+Video Games,วิดีโอเกม,22160,2.3,"Video game, light effort (Wii Fit, yoga, bowling, etc)","เกมวิดีโอ, กิจกรรมเบาๆ (Wii Fit, โยคะ, โบว์ลิ่ง ฯลฯ)",adult
+Video Games,วิดีโอเกม,22200,3,"Active video game, motion sensing game/using upper body (light to moderate effort)",เกมวิดีโอที่ต้องใช้การเคลื่อนไหว/เกมที่ใช้ส่วนบนของร่างกาย (ออกแรงเบาถึงปานกลาง),adult
+Video Games,วิดีโอเกม,22240,4,"Active video game, motion sensing game/using total body (moderate effort)",เกมวิดีโอที่ต้องใช้การเคลื่อนไหว/เกมที่ใช้ร่างกายทั้งหมด (ความพยายามระดับปานกลาง),adult
+Video Games,วิดีโอเกม,22280,5,"Active video game, motion sensing game/using total body (moderate-to-vigorous effort)","วิดีโอเกมที่ต้องใช้การเคลื่อนไหว, เกมที่ใช้เซ็นเซอร์ตรวจจับการเคลื่อนไหว/การใช้ร่างกายทั้งหมด (ความพยายามระดับปานกลางถึงสูง)",adult
+Video Games,วิดีโอเกม,22320,7.5,"Active video game, motion sensing game/using total body, exergames, workouts, dancing (vigorous effort)","วิดีโอเกมที่ต้องใช้การเคลื่อนไหว, เกมที่ใช้เซ็นเซอร์ตรวจจับการเคลื่อนไหว/ใช้ร่างกายทั้งหมด, เกมออกกำลังกาย, การออกกำลังกาย, การเต้นรำ (ออกแรงอย่างหนัก)",adult
+Video Games,วิดีโอเกม,22360,9.8,"Conditioning/exercise virtual reality fitness, vigorous intensity",การฝึกความแข็งแรง/ออกกำลังกายด้วยเทคโนโลยีเสมือนจริง (VR) ที่มีความเข้มข้นสูง,adult
+Bicycling,การปั่นจักรยาน,101060,5.3,"Bicycling, stationary, general, moderate effort",การปั่นจักรยานแบบอยู่กับที่ ทั่วไป ใช้แรงปานกลาง,older_adult
+Bicycling,การปั่นจักรยาน,101160,4.3,"Bicycling, stationary, 30-50 watts, moderate effort",ปั่นจักรยานอยู่กับที่ กำลัง 30-50 วัตต์ ออกแรงปานกลาง,older_adult
+Bicycling,การปั่นจักรยาน,101260,6.3,"Bicycling, stationary, 90-100 watts, vigorous effort",ปั่นจักรยานอยู่กับที่ กำลัง 90-100 วัตต์ ออกแรงอย่างเต็มที่,older_adult
+Bicycling,การปั่นจักรยาน,101360,7.8,"Bicycling, stationary, 101-160 watts, vigorous effort",ปั่นจักรยานอยู่กับที่ กำลัง 101-160 วัตต์ ออกแรงอย่างเต็มที่,older_adult
+Bicycling,การปั่นจักรยาน,101760,4.5,"Bicycling, stationary, 51-89 watts, moderate-to-vigorous effort",ปั่นจักรยานอยู่กับที่ กำลัง 51-89 วัตต์ ระดับความพยายามปานกลางถึงสูง,older_adult
+Conditioning Activities,กิจกรรมเสริมสร้างสมรรถภาพ,202260,3.5,"Calisthenics (e.g., push ups, sit ups, pull-ups, lunges), moderate effort",การออกกำลังกายแบบกายบริหาร (เช่น วิดพื้น ซิทอัพ ดึงข้อ ลันจ์) ด้วยความพยายามระดับปานกลาง,older_adult
+Conditioning Activities,กิจกรรมเสริมสร้างสมรรถภาพ,203560,4.5,"Circuit training, Parcour-type, moderate effort",การฝึกแบบเซอร์กิตเทรนนิ่ง รูปแบบพาร์คัวร์ ระดับความพยายามปานกลาง,older_adult
+Conditioning Activities,กิจกรรมเสริมสร้างสมรรถภาพ,204760,3,"Elliptical trainer, light effort",เครื่องออกกำลังกายแบบวงรี ออกแรงเบาๆ,older_adult
+Conditioning Activities,กิจกรรมเสริมสร้างสมรรถภาพ,205160,3,"Resistance (weight) training, squats , light effort",การฝึกความแข็งแรง (ยกน้ำหนัก) สควอท ออกแรงเบาๆ,older_adult
+Conditioning Activities,กิจกรรมเสริมสร้างสมรรถภาพ,205360,2.3,"Resistance Training, general, light effort",การฝึกความแข็งแรงทั่วไป ใช้แรงเบาๆ,older_adult
+Conditioning Activities,กิจกรรมเสริมสร้างสมรรถภาพ,205460,4.3,"Resistance (weight) training, multiple exercises, 8-15 repetitions at varied resistance",การฝึกความแข็งแรง (ยกน้ำหนัก) หลายท่า ทำซ้ำ 8-15 ครั้ง โดยใช้แรงต้านที่แตกต่างกัน,older_adult
+Conditioning Activities,กิจกรรมเสริมสร้างสมรรถภาพ,206260,5,"Health club exercise, conditioning classes",การออกกำลังกายในฟิตเนส คลาสฝึกความแข็งแรง,older_adult
+Conditioning Activities,กิจกรรมเสริมสร้างสมรรถภาพ,206360,3.8,"Health club exercise, conditioning classes, chair-based","การออกกำลังกายในฟิตเนส, คลาสฝึกความแข็งแรง, การออกกำลังกายโดยใช้เก้าอี้",older_adult
+Conditioning Activities,กิจกรรมเสริมสร้างสมรรถภาพ,207260,6.5,"Rowing, stationary, 50 to 99 watts, moderate-to-vigorous effort",การพายเรือแบบอยู่กับที่ กำลัง 50 ถึง 99 วัตต์ ระดับความพยายามปานกลางถึงสูง,older_adult
+Conditioning Activities,กิจกรรมเสริมสร้างสมรรถภาพ,207360,9,"Rowing, stationary, 100 to 149 watts, vigorous effort",การพายเรือแบบอยู่กับที่ กำลัง 100 ถึง 149 วัตต์ ออกแรงอย่างเต็มที่,older_adult
+Conditioning Activities,กิจกรรมเสริมสร้างสมรรถภาพ,211360,3.5,"Therapeutic exercise ball, Fitball exercise, chair exercise","ลูกบอลออกกำลังกายเพื่อการบำบัด, ฟิตบอลออกกำลังกาย, เก้าอี้ออกกำลังกาย",older_adult
+Conditioning Activities,กิจกรรมเสริมสร้างสมรรถภาพ,219060,2.5,"Yoga, general",โยคะทั่วไป,older_adult
+Conditioning Activities,กิจกรรมเสริมสร้างสมรรถภาพ,219160,2.8,"Yoga, chair, general","โยคะ, เก้าอี้, ทั่วไป",older_adult
+Conditioning Activities,กิจกรรมเสริมสร้างสมรรถภาพ,221060,3.8,"Tai Chi, general",ไท่เก๊กทั่วไป,older_adult
+Conditioning Activities,กิจกรรมเสริมสร้างสมรรถภาพ,221160,2.8,"Tai Chi, chair, general","ไท่เก๊ก, เก้าอี้, ทั่วไป",older_adult
+Dancing,เต้น,303060,6,"Ballroom Dance (tango, slow waltz, foxtrot)","การเต้นรำบอลรูม (แทงโก้, วอลซ์ช้า, ฟ็อกซ์ทรอต)",older_adult
+Dancing,เต้น,303160,6.3,"Dance class, General",ชั้นเรียนเต้นรำทั่วไป,older_adult
+Dancing,เต้น,303260,7.3,"Smooth Dance (Mazurka, Viennese Walk, Polka)","การเต้นรำแบบเรียบ (Mazurka, Viennese Walk, Polka)",older_adult
+Home Activities,กิจกรรมภายในบ้าน,501060,4.3,"Cleaning, sweeping carpet or floors, general",การทำความสะอาดทั่วไป เช่น การกวาดพรมหรือพื้น,older_adult
+Home Activities,กิจกรรมภายในบ้าน,502160,4.3,"Cleaning, mopping, standing, Moderate effort","การทำความสะอาด, การถูพื้น, การยืน, ออกแรงปานกลาง",older_adult
+Home Activities,กิจกรรมภายในบ้าน,502260,3.5,"Cleaning windows, washing windows, general",การทำความสะอาดหน้าต่าง การล้างหน้าต่าง ทั่วไป,older_adult
+Home Activities,กิจกรรมภายในบ้าน,502360,3,"Cleaning, mopping, standing, light effort","การทำความสะอาด, การถูพื้น, การยืน, การออกแรงเล็กน้อย",older_adult
+Home Activities,กิจกรรมภายในบ้าน,503260,4,"Dusting or polishing furniture, general",การปัดฝุ่นหรือขัดเงาเฟอร์นิเจอร์ทั่วไป,older_adult
+Home Activities,กิจกรรมภายในบ้าน,504060,4.5,"Cleaning, carrying out trash",การทำความสะอาด การขนขยะ,older_adult
+Home Activities,กิจกรรมภายในบ้าน,504160,2.5,"Wash dishes, standing or in general (not broken into stand/walk components)",ล้างจานแบบยืนหรือแบบทั่วไป (ไม่ได้แบ่งเป็นส่วนยืน/เดิน),older_adult
+Home Activities,กิจกรรมภายในบ้าน,504360,4.3,"Cleaning, vacuuming, general, moderate effort","การทำความสะอาด, การดูดฝุ่น, ทั่วไป, ใช้แรงปานกลาง",older_adult
+Home Activities,กิจกรรมภายในบ้าน,505160,2.8,"Cooking, serving food, setting table, implied walking or standing",การทำอาหาร การเสิร์ฟอาหาร การจัดโต๊ะอาหาร ซึ่งหมายถึงการเดินหรือยืน,older_adult
+Home Activities,กิจกรรมภายในบ้าน,505560,3,"Putting away groceries/dishes (e.g. carrying groceries, storing dishes in cabinet),",การจัดเก็บของชำ/จานชาม (เช่น การถือของชำ การเก็บจานชามในตู้),older_adult
+Home Activities,กิจกรรมภายในบ้าน,506060,3.8,"Food shopping with or without a grocery cart, standing or walking",การซื้อของชำโดยใช้หรือไม่ใช้รถเข็น ยืนซื้อหรือเดินซื้อ,older_adult
+Home Activities,กิจกรรมภายในบ้าน,507060,2.8,Ironing,การรีดผ้า,older_adult
+Home Activities,กิจกรรมภายในบ้าน,509060,2,"Laundry, fold or hang clothes, put clothes in washer or dryer, packing suitcase, washing
+clothes by hand, implied standing, light effort",ซักผ้า พับหรือแขวนผ้า ใส่ผ้าลงเครื่องซักผ้าหรือเครื่องอบผ้า จัดกระเป๋าเดินทาง ซักผ้าด้วยมือ (โดยนัยคือยืนอยู่) ใช้แรงเล็กน้อย,older_adult
+Home Activities,กิจกรรมภายในบ้าน,509260,3.5,"Laundry, hanging wash, washing clothes by hand, moderate effort",การซักผ้า การตากผ้า การซักผ้าด้วยมือ ใช้แรงปานกลาง,older_adult
+Home Activities,กิจกรรมภายในบ้าน,510060,4,"Making bed, changing linens",จัดเตียง เปลี่ยนผ้าปูที่นอน,older_adult
+Home Activities,กิจกรรมภายในบ้าน,512060,5,"Moving furniture, household items, carrying boxes",การขนย้ายเฟอร์นิเจอร์ ของใช้ในบ้าน และการยกกล่อง,older_adult
+Home Repair,ซ่อมแซมบ้าน,612760,4,"Home repair, general, moderate effort",งานซ่อมแซมบ้านทั่วไป ระดับความยากปานกลาง,older_adult
+Inactivity,การไม่เคลื่อนไหว,701060,1.3,Lying quietly and watching television,นอนนิ่งๆ และดูโทรทัศน์,older_adult
+Inactivity,การไม่เคลื่อนไหว,701160,1.3,"Lying quietly, doing nothing, lying in bed awake,",นอนนิ่งๆ ไม่ทำอะไรเลย นอนอยู่บนเตียงโดยไม่หลับตา,older_adult
+Inactivity,การไม่เคลื่อนไหว,702060,1.3,Sitting quietly and watching television,นั่งเงียบๆ และดูโทรทัศน์,older_adult
+Inactivity,การไม่เคลื่อนไหว,702160,1.3,"Sitting quietly, general",นั่งเงียบๆ นายพล,older_adult
+Inactivity,การไม่เคลื่อนไหว,704060,1.5,"Standing quietly, standing in a line",ยืนนิ่งๆ ยืนเรียงแถว,older_adult
+Lawn and Garden,สนามหญ้าและสวน,805060,4.8,"Digging, spading, filling garden, compositing, moderate effort",การขุดดิน การพรวนดิน การถมสวน การทำปุ๋ยหมัก (ใช้แรงปานกลาง),older_adult
+Lawn and Garden,สนามหญ้าและสวน,805260,7.3,"Digging, spading, filling garden, composting, vigorous effort",การขุดดิน การพรวนดิน การถมสวน การทำปุ๋ยหมัก การออกแรงอย่างเต็มที่,older_adult
+Lawn and Garden,สนามหญ้าและสวน,806160,4.8,"Gardening, building garden bed",การทำสวน การสร้างแปลงปลูกผัก,older_adult
+Lawn and Garden,สนามหญ้าและสวน,806560,3,"Gardening, mixing soil",การทำสวน การผสมดิน,older_adult
+Lawn and Garden,สนามหญ้าและสวน,809160,3.5,Laying mulch,การปูวัสดุคลุมดิน,older_adult
+Lawn and Garden,สนามหญ้าและสวน,809560,6.8,"Mowing lawn, general",การตัดหญ้าทั่วไป,older_adult
+Lawn and Garden,สนามหญ้าและสวน,813560,3.3,"Planting, potting, transplanting seedlings or plants, light-moderate effort",การปลูก การลงกระถาง การย้ายต้นกล้าหรือต้นไม้ ใช้แรงปานกลางถึงมาก,older_adult
+Lawn and Garden,สนามหญ้าและสวน,816060,4,"Raking lawn or leaves, moderate effort",การกวาดสนามหญ้าหรือใบไม้ (ใช้แรงปานกลาง),older_adult
+Lawn and Garden,สนามหญ้าและสวน,821060,3.3,"Trimming shrubs or trees, manual cutter",การตัดแต่งพุ่มไม้หรือต้นไม้ด้วยเครื่องตัดมือ,older_adult
+Lawn and Garden,สนามหญ้าและสวน,821560,3.8,"Trimming shrubs or trees, power cutter, using leaf blower, edge, moderate effort",การตัดแต่งพุ่มไม้หรือต้นไม้ การใช้เครื่องตัดไฟฟ้า การใช้เครื่องเป่าใบไม้ การตัดขอบ การใช้แรงปานกลาง,older_adult
+Lawn and Garden,สนามหญ้าและสวน,822060,5.3,"Walking, applying fertilizer",การเดิน การใส่ปุ๋ย,older_adult
+Lawn and Garden,สนามหญ้าและสวน,823060,3.3,"Watering lawn or garden, standing or walking",รดน้ำสนามหญ้าหรือสวน ยืน หรือเดิน,older_adult
+Lawn and Garden,สนามหญ้าและสวน,823960,4.8,"Weeding, cultivating garden, light-to-moderate effort",การกำจัดวัชพืช การดูแลสวน ใช้แรงน้อยถึงปานกลาง,older_adult
+Lawn and Garden,สนามหญ้าและสวน,824660,3.5,"Picking fruit off trees, picking fruits/vegetables, moderate effort",การเก็บผลไม้จากต้นไม้ การเก็บผลไม้/ผัก ใช้แรงปานกลาง,older_adult
+Lawn and Garden,สนามหญ้าและสวน,826160,5,"Yard work, general, moderate effort",งานดูแลสวนทั่วไป ใช้แรงปานกลาง,older_adult
+Lawn and Garden,สนามหญ้าและสวน,826560,3.8,"Gardening, general, moderate effort",การทำสวนทั่วไป ใช้ความพยายามปานกลาง,older_adult
+Miscellaneous,เบ็ดเตล็ด,901060,1.5,"Card playing, sitting",เล่นไพ่ นั่ง,older_adult
+Occupation,อาชีพ,1101060,1.5,"Typing, electric, manual or computer",การพิมพ์ ไม่ว่าจะเป็นแบบไฟฟ้า แบบใช้มือ หรือแบบใช้คอมพิวเตอร์,older_adult
+Running,วิ่ง,1202860,8.5,"Running, 3.6 mph (17 min/mile)",วิ่งด้วยความเร็ว 3.6 ไมล์ต่อชั่วโมง (17 นาทีต่อไมล์),older_adult
+Running,วิ่ง,1207060,15.8,"Running, 7 mph (8.5 min/mile)",วิ่งด้วยความเร็ว 7 ไมล์ต่อชั่วโมง (8.5 นาทีต่อไมล์),older_adult
+Self Care,การดูแลตนเอง,1302060,3,"Dressing, undressing, standing or sitting",การแต่งตัว การถอดเสื้อผ้า การยืน หรือการนั่ง,older_adult
+Self Care,การดูแลตนเอง,1304060,2.8,"Grooming, washing hands, shaving, brushing teeth, putting on make-up, sitting or standing",การดูแลตัวเอง การล้างมือ การโกนหนวด การแปรงฟัน การแต่งหน้า การนั่ง หรือการยืน,older_adult
+Sports,กีฬา,1528560,4.3,"Golf, walking, pulling clubs","กอล์ฟ, การเดิน, การดึงไม้กอล์ฟ",older_adult
+Sports,กีฬา,1540060,2.8,"Horseback riding, simulated",การขี่ม้าจำลอง,older_adult
+Sports,กีฬา,1552560,5.3,"Pickleball, competitive",พิคเคิลบอล (การแข่งขัน),older_adult
+Transportation,การเดินทาง,1606060,4.3,"Walking for transportation, 2.8-3.2 mph, level, moderate pace, firm surface",การเดินเพื่อการเดินทาง ความเร็ว 2.8-3.2 ไมล์ต่อชั่วโมง พื้นราบ ก้าวเดินปานกลาง พื้นผิวแข็ง,older_adult
+Walking,เดิน,1713360,4,"Stair climbing, slow pace","การปีนบันได, ก้าวช้าๆ",older_adult
+Walking,เดิน,1713460,6.5,"Stair climbing, fast pace","การปีนบันได, รวดเร็ว",older_adult
+Walking,เดิน,1713560,2,"Ascending stairs, using cane",การขึ้นบันไดโดยใช้ไม้เท้า,older_adult
+Walking,เดิน,1713660,3,"Ascending stairs, using standard walker",การขึ้นบันไดโดยใช้เครื่องช่วยเดินแบบมาตรฐาน,older_adult
+Walking,เดิน,1713760,3.3,"Ascending stairs, using wheeled walker",การขึ้นบันไดโดยใช้รถเข็นช่วยเดิน,older_adult
+Walking,เดิน,1715160,3,"Walking, less than 1.0 mph, level, strolling, very slow",เดินช้าๆ ไม่เกิน 1 ไมล์ต่อชั่วโมง บนพื้นราบ เดินช้ามาก,older_adult
+Walking,เดิน,1715260,4,"Walking, 1.0 to 1.9 mph, level, slow pace, firm surface",การเดิน ความเร็ว 1.0 ถึง 1.9 ไมล์ต่อชั่วโมง พื้นราบ เดินช้าๆ พื้นผิวแข็ง,older_adult
+Walking,เดิน,1715360,3.8,"Walking, 2.0 mph, level, slow pace, firm surface",เดินด้วยความเร็ว 2.0 ไมล์ต่อชั่วโมง บนพื้นราบ ก้าวช้าๆ พื้นผิวแข็ง,older_adult
+Walking,เดิน,1717060,4.5,"Walking, 2.2 to 2.7 mph, level, firm surface",การเดิน ความเร็ว 2.2 ถึง 2.7 ไมล์ต่อชั่วโมง บนพื้นราบและแข็ง,older_adult
+Walking,เดิน,1719060,5.3,"Walking, 2.8 to 3.2 mph, level, moderate pace, firm surface",การเดิน ความเร็ว 2.8 ถึง 3.2 ไมล์ต่อชั่วโมง พื้นราบ จังหวะปานกลาง พื้นผิวแข็ง,older_adult
+Walking,เดิน,1720060,6,"Walking, 3.3 to 3.7 mph, level, brisk, firm surface, walking for exercise",การเดิน ความเร็ว 3.3 ถึง 3.7 ไมล์ต่อชั่วโมง บนพื้นราบ เดินเร็ว พื้นผิวแข็ง การเดินเพื่อออกกำลังกาย,older_adult
+Walking,เดิน,1720160,5.5,"Walking, brisk pace, general","การเดิน, จังหวะเร็ว, ทั่วไป",older_adult
+Walking,เดิน,1720960,5,"Walking, 1.5 to 2.0 mph, 2.5 to 5% grade",การเดิน ความเร็ว 1.5 ถึง 2.0 ไมล์ต่อชั่วโมง ความลาดชัน 2.5 ถึง 5%,older_adult
+Walking,เดิน,1722060,7.3,"Walking, 4.0 to 4.2 mph, level, firm surface, very brisk pace",เดินด้วยความเร็ว 4.0 ถึง 4.2 ไมล์ต่อชั่วโมง บนพื้นราบและแข็ง ด้วยจังหวะที่ค่อนข้างเร็ว,older_adult
+Walking,เดิน,1723060,9,"Walking, 4.5 mph, level, firm surface, very, very brisk",เดินด้วยความเร็ว 4.5 ไมล์ต่อชั่วโมง บนพื้นราบและแข็ง เร็วมาก ๆ,older_adult
+Walking,เดิน,1726260,4,"Walking, leasurly, self-selected pace, general",เดินเล่นสบายๆ ด้วยความเร็วตามใจชอบ โดยทั่วไป,older_adult
+Walking,เดิน,1731060,7,"Walking, for exercise, with ski poles, Nordic walking,",การเดินออกกำลังกายโดยใช้ไม้สกี (นอร์ดิกวอล์คกิ้ง),older_adult
+Walking,เดิน,1733060,3.5,"Walking, with a cane",การเดินโดยใช้ไม้เท้า,older_adult
+Walking,เดิน,1734060,3.5,"Walking, with standard walker",การเดิน โดยใช้เครื่องช่วยเดินแบบมาตรฐาน,older_adult
+Walking,เดิน,1735060,3.5,"Walking, with wheeled Walker",การเดินโดยใช้เครื่องช่วยเดินแบบมีล้อ,older_adult
+Winter Activities,กิจกรรมฤดูหนาว,1916060,5.3,"Skiing, downhill, alpine or snowboarding, moderate effort, general, active time only",การเล่นสกี ไม่ว่าจะเป็นสกีลงเขา สกีลงเขา หรือสโนว์บอร์ด เป็นกิจกรรมระดับปานกลาง ทั่วไป ใช้เวลาทำกิจกรรมเท่านั้น,older_adult
+Winter Activities,กิจกรรมฤดูหนาว,1917060,6.8,"Skiing, downhill, alpine or snowboarding, vigorous effort, general, active time only",การเล่นสกี ไม่ว่าจะเป็นสกีลงเขา สกีลงเขา หรือสโนว์บอร์ด ต้องใช้แรงมาก โดยทั่วไปแล้วใช้เวลาทำกิจกรรมเท่านั้น,older_adult
+Winter Activities,กิจกรรมฤดูหนาว,1925460,8,"Snow shoveling, by hand, vigorous effort",การโกยหิมะด้วยมือ ต้องใช้แรงอย่างมาก,older_adult
+Video Games,วิดีโอเกม,2210060,1.8,"Seated, video game, handheld controller (inactive)",นั่งเล่นวิดีโอเกม ใช้จอยควบคุมแบบพกพา (ไม่ได้ใช้งาน),older_adult
+Video Games,วิดีโอเกม,2220060,2.8,"Video game, light effort (Wii Fit, yoga, bowling, etc)","เกมวิดีโอ, กิจกรรมเบาๆ (Wii Fit, โยคะ, โบว์ลิ่ง ฯลฯ)",older_adult
+Video Games,วิดีโอเกม,2230060,3.5,"Active video game, motion sensing game/using upper body (light to moderate effort)",เกมวิดีโอที่ต้องใช้การเคลื่อนไหว/เกมที่ใช้ส่วนบนของร่างกาย (ออกแรงเบาถึงปานกลาง),older_adult
+Video Games,วิดีโอเกม,2240060,5.5,"Active video game, motion sensing game/using total body (moderate effort)",เกมวิดีโอที่ต้องใช้การเคลื่อนไหว/เกมที่ใช้ร่างกายทั้งหมด (ความพยายามระดับปานกลาง),older_adult
+Video Games,วิดีโอเกม,2250060,7.8,"Active video game, motion sensing game/using total body (moderate to vigorous effort)",เกมวิดีโอที่ต้องใช้การเคลื่อนไหว/เกมที่ใช้ร่างกายทั้งหมด (ออกแรงปานกลางถึงหนัก),older_adult
+Exercise,ออกกำลังกาย,90101,1.7,Aerobics,แอโรบิก,wheelchair_adult
+Exercise,ออกกำลังกาย,90102,2.2,Arm Ergometry 16W,เครื่องวัดสมรรถภาพแขน 16W,wheelchair_adult
+Exercise,ออกกำลังกาย,90103,2.3,Arm Ergometry 20W,เครื่องวัดกำลังแขน 20 วัตต์,wheelchair_adult
+Exercise,ออกกำลังกาย,90104,2.7,Arm Ergometry 30‐32W,การวัดกำลังแขน 30-32 วัตต์,wheelchair_adult
+Exercise,ออกกำลังกาย,90105,3.5,Arm Ergometry 40‐48W,การทดสอบสมรรถภาพแขน 40-48 วัตต์,wheelchair_adult
+Exercise,ออกกำลังกาย,90106,4.6,Arm Ergometry  60‐64W,การวัดกำลังแขน 60-64 วัตต์,wheelchair_adult
+Exercise,ออกกำลังกาย,90107,4.4,Arm Ergometry 80W,เครื่องวัดกำลังแขน 80 วัตต์,wheelchair_adult
+Exercise,ออกกำลังกาย,90108,5.4,Arm Ergometry 96W,เครื่องวัดสมรรถภาพแขน 96 วัตต์,wheelchair_adult
+Exercise,ออกกำลังกาย,90109,2.3,"Arm Ergometry (self‐selected intensity, moderate)",การทดสอบสมรรถภาพแขน (ความเข้มข้นระดับปานกลาง เลือกได้เอง),wheelchair_adult
+Exercise,ออกกำลังกาย,90110,4.3,"Arm Ergometry exercise (self‐selected intensity, vigorous)",การออกกำลังกายโดยใช้เครื่องวัดกำลังแขน (ความเข้มข้นเลือกเองได้ ระดับหนัก),wheelchair_adult
+Exercise,ออกกำลังกาย,90111,2.2,Eccentric Arm Ergometry,การวัดแรงต้านของแขนแบบผิดปกติ,wheelchair_adult
+Exercise,ออกกำลังกาย,90120,3,Handcycle ‐ 8 km/h,จักรยานมือปั่น - 8 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90121,7.5,Handcycle ‐ 16 km/h,จักรยานมือปั่น - 16 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90122,3.6,Handcycle ergometer (general),เครื่องฝึกปั่นจักรยานมือ (ทั่วไป),wheelchair_adult
+Exercise,ออกกำลังกาย,90123,4.5,Handcycle racing,การแข่งรถแฮนด์ไซเคิล,wheelchair_adult
+Exercise,ออกกำลังกาย,90125,2.1,Resistance (weight) Training,การฝึกความต้านทาน (ยกน้ำหนัก),wheelchair_adult
+Exercise,ออกกำลังกาย,90126,2.3,Circuit Training,การฝึกแบบเซอร์กิตเทรนนิ่ง,wheelchair_adult
+Exercise,ออกกำลังกาย,90127,1.5,Resistance band,ยางยืดออกกำลังกาย,wheelchair_adult
+Exercise,ออกกำลังกาย,90128,2,Wheelchair pushups,วิดพื้นบนรถเข็น,wheelchair_adult
+Exercise,ออกกำลังกาย,90132,3.4,Skill Parcour,ทักษะการปีนป่าย,wheelchair_adult
+Exercise,ออกกำลังกาย,90133,4.4,Heavy‐bag boxing,มวยกระสอบทราย,wheelchair_adult
+Exercise,ออกกำลังกาย,90136,2.7,Wheeling 10‐18W,วีลลิ่ง 10-18W,wheelchair_adult
+Exercise,ออกกำลังกาย,90137,3.3,Wheeling 20‐26W,วีลลิ่ง 20-26W,wheelchair_adult
+Exercise,ออกกำลังกาย,90138,4.1,Wheeling ‐ 30‐35W,วีลลิ่ง ‐ 30‐35W,wheelchair_adult
+Exercise,ออกกำลังกาย,90139,3.9,Wheeling ‐ 50W,วีลลิ่ง ‐ 50 วัตต์,wheelchair_adult
+Exercise,ออกกำลังกาย,90145,2.8,Wheelchair dynamometer ‐ 3.2 km/h,เครื่องวัดแรงสำหรับรถเข็นคนพิการ - 3.2 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90146,3.6,Wheelchair dynamometer ‐ 4.8 km/h,เครื่องวัดแรงสำหรับรถเข็นคนพิการ - 4.8 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90147,3.1,Wheelchair ‐ slalom course,สนามสลาลอมสำหรับรถเข็น,wheelchair_adult
+Exercise,ออกกำลังกาย,90148,1.8,Wheeling indoor course 2.57 km/h,สนามแข่งรถในร่ม Wheeling ความเร็ว 2.57 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90149,2.3,Wheeling indoor course 3.4‐3.9 km/h,สนามฝึกขับรถในร่ม ความเร็ว 3.4-3.9 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90150,2.2,Wheeling indoor course 4.5‐4.8 km/h,สนามฝึกขับรถในร่ม Wheeling ความเร็ว 4.5-4.8 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90151,2.9,Wheeling indoor course 5.0‐5.5 km/h,สนามฝึกขับรถในร่ม ความเร็ว 5.0-5.5 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90152,4.8,Wheeling indoor course 6.5 km/h,สนามแข่งรถในร่ม ความเร็ว 6.5 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90153,2.7,Wheeling outdoor track 1.5 km/h,ลู่วิ่งกลางแจ้ง ความเร็ว 1.5 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90154,1.9,Wheeling outdoor track 2.0 km/h,ลู่วิ่งกลางแจ้ง ความเร็ว 2.0 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90155,4,Wheeling outdoor track 3.4 km/h,ลู่วิ่งกลางแจ้ง ความเร็ว 3.4 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90156,3.8,Wheeling outdoor track 4.0‐4.3 km/h,ความเร็วในสนามกลางแจ้ง 4.0-4.3 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90157,4.3,Wheeling outdoor track 5.5 km/h,ลู่ล้อกลางแจ้ง ความเร็ว 5.5 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90158,4,Wheeling outdoor track 6.0 km/h,ความเร็วสูงสุดในการขับเคลื่อนบนลู่กลางแจ้ง 6.0 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90159,5.9,Wheeling outdoor track 8.0 km/h,การขับขี่บนลู่กลางแจ้งด้วยความเร็ว 8.0 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90160,7.9,Wheeling ‐ racing,การแข่งรถวีลลิ่ง,wheelchair_adult
+Exercise,ออกกำลังกาย,90161,3.2,Wheeling ‐ Ergometer,เครื่องวัดกำลังกายแบบวีลลิ่ง,wheelchair_adult
+Exercise,ออกกำลังกาย,90165,2.4,Treadmill Wheeling 2.2‐2.9 km/h,การเข็นรถเข็นบนลู่วิ่งไฟฟ้า ความเร็ว 2.2-2.9 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90166,2.8,Treadmill Wheeling ‐ 3.0‐3.9 km/h,การเข็นรถเข็นบนลู่วิ่งไฟฟ้า ‐ 3.0–3.9 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90167,3.4,Treadmill Wheeling ‐ 4.0‐4.9 km/h,การเข็นรถเข็นบนลู่วิ่งไฟฟ้า ‐ 4.0–4.9 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90168,3.4,Treadmill Wheeling ‐ 5.8 km/h,การเข็นรถเข็นบนลู่วิ่งไฟฟ้า - 5.8 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90169,3.5,Treadmill Wheeling ‐ 6.0 km/h,การเข็นรถเข็นบนลู่วิ่งไฟฟ้า - 6.0 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90170,4.2,Treadmill Wheeling ‐ 7.0‐7.9 km/h,การเข็นรถเข็นบนลู่วิ่งไฟฟ้า ‐ 7.0–7.9 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90171,3.8,"Treadmill Wheeling ‐ 2.2‐2.9 km/h , 4.7% grade",การเข็นรถเข็นบนลู่วิ่งไฟฟ้า - ความเร็ว 2.2-2.9 กม./ชม. ความลาดชัน 4.7%,wheelchair_adult
+Exercise,ออกกำลังกาย,90172,4.4,"Treadmill Wheeling ‐ 3.6 km/h , 4.7% grade",การเข็นรถเข็นบนลู่วิ่งไฟฟ้า - ความเร็ว 3.6 กม./ชม. ความชัน 4.7%,wheelchair_adult
+Exercise,ออกกำลังกาย,90173,4.2,"Treadmill Wheeling ‐ 2.2‐2.9 km/h , 6.3% grade",การเข็นรถเข็นบนลู่วิ่งไฟฟ้า - ความเร็ว 2.2-2.9 กม./ชม. ความชัน 6.3%,wheelchair_adult
+Exercise,ออกกำลังกาย,90174,5.2,"Treadmill Wheeling ‐ 3.6 km/h , 6.3% grade",การเข็นรถเข็นบนลู่วิ่งไฟฟ้า - ความเร็ว 3.6 กม./ชม. ความชัน 6.3%,wheelchair_adult
+Exercise,ออกกำลังกาย,90175,4.8,"Treadmill Wheeling ‐ 2.2‐2.9 km/h , 8.4% grade",การเข็นรถเข็นบนลู่วิ่งไฟฟ้า - ความเร็ว 2.2-2.9 กม./ชม. ความชัน 8.4%,wheelchair_adult
+Exercise,ออกกำลังกาย,90176,5.2,"Treadmill Wheeling ‐ 3.6 km/h , 8.4% grade",การเข็นรถเข็นบนลู่วิ่งไฟฟ้า - ความเร็ว 3.6 กม./ชม. ความชัน 8.4%,wheelchair_adult
+Exercise,ออกกำลังกาย,90177,2.1,Treadmill Wheeling ‐ 4.0 km/h w/ extra weight,การเข็นรถเข็นบนลู่วิ่ง - 4.0 กม./ชม. พร้อมน้ำหนักเพิ่ม,wheelchair_adult
+Exercise,ออกกำลังกาย,90178,2.7,"Treadmill Wheeling ‐ 4.0 km/h, 2% grade",การเข็นรถเข็นบนลู่วิ่งไฟฟ้า - ความเร็ว 4.0 กม./ชม. ความลาดชัน 2%,wheelchair_adult
+Exercise,ออกกำลังกาย,90179,3.4,"Treadmill Wheeling ‐ 4.0 km/h, 3% grade",การเข็นรถเข็นบนลู่วิ่งไฟฟ้า - ความเร็ว 4.0 กม./ชม. ความลาดชัน 3%,wheelchair_adult
+Exercise,ออกกำลังกาย,90185,2.6,Wheeling using Handle‐based Propulsion ‐ 15W,การเข็นโดยใช้แรงผลักจากด้ามจับ - 15 วัตต์,wheelchair_adult
+Exercise,ออกกำลังกาย,90186,3.6,Wheeling using Handle‐based Propulsion ‐ 20W,การเข็นโดยใช้แรงผลักจากด้ามจับ - 20 วัตต์,wheelchair_adult
+Exercise,ออกกำลังกาย,90187,4.4,Wheeling using Handle‐based Propulsion ‐ 25W,การเข็นโดยใช้แรงผลักจากด้ามจับ - 25 วัตต์,wheelchair_adult
+Exercise,ออกกำลังกาย,90188,5,Wheeling using Handle‐based Propulsion ‐ 30W,การเข็นโดยใช้แรงผลักจากด้ามจับ - 30 วัตต์,wheelchair_adult
+Exercise,ออกกำลังกาย,90189,5.3,Wheeling using Handle‐based Propulsion ‐ 35W,การเข็นโดยใช้แรงผลักจากด้ามจับ - 35 วัตต์,wheelchair_adult
+Exercise,ออกกำลังกาย,90190,1.8,Wheeling using Handle‐based Propulsion ‐ 2.5 to 2.9 km/h,การเข็นรถเข็นโดยใช้แรงผลักจากด้ามจับ - ความเร็ว 2.5 ถึง 2.9 กม./ชม.,wheelchair_adult
+Exercise,ออกกำลังกาย,90195,2.3,Wheeling dynamometer w/ PAPAW ‐ 15W,เครื่องวัดกำลังแบบ Wheeling พร้อม PAPAW ‐ 15W,wheelchair_adult
+Exercise,ออกกำลังกาย,90196,3.5,Wheeling dynamometer w/ PAPAW ‐ 30W,เครื่องวัดกำลังแบบ Wheeling พร้อม PAPAW ‐ 30W,wheelchair_adult
+Exercise,ออกกำลังกาย,90197,3.4,Wheeling on outdoor course w/PAPAW ‐ 5.4 km/h,การขี่รถ ATV บนสนามกลางแจ้งด้วย PAPAW - 5.4 กม./ชม.,wheelchair_adult
+Household activities,กิจกรรมในครัวเรือน,90201,2.2,Making Bed,การจัดเตียง,wheelchair_adult
+Household activities,กิจกรรมในครัวเรือน,90205,3.1,Dressing/undressing,การแต่งตัว/การถอดเสื้อผ้า,wheelchair_adult
+Household activities,กิจกรรมในครัวเรือน,90210,1.8,Dusting,ปัดฝุ่น,wheelchair_adult
+Household activities,กิจกรรมในครัวเรือน,90215,1.8,Laundry,ซักรีด,wheelchair_adult
+Household activities,กิจกรรมในครัวเรือน,90220,3,Mopping,การถูพื้น,wheelchair_adult
+Household activities,กิจกรรมในครัวเรือน,90225,3.7,"Moving furniture, household items, or boxes",การเคลื่อนย้ายเฟอร์นิเจอร์ ของใช้ในบ้าน หรือกล่องต่างๆ,wheelchair_adult
+Household activities,กิจกรรมในครัวเรือน,90230,2.5,Moving items,สิ่งของที่กำลังเคลื่อนย้าย,wheelchair_adult
+Household activities,กิจกรรมในครัวเรือน,90235,1.9,Showering,การอาบน้ำ,wheelchair_adult
+Household activities,กิจกรรมในครัวเรือน,90240,2.7,Vacuuming,การดูดฝุ่น,wheelchair_adult
+Household activities,กิจกรรมในครัวเรือน,90245,1.9,Washing Dishes,ล้างจาน,wheelchair_adult
+Household activities,กิจกรรมในครัวเรือน,90250,1.5,Eating,การกิน,wheelchair_adult
+Household activities,กิจกรรมในครัวเรือน,90255,1.8,Preparing food,การเตรียมอาหาร,wheelchair_adult
+Household activities,กิจกรรมในครัวเรือน,90260,1.9,Grocery shopping,การซื้อของชำ,wheelchair_adult
+Household activities,กิจกรรมในครัวเรือน,90265,2.3,Sweeping floor,การกวาดพื้น,wheelchair_adult
+Household activities,กิจกรรมในครัวเรือน,90270,1.8,Cleaning Room,ห้องทำความสะอาด,wheelchair_adult
+Household activities,กิจกรรมในครัวเรือน,90275,1.8,Checking Mail,ตรวจสอบจดหมาย,wheelchair_adult
+Household activities,กิจกรรมในครัวเรือน,90280,2.1,Cleaning Car,การล้างรถ,wheelchair_adult
+Household activities,กิจกรรมในครัวเรือน,90285,3.1,Transfer to/from wheelchair,การเคลื่อนย้ายขึ้น/ลงจากรถเข็น,wheelchair_adult
+Inactivity,การไม่เคลื่อนไหว,90301,1.1,"Deskwork, light effort",งานนั่งโต๊ะ งานเบาๆ,wheelchair_adult
+Inactivity,การไม่เคลื่อนไหว,90305,1.2,Reading,การอ่าน,wheelchair_adult
+Inactivity,การไม่เคลื่อนไหว,90310,1.2,Watching TV,ดูทีวี,wheelchair_adult
+Inactivity,การไม่เคลื่อนไหว,90315,1.1,Passive Wheeling (pushed by another person),การเข็นแบบมีคนอื่นช่วยผลัก (Passive Wheeling),wheelchair_adult
+Inactivity,การไม่เคลื่อนไหว,90320,1.3,Writing/crossword puzzles,การเขียน/ปริศนาอักษรไขว้,wheelchair_adult
+Inactivity,การไม่เคลื่อนไหว,90325,1.5,riding an elevator,การขึ้นลิฟต์,wheelchair_adult
+Inactivity,การไม่เคลื่อนไหว,90330,1.4,playing with iPAD,เล่นกับ iPad,wheelchair_adult
+Inactivity,การไม่เคลื่อนไหว,90335,0.8,"Filing papers, light effort",การยื่นเอกสาร ใช้ความพยายามเพียงเล็กน้อย,wheelchair_adult
+Inactivity,การไม่เคลื่อนไหว,90340,1.2,"Computer work (word processing, internet use)",งานที่ใช้คอมพิวเตอร์ (การประมวลผลคำ การใช้งานอินเทอร์เน็ต),wheelchair_adult
+Sport/recreation,กีฬา/นันทนาการ,90501,5.1,Basketball,บาสเกตบอล,wheelchair_adult
+Sport/recreation,กีฬา/นันทนาการ,90505,3.2,Basketball ‐ casual,บาสเกตบอล - ลำลอง,wheelchair_adult
+Sport/recreation,กีฬา/นันทนาการ,90510,1.8,Billiards,บิลเลียด,wheelchair_adult
+Sport/recreation,กีฬา/นันทนาการ,90515,1.8,Bowling,โบว์ลิ่ง,wheelchair_adult
+Sport/recreation,กีฬา/นันทนาการ,90520,2,Darts,ลูกดอก,wheelchair_adult
+Sports/recreation,กีฬา/นันทนาการ,90525,7.1,Fencing,รั้ว,wheelchair_adult
+Sport/recreation,กีฬา/นันทนาการ,90530,1.1,Fishing/casting,การตกปลา/การเหวี่ยงเบ็ด,wheelchair_adult
+Sports/recreation,กีฬา/นันทนาการ,90535,11.8,Nordic sit skiing,การเล่นสกีแบบนอร์ดิก,wheelchair_adult
+Sport/recreation,กีฬา/นันทนาการ,90540,2.7,Rugby,รักบี้,wheelchair_adult
+Sport/recreation,กีฬา/นันทนาการ,90545,2.7,Table tennis,เทเบิลเทนนิส,wheelchair_adult
+Sport/recreation,กีฬา/นันทนาการ,90550,4.1,Tennis,เทนนิส,wheelchair_adult
+Sport/recreation,กีฬา/นันทนาการ,90555,1.8,Power Wheelchair Soccer ‐ competitive,ฟุตบอลวีลแชร์ไฟฟ้า - ระดับแข่งขัน,wheelchair_adult
+Sport/recreation,กีฬา/นันทนาการ,90560,1.5,Video gaming,วิดีโอเกม,wheelchair_adult
+Sport/recreation,กีฬา/นันทนาการ,90565,1.5,Playing cards,ไพ่เล่น,wheelchair_adult
+Sports/recreation,กีฬา/นันทนาการ,90570,2,"Dance ‐ Modern, torso controlled wheelchair",การเต้นรำ - สมัยใหม่ โดยใช้รถเข็นที่ควบคุมด้วยลำตัว,wheelchair_adult
+Sports/recreation,กีฬา/นันทนาการ,90575,2,Dance ‐ slow paced,เต้นรำ - จังหวะช้า,wheelchair_adult
+Sports/recreation,กีฬา/นันทนาการ,90580,3.1,Dance ‐ fast paced,เต้นรำ - จังหวะเร็ว,wheelchair_adult
+Sports/recreation,กีฬา/นันทนาการ,90585,1.7,Dance ‐ Electric power chair,การเต้นรำ - เก้าอี้ไฟฟ้า,wheelchair_adult
+Sports/recreation,กีฬา/นันทนาการ,90590,2.6,Exergaming,เอ็กเซอร์เกม,wheelchair_adult
+Transportation,การเดินทาง,90601,2.5,Wheeling ‐ On Carpet,วีลลิ่ง - บนพรม,wheelchair_adult
+Transportation,การเดินทาง,90605,4,Wheeling ‐ on Grass,วีลลิ่ง - ออน กราส,wheelchair_adult
+Transportation,การเดินทาง,90610,2.6,Wheeling ‐ Outside,วีลลิ่ง - ด้านนอก,wheelchair_adult
+Transportation,การเดินทาง,90615,1.5,Wheeling ‐ w/ service dog assistance,วีลลิ่ง - พร้อมความช่วยเหลือจากสุนัขบริการ,wheelchair_adult
+Transportation,การเดินทาง,90620,3.5,"Wheeling outdoor, 8% cross slope",รถเข็นกลางแจ้ง ความลาดเอียงด้านข้าง 8%,wheelchair_adult
+Transportation,การเดินทาง,90625,4,"Wheeling outdoor, 12% cross slope",รถเข็นกลางแจ้ง ความลาดเอียงด้านข้าง 12%,wheelchair_adult
+Transportation,การเดินทาง,90630,3.2,Wheeling ‐ on Sidewalk,วีลลิ่ง - บนทางเท้า,wheelchair_adult
+Transportation,การเดินทาง,90635,2.9,Wheeling ‐ self‐selected speed,การหมุนล้อ - ความเร็วที่เลือกเอง,wheelchair_adult
+Transportation,การเดินทาง,90640,1.8,Driving an automobile,การขับรถยนต์,wheelchair_adult
+Transportation,การเดินทาง,90645,2.2,Wheeling ‐ On Tile,วีลลิ่ง - ออน ไทล์,wheelchair_adult
+Transportation,การเดินทาง,90650,4,Wheeling ‐ up Incline,รถเข็นขึ้นทางลาด,wheelchair_adult
+Transportation,การเดินทาง,90655,1.8,Wheeling ‐ Downhill,วีลลิ่ง - ดาวน์ฮิลล์,wheelchair_adult

@@ -1,0 +1,10 @@
+ai/
+├── data/
+│   └── nutrition_base.json      # 🍗 "โพย" ข้อมูลอาหาร แคลอรี่ และโภชนาการ (Knowledge Base)
+├── models/
+│   └── (optional)               # 💾 ไว้เก็บไฟล์ Model ถ้ามึงโหลดมาไว้ในเครื่อง (ถ้าใช้ผ่าน HuggingFace ก็ไม่ต้อง)
+├── embedding_service.ipynb      # 🚀 ไฟล์หลักที่มึงจะรันบน Colab (VS Code Extension)
+├── main.py                      # 🐍 โค้ด Python (FastAPI) เวอร์ชั่นเอาไว้รันบน Server/Docker จริง
+├── requirements.txt             # 📦 รายชื่อ Library (transformers, torch, fastapi, uvicorn, pyngrok)
+├── .env                         # 🔑 เก็บ NGROK_AUTH_TOKEN (ห้ามเอาขึ้น Git นะจารย์!)
+└── Dockerfile                   # 🐳 สูตรทำอาหารสำหรับห่อทุกอย่างลง Container (สายโปรต้องมี!)
