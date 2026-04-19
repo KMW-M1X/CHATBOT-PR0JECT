@@ -17,10 +17,10 @@ function App() {
   const [isProfileSetupOpen, setIsProfileSetupOpen] = useState(false);
   const [isInitialLoading, setIsInitialLoading] = useState(true);
 
-  // 🟢 1. สร้าง State คุม Theme ระดับ Global (ดึงค่าจากเครื่อง ถ้าไม่มีเริ่มที่ dark)
+  // 1. สร้าง State คุม Theme ระดับ Global (ดึงค่าจากเครื่อง ถ้าไม่มีเริ่มที่ dark)
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
 
-  // 🟢 2. useEffect สำหรับคุม Class 'dark' ที่แท็ก <html>
+  // 2. useEffect สำหรับคุม Class 'dark' ที่แท็ก <html>
   useEffect(() => {
     const root = window.document.documentElement;
     if (theme === 'dark') {
@@ -32,7 +32,7 @@ function App() {
     localStorage.setItem('theme', theme);
   }, [theme]);
 
-  // 🟢 3. ฟังก์ชันสลับโหมด (ส่งไปให้ Navbar ใช้)
+  // 3. ฟังก์ชันสลับโหมด (ส่งไปให้ Navbar ใช้)
   const toggleTheme = () => {
     setTheme(prev => (prev === 'dark' ? 'light' : 'dark'));
   };
@@ -53,7 +53,8 @@ function App() {
         setIsProfileSetupOpen(true);
       }
     } catch (err) {
-      console.error("Token เน่าหรือหมดอายุว่ะจารย์");
+      // ✅ แก้ไขข้อความ Error ให้เป็นทางการ ไม่มีคำหยาบ
+      console.error("Authentication session expired or token is invalid.");
       localStorage.removeItem('token');
     } finally {
       setIsInitialLoading(false);
@@ -84,12 +85,13 @@ function App() {
     }
   };
 
+  // ✅ ปรับ UI หน้าโหลดให้รองรับทั้งโหมด Dark และ Light 
   if (isInitialLoading) {
     return (
-      <div className="min-h-screen bg-[#0a0a0a] flex items-center justify-center text-white">
+      <div className="min-h-screen bg-gray-50 dark:bg-[#0a0a0a] flex items-center justify-center text-gray-900 dark:text-white transition-colors duration-300">
         <div className="flex flex-col items-center gap-4">
           <span className="material-symbols-outlined animate-spin text-4xl text-emerald-500">progress_activity</span>
-          <p className="font-medium tracking-widest text-gray-400">กำลังพาจารย์เข้าสู่ระบบ...</p>
+          <p className="font-medium tracking-widest text-gray-600 dark:text-gray-400">กำลังเข้าสู่ระบบ...</p>
         </div>
       </div>
     );
@@ -113,7 +115,7 @@ function App() {
       />
 
       <Routes>
-        {/* 🟢 4. ส่ง theme และ toggleTheme เข้าไปใน MainLayout */}
+        {/* 4. ส่ง theme และ toggleTheme เข้าไปใน MainLayout */}
         <Route element={
           <MainLayout 
             onOpenAuth={() => setIsAuthOpen(true)} 
@@ -129,7 +131,8 @@ function App() {
           path="/settings" 
           element={
             user ? (
-              <UserProfile user={user} onUpdateUser={setUser} />
+              // ✅ ตรวจสอบว่า UserProfile มีการรับ Theme ไปใช้หรือไม่ ถ้ามีควรส่งไปด้วย
+              <UserProfile user={user} onUpdateUser={setUser} theme={theme} toggleTheme={toggleTheme} />
             ) : (
               <Navigate to="/" replace />
             )

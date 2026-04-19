@@ -12,22 +12,27 @@ MONGO_URI = os.getenv("MONGO_URI")
 DB_NAME = os.getenv("DB_NAME")
 COLLECTION_NAME = os.getenv("COLLECTION_NAME")
 
-# 🟢 ใช้ GPU ให้เป็นประโยชน์!
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-print("กำลังโหลดโมเดล Qwen3 ยัดลงการ์ดจอ (Direct Load ไม่ง้อไลบรารีอื่น)...")
-# เป้าหมาย: โหลดโมเดลตรงๆ และส่งไปที่ GPU
-tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen3-Embedding-0.6B", trust_remote_code=True)
-model = AutoModel.from_pretrained("Qwen/Qwen3-Embedding-0.6B", trust_remote_code=True).to(device)
+print("กำลังโหลดโมเดล E5 และเชื่อมต่อฐานข้อมูล...")
+# เป้าหมาย: โหลดโมเดล intfloat/multilingual-e5-base
+tokenizer = AutoTokenizer.from_pretrained("intfloat/multilingual-e5-base")
+model = AutoModel.from_pretrained("intfloat/multilingual-e5-base").to(device)
 
 def get_embedding(text):
-    # เป้าหมาย: แปลงข้อความเป็น Vector และโยนเข้า GPU
-    inputs = tokenizer(text, padding=True, truncation=True, max_length=512, return_tensors="pt").to(device)
+    # เป้าหมาย: เติมคำนำหน้า passage: สำหรับฝังข้อมูลลงฐานข้อมูล
+    formatted_text = f"passage: {text}"
+    
+    inputs = tokenizer(formatted_text, padding=True, truncation=True, max_length=512, return_tensors="pt").to(device)
     with torch.no_grad():
         outputs = model(**inputs)
     
-    # 🟢 เป้าหมาย: อัปเกรดเป็นท่า CLS Pooling + Normalize ให้โคตรแม่น (ท่าเดียวกับที่ใช้ค้นหา)
-    embeddings = outputs.last_hidden_state[:, 0]
+    # เป้าหมาย: ใช้วิธี Mean Pooling ตามมาตรฐานของ E5
+    attention_mask = inputs['attention_mask']
+    last_hidden = outputs.last_hidden_state.masked_fill(~attention_mask[..., None].bool(), 0.0)
+    embeddings = last_hidden.sum(dim=1) / attention_mask.sum(dim=1)[..., None]
+    
+    # เป้าหมาย: ทำ Normalize
     embeddings = torch.nn.functional.normalize(embeddings, p=2, dim=1)
     
     return embeddings[0].cpu().tolist()
@@ -45,16 +50,13 @@ def upload_to_mongo():
     db = client[DB_NAME]
     collection = db[COLLECTION_NAME]
     
-    #print("กำลังเคลียร์พื้นที่ในฐานข้อมูล...")
-    #collection.delete_many({})
-    
     csv_files = [
         r"D:\Chat Bot Project\Python\data\thai_nutrition.csv",
         r"D:\Chat Bot Project\Python\data\mets_data.csv",
         r"D:\Chat Bot Project\Python\data\health_tips.csv"
     ]
 
-    print("เริ่มกระบวนการฝัง Vector ขั้นเทพ และอัปโหลด...")
+    print("เริ่มกระบวนการฝัง Vector และอัปโหลด...")
     documents = []
 
     for file_path in csv_files:
@@ -74,7 +76,7 @@ def upload_to_mongo():
                     continue
 
                 food_code = str(row.get('Food_Code', '')).strip()
-                english_name = str(row.get('English_Name', '')).strip()
+                thai_name = str(row.get('thai_Name', '')).strip()
                 
                 sugar = safe_float(row.get('SUGAR(g)', 0))
                 protein = safe_float(row.get('Protein(g)', 0))
@@ -88,7 +90,7 @@ def upload_to_mongo():
                 
                 extra_data = {
                     "food_code": food_code,
-                    "english_name": english_name,
+                    "thai_name": thai_name,
                     "calories": energy,
                     "sugar_g": sugar,
                     "protein_g": protein,
@@ -117,9 +119,7 @@ def upload_to_mongo():
                     "activity_description": activity_desc
                 }
             
-            # 🟢 [แถมให้] เผื่อมึงจะรัน health_tips.csv กูใส่ดักไว้ให้มันไม่พัง
             elif "health_tips" in filename.lower():
-                # มึงต้องไปแก้ชื่อคอลัมน์ให้ตรงกับไฟล์ CSV มึงนะ กูดักไว้คร่าวๆ
                 item_name = str(row.get('tip_name', '')).strip()
                 if not item_name:
                     continue
@@ -131,7 +131,6 @@ def upload_to_mongo():
             else:
                 continue
 
-            # ส่งไปแปลงเป็นตัวเลขเวทมนตร์
             vector = get_embedding(text_to_embed)
 
             doc = {
@@ -150,12 +149,11 @@ def upload_to_mongo():
                 documents = []
                 print(f"อัปโหลดแล้ว {index + 1} รายการ จากไฟล์ {filename}")
 
-        # เก็บตกพวกที่เหลือไม่ถึง 50 ชิ้น
         if documents:
             collection.insert_many(documents)
             documents = []
     
-    print("ดันข้อมูลขึ้น MongoDB เสร็จสิ้น! หล่อๆ เลยจารย์!")
+    print("กระบวนการอัปโหลดข้อมูลเสร็จสิ้น")
 
 if __name__ == "__main__":
     upload_to_mongo()

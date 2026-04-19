@@ -53,7 +53,7 @@ exports.register = async (req, res) => {
     await transporter.sendMail({
       from: `"ChatBot Support" <${process.env.EMAIL_USER}>`,
       to: email,
-      subject: 'ยืนยันอีเมลของมึงหน่อยจารย์!',
+      subject: 'ยืนยันอีเมลเพื่อใช้งาน ChatBot',
       html: `
         <div style="font-family: Arial, sans-serif; border: 1px solid #eee; padding: 20px; border-radius: 10px;">
           <h2 style="color: #10b981;">ยินดีต้อนรับสู่ ChatBot ของเรา</h2>

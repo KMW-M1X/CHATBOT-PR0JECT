@@ -10,30 +10,24 @@ MONGO_URI = os.getenv("MONGO_URI")
 DB_NAME = os.getenv("DB_NAME")
 COLLECTION_NAME = os.getenv("COLLECTION_NAME")
 
-# ใช้ GPU ถ้ามี
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-print("กำลังเตรียมโมเดล Qwen3 และเชื่อมต่อ DataBase...")
+print("กำลังเตรียมโมเดล E5 และเชื่อมต่อฐานข้อมูล...")
 
-# โหลด embedding model
-tokenizer = AutoTokenizer.from_pretrained(
-    "Qwen/Qwen3-Embedding-0.6B",
-    trust_remote_code=True
-)
-
-model = AutoModel.from_pretrained(
-    "Qwen/Qwen3-Embedding-0.6B",
-    trust_remote_code=True
-).to(device)
+# เป้าหมาย: โหลดโมเดล intfloat/multilingual-e5-base
+tokenizer = AutoTokenizer.from_pretrained("intfloat/multilingual-e5-base")
+model = AutoModel.from_pretrained("intfloat/multilingual-e5-base").to(device)
 
 # MongoDB
 client = MongoClient(MONGO_URI)
 collection = client[DB_NAME][COLLECTION_NAME]
 
-
 def get_embedding(text):
+    # เป้าหมาย: เติมคำนำหน้า query: สำหรับการค้นหาข้อมูล
+    formatted_text = f"query: {text}"
+    
     inputs = tokenizer(
-        text,
+        formatted_text,
         padding=True,
         truncation=True,
         max_length=512,
@@ -43,41 +37,35 @@ def get_embedding(text):
     with torch.no_grad():
         outputs = model(**inputs)
 
-    # 🟢 ท่าร่างทอง (CLS Pooling + Normalize) ตรงกับที่อัปเดต DB ไปเป๊ะๆ
-    embeddings = outputs.last_hidden_state[:, 0]
-    embeddings = torch.nn.functional.normalize(
-        embeddings,
-        p=2,
-        dim=1
-    )
+    # เป้าหมาย: ใช้วิธี Mean Pooling
+    attention_mask = inputs['attention_mask']
+    last_hidden = outputs.last_hidden_state.masked_fill(~attention_mask[..., None].bool(), 0.0)
+    embeddings = last_hidden.sum(dim=1) / attention_mask.sum(dim=1)[..., None]
+    
+    # เป้าหมาย: ทำ Normalize
+    embeddings = torch.nn.functional.normalize(embeddings, p=2, dim=1)
 
     return embeddings[0].cpu().tolist()
-
 
 def build_search_query(intent, keywords):
     keyword_text = " ".join(keywords) if keywords else ""
 
-    # 🟢 เติมเครื่องหมาย ":" เข้าไปให้เหมือนหน้าตาข้อมูลใน DB แม่งจะหาแม่นขึ้น
+    # เป้าหมาย: สร้างประโยคค้นหาให้เป็นธรรมชาติ
     if intent == "Recommend_Food":
-        return f"เมนูอาหาร: {keyword_text}".strip()
+        return f"อาหาร เมนูโภชนาการ แคลอรี {keyword_text}".strip()
 
     elif intent == "Calculate_Exercise":
-        return f"กิจกรรม: {keyword_text} ค่า MET".strip()
+        return f"การออกกำลังกาย กิจกรรม การเผาผลาญ {keyword_text}".strip()
 
     elif intent == "Health_Advice":
-        return f"คำแนะนำสุขภาพ: {keyword_text}".strip()
+        return f"คำแนะนำ การดูแลสุขภาพ {keyword_text}".strip()
 
-    return keyword_text if keyword_text else "ข้อมูลสุขภาพทั่วไป"
-
+    return keyword_text if keyword_text else "ข้อมูลสุขภาพและโภชนาการ"
 
 def retrieve_top_k(intent, keywords, constraints=None):
-    # สร้าง query ให้ semantic ดีขึ้น
     search_query = build_search_query(intent, keywords)
-
-    # แปลงเป็น vector
     query_vector = get_embedding(search_query)
 
-    # 🟢 ย้าย Filter มากองตรงนี้! สั่งให้ MongoDB คัดแยกประเภทให้ตั้งแต่ตอนเสิร์ช
     filter_query = {}
     if intent == "Recommend_Food":
         filter_query["type"] = "food"
@@ -88,7 +76,6 @@ def retrieve_top_k(intent, keywords, constraints=None):
     elif intent == "Health_Advice":
         filter_query["type"] = "health_advice"
 
-    # vector search
     pipeline = [
         {
             "$vectorSearch": {
@@ -111,20 +98,17 @@ def retrieve_top_k(intent, keywords, constraints=None):
         }
     ]
 
-    # 🟢 ยัด Filter ใส่ Pipeline
     if filter_query:
         pipeline[0]["$vectorSearch"]["filter"] = filter_query
 
     results = list(collection.aggregate(pipeline))
 
-    # 🟢 กูเอา Filter โง่ๆ ใน Python ออกไปแล้ว (เพราะย้ายไปใส่ใน DB แทน)
-    # เหลือแค่กรอง Score ขั้นต่ำ (ตั้งไว้ 0.60 กำลังสวย)
+    # เป้าหมาย: กรองผลลัพธ์ E5 มักจะให้คะแนนค่อนข้างสูง
     results = [
         r for r in results
-        if r.get("score", 0) > 0.60
+        if r.get("score", 0) > 0.75
     ]
 
-    # rerank แบบง่ายด้วย keyword match
     if keywords:
         results.sort(
             key=lambda x: sum(
@@ -134,10 +118,8 @@ def retrieve_top_k(intent, keywords, constraints=None):
             reverse=True
         )
 
-    # เอา top 5
     results = results[:5]
 
-    # fallback ถ้าไม่เจอ
     if not results:
         return [
             {
