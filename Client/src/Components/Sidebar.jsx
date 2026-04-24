@@ -52,7 +52,7 @@ function Sidebar({ isExpanded, toggleSidebar }) {
             <span className="material-symbols-outlined text-gray-500 group-hover:text-gray-800 dark:group-hover:text-gray-300 shrink-0 transition-colors" style={{ fontVariationSettings: "'wght' 300", fontSize: '18px' }}>chat_bubble</span>
             <span className={`whitespace-nowrap text-[14px] text-gray-600 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-gray-200 truncate transition-all duration-300
               ${isExpanded ? 'opacity-100' : 'opacity-0 w-full'}`}>
-              AI Modelling: Rule-based...
+              เดี๋ยวมาทำระบบเก็บประวัติแชท
             </span>
           </Link>
         </div>

@@ -21,14 +21,16 @@
 | `embed_to_mongo.py` | **Data Ingestion**: สคริปต์สำหรับนำไฟล์ CSV ในโฟลเดอร์ `/data` มาทำ Embedding และอัปโหลดลง MongoDB |
 | `chatbot_core.py` | **Core Logic**: ระบบประมวลผลทางเลือกและชุดคำสั่งภายใน (จำเป็นสำหรับการทำงานร่วมกับบางส่วนของระบบ) |
 | `data/` | โฟลเดอร์เก็บไฟล์ฐานข้อมูล CSV (ความรู้เรื่องอาหาร, การออกกำลังกาย, และคำแนะนำสุขภาพ) |
+<br/>
+# 🛠️ ขั้นตอนการติดตั้ง (Installation)
 
-## 🛠️ ขั้นตอนการติดตั้ง (Installation)
-
-### 1. เตรียมสภาพแวดล้อม (Environment)
+## 1. เตรียมสภาพแวดล้อม (Environment)
 แนะนำให้ใช้ Python 3.10 ขึ้นไป และสร้าง Virtual Environment:
 ```bash
 python -m venv venv #terminal
 venv\Scripts\activate  # สำหรับ Windows
+
+
 
 ## 📂 โครงสร้างไฟล์ในระบบ (File Tree & Descriptions)
 
@@ -47,7 +49,7 @@ venv\Scripts\activate  # สำหรับ Windows
 └── README.md                  # ไฟล์เอกสารคู่มือโปรเจกต์ (ที่คุณกำลังอ่านอยู่)
 ```
 
-### 2. ติดตั้ง PyTorch สำหรับ GPU (Nvidia CUDA)
+## 2. ติดตั้ง PyTorch สำหรับ GPU (Nvidia CUDA)
 เพื่อให้การทำงานของโมเดลเร็วขึ้น ควิดตั้งเวอร์ชันที่รองรับ CUDA 12.1:
 
 ```bash

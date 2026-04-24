@@ -37,7 +37,7 @@ function UserProfileButton({ user, onOpenAuth }) {
   );
 }
 
-function Navbar({ title = "AI Modelling: Rule-based vs Embedding-based", onOpenAuth, user, theme, toggleTheme }) {
+function Navbar({ title = "เดี๋ยวมาทำระบบTitle", onOpenAuth, user, theme, toggleTheme }) {
   return (
     <header className="flex items-center justify-between px-6 py-3 shrink-0 bg-white/90 dark:bg-[#131314]/80 backdrop-blur-md text-gray-800 dark:text-[#e3e3e3] border-b border-gray-200 dark:border-white/[0.05] z-10 sticky top-0 transition-colors duration-300">
       <Link to="/" className="text-xl font-semibold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-gray-900 to-gray-600 dark:from-gray-100 dark:to-gray-400 hover:opacity-80 transition-opacity">
