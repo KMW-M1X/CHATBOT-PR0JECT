@@ -15,7 +15,13 @@ connectCloudinary();
 connectDB();
 
 // ตั้งค่า Middleware
-app.use(cors());
+app.use(cors({
+  origin: "http://localhost:5174",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
+
+
 app.use(express.json()); 
 
 // ตั้งค่า Routes หลัก
