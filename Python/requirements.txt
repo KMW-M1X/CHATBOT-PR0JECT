@@ -9,3 +9,18 @@ requests
 transformers==4.40.0
 tokenizers==0.19.1
 tqdm==4.67.3
+#Libary khowled
+beautifulsoup4
+
+#langchain
+langchain
+langchain-community
+langchain-huggingface
+langchain-mongodb
+pymongo
+pandas
+python-dotenv
+sentence-transformers
+torch
+transformers
+beautifulsoup4

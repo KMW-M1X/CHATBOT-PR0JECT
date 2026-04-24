@@ -1,159 +1,112 @@
-import pandas as pd
-from pymongo import MongoClient
 import os
+import pandas as pd
 from dotenv import load_dotenv
+from pymongo import MongoClient
 import torch
-from transformers import AutoTokenizer, AutoModel
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_core.documents import Document
+from langchain_mongodb import MongoDBAtlasVectorSearch
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-# เป้าหมาย: โหลดค่าตัวแปรสภาพแวดล้อม
+# เป้าหมาย: โหลดตัวแปรสภาพแวดล้อม
 load_dotenv()
 
 MONGO_URI = os.getenv("MONGO_URI")
 DB_NAME = os.getenv("DB_NAME")
 COLLECTION_NAME = os.getenv("COLLECTION_NAME")
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+# เป้าหมาย: เลือกระบบประมวลผลอัตโนมัติให้รองรับทุก OS (Windows, Mac, Linux)
+if torch.cuda.is_available():
+    device_type = "cuda"
+    print("ระบบประมวลผล: CUDA")
+elif torch.backends.mps.is_available():
+    device_type = "mps"
+    print("ระบบประมวลผล: Apple MPS")
+else:
+    device_type = "cpu"
+    print("ระบบประมวลผล: CPU")
 
-print("กำลังโหลดโมเดล E5 และเชื่อมต่อฐานข้อมูล...")
-# เป้าหมาย: โหลดโมเดล intfloat/multilingual-e5-base
-tokenizer = AutoTokenizer.from_pretrained("intfloat/multilingual-e5-base")
-model = AutoModel.from_pretrained("intfloat/multilingual-e5-base").to(device)
+# เป้าหมาย: ตั้งค่าโมเดล Embedding
+print("กำลังเตรียม Embedding Model...")
+embeddings = HuggingFaceEmbeddings(
+    model_name="intfloat/multilingual-e5-base",
+    model_kwargs={'device': device_type}, # เปลี่ยนมาใช้ตัวแปรที่เช็กค่าแล้ว
+    encode_kwargs={'normalize_embeddings': True}
+)
 
-def get_embedding(text):
-    # เป้าหมาย: เติมคำนำหน้า passage: สำหรับฝังข้อมูลลงฐานข้อมูล
-    formatted_text = f"passage: {text}"
-    
-    inputs = tokenizer(formatted_text, padding=True, truncation=True, max_length=512, return_tensors="pt").to(device)
-    with torch.no_grad():
-        outputs = model(**inputs)
-    
-    # เป้าหมาย: ใช้วิธี Mean Pooling ตามมาตรฐานของ E5
-    attention_mask = inputs['attention_mask']
-    last_hidden = outputs.last_hidden_state.masked_fill(~attention_mask[..., None].bool(), 0.0)
-    embeddings = last_hidden.sum(dim=1) / attention_mask.sum(dim=1)[..., None]
-    
-    # เป้าหมาย: ทำ Normalize
-    embeddings = torch.nn.functional.normalize(embeddings, p=2, dim=1)
-    
-    return embeddings[0].cpu().tolist()
-
-def safe_float(val):
-    # เป้าหมาย: แปลงค่าเป็นทศนิยม 
-    try:
-        return float(val)
-    except (ValueError, TypeError):
-        return 0.0
-
-def upload_to_mongo():
+def upload_to_mongo_langchain():
     # เป้าหมาย: เชื่อมต่อฐานข้อมูล
     client = MongoClient(MONGO_URI)
-    db = client[DB_NAME]
-    collection = db[COLLECTION_NAME]
+    collection = client[DB_NAME][COLLECTION_NAME]
     
     csv_files = [
-        r"D:\Chat Bot Project\Python\data\thai_nutrition.csv",
-        r"D:\Chat Bot Project\Python\data\mets_data.csv",
-        r"D:\Chat Bot Project\Python\data\health_tips.csv"
+        os.path.join("data", "thai_nutrition.csv"),
+        os.path.join("data", "mets_data.csv"),
+        os.path.join("data", "health_tips.csv"),
+        os.path.join("data", "knowledge_base.csv")
     ]
 
-    print("เริ่มกระบวนการฝัง Vector และอัปโหลด...")
-    documents = []
+    all_docs = []
+
+    # เป้าหมาย: ตั้งค่าเครื่องหั่นข้อมูล (Chunking) สำหรับข้อมูล Knowledge
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=1000, 
+        chunk_overlap=200,
+        add_start_index=True
+    )
 
     for file_path in csv_files:
         if not os.path.exists(file_path):
-            print(f"ไม่พบไฟล์: {file_path}")
+            print(f"ข้ามไฟล์: {file_path}")
             continue
 
-        print(f"กำลังจัดการไฟล์: {os.path.basename(file_path)}")
+        print(f"กำลังประมวลผลไฟล์: {os.path.basename(file_path)}")
         df = pd.read_csv(file_path).fillna('')
 
-        for index, row in df.iterrows():
+        for _, row in df.iterrows():
             filename = os.path.basename(file_path)
             
+            # เป้าหมาย: จัดเตรียมข้อมูลแยกตามประเภท
             if "thai_nutrition" in filename.lower():
-                item_name = str(row.get('Thai_Name', '')).strip()
-                if not item_name or item_name.lower() == 'nan':
-                    continue
-
-                food_code = str(row.get('Food_Code', '')).strip()
-                thai_name = str(row.get('thai_Name', '')).strip()
-                
-                sugar = safe_float(row.get('SUGAR(g)', 0))
-                protein = safe_float(row.get('Protein(g)', 0))
-                fat = safe_float(row.get('Fat(g)', 0))
-                energy = safe_float(row.get('Energy(kcal)', 0))
-                carbs = safe_float(row.get('Carbohydrate', 0))
-                fibre = safe_float(row.get('fibre', 0))
-                
-                item_type = "food"
-                text_to_embed = f"เมนูอาหาร: {item_name} พลังงาน: {energy} kcal, โปรตีน: {protein}g, คาร์โบไฮเดรต: {carbs}g, ไขมัน: {fat}g"
-                
-                extra_data = {
-                    "food_code": food_code,
-                    "thai_name": thai_name,
-                    "calories": energy,
-                    "sugar_g": sugar,
-                    "protein_g": protein,
-                    "fat_g": fat,
-                    "carbohydrate_g": carbs,
-                    "fibre_g": fibre
-                }
-                numeric_value = energy
+                name = str(row.get('Thai_Name', '')).strip()
+                if not name: continue
+                content = f"passage: เมนูอาหาร: {name} ให้พลังงาน {row.get('Energy(kcal)', 0)} kcal"
+                metadata = {"type": "food", "source": filename, "name": name}
                 
             elif "mets_data" in filename.lower():
-                item_name = str(row.get('activity_description_Thai', '')).strip()
-                if not item_name or item_name.lower() == 'nan':
-                    continue
-
-                item_value = str(row.get('met_value', '0')).strip()
-                numeric_value = safe_float(item_value)
+                name = str(row.get('activity_description_Thai', '')).strip()
+                if not name: continue
+                content = f"passage: กิจกรรม {name} มีค่า MET เท่ากับ {row.get('met_value', 0)}"
+                metadata = {"type": "exercise", "source": filename, "name": name}
                 
-                major_heading_thai = str(row.get('major_heading_Thai', '')).strip()
-                activity_desc = str(row.get('activity_description', '')).strip()
-                
-                item_type = "exercise"
-                text_to_embed = f"หมวดหมู่: {major_heading_thai} กิจกรรม: {item_name} ({activity_desc}) ค่า MET: {numeric_value}"
-                
-                extra_data = {
-                    "major_heading_thai": major_heading_thai,
-                    "activity_description": activity_desc
-                }
-            
-            elif "health_tips" in filename.lower():
-                item_name = str(row.get('tip_name', '')).strip()
-                if not item_name:
-                    continue
-                item_type = "health_advice"
-                numeric_value = 0.0
-                text_to_embed = f"คำแนะนำสุขภาพ: {item_name}"
-                extra_data = {}
-                
+            elif "knowledge_base" in filename.lower() or "health_tips" in filename.lower():
+                topic = str(row.get('topic', row.get('tip_name', ''))).strip()
+                desc = str(row.get('description', '')).strip()
+                if not topic: continue
+                content = f"passage: หัวข้อ {topic}: {desc}"
+                metadata = {"type": "knowledge", "source": filename, "topic": topic}
             else:
                 continue
 
-            vector = get_embedding(text_to_embed)
+            # เป้าหมาย: สร้าง Document Object
+            doc = Document(page_content=content, metadata=metadata)
+            
+            # เป้าหมาย: แยกหั่นข้อมูล (Split) เฉพาะบทความยาว
+            if metadata["type"] == "knowledge":
+                all_docs.extend(text_splitter.split_documents([doc]))
+            else:
+                all_docs.append(doc)
 
-            doc = {
-                "source_file": filename,
-                "type": item_type,
-                "name": item_name,
-                "value": numeric_value,
-                "content": text_to_embed,
-                "embedding": vector
-            }
-            doc.update(extra_data)
-            documents.append(doc)
-
-            if len(documents) >= 50:
-                collection.insert_many(documents)
-                documents = []
-                print(f"อัปโหลดแล้ว {index + 1} รายการ จากไฟล์ {filename}")
-
-        if documents:
-            collection.insert_many(documents)
-            documents = []
-    
-    print("กระบวนการอัปโหลดข้อมูลเสร็จสิ้น")
+    if all_docs:
+        print(f"กำลังแปลงเป็น Vector และอัปโหลด {len(all_docs)} รายการ...")
+        # เป้าหมาย: บันทึกข้อมูลแบบ Vector ลงฐานข้อมูล
+        MongoDBAtlasVectorSearch.from_documents(
+            documents=all_docs,
+            embedding=embeddings,
+            collection=collection,
+            index_name="vector_index"
+        )
+        print("อัปโหลดข้อมูลเสร็จสมบูรณ์")
 
 if __name__ == "__main__":
-    upload_to_mongo()
+    upload_to_mongo_langchain()

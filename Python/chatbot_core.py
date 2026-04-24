@@ -2,11 +2,12 @@ import os
 from dotenv import load_dotenv
 from pymongo import MongoClient
 import torch
-from transformers import AutoTokenizer, AutoModel
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_mongodb import MongoDBAtlasVectorSearch
 from nlp_pipeline import analyze_user_input
 
 # =========================
-# Load Environment Variables
+# ⚙️ 1. Setup & Device (Universal)
 # =========================
 load_dotenv()
 
@@ -14,129 +15,91 @@ MONGO_URI = os.getenv("MONGO_URI")
 DB_NAME = os.getenv("DB_NAME")
 COLLECTION_NAME = os.getenv("COLLECTION_NAME")
 
-if not MONGO_URI or not DB_NAME or not COLLECTION_NAME:
-    raise ValueError("หาตัวแปรใน .env ไม่ครบเว้ย เช็คด่วน!")
-
-# 🟢 บังคับใช้การ์ดจอ GTX 1060 ของมึง
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-print("กำลังเตรียมระบบค้นหาข้อมูล ร่างทอง (Qwen3 + MongoDB Atlas)...")
-
-# =========================
-# Load Embedding Model (ใช้ท่า Manual เพื่อคุม Pooling ให้เป๊ะ!)
-# =========================
-tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen3-Embedding-0.6B", trust_remote_code=True)
-model = AutoModel.from_pretrained("Qwen/Qwen3-Embedding-0.6B", trust_remote_code=True).to(device)
-
-def get_embedding(text):
-    inputs = tokenizer(text, padding=True, truncation=True, max_length=512, return_tensors="pt").to(device)
-    with torch.no_grad():
-        outputs = model(**inputs)
-
-    # 🟢 ท่าร่างทอง (CLS Pooling + Normalize) ตรงกับที่อัปเดต DB โคตรชัวร์!
-    embeddings = outputs.last_hidden_state[:, 0]
-    embeddings = torch.nn.functional.normalize(embeddings, p=2, dim=1)
-    
-    return embeddings[0].cpu().tolist()
+# ระบบเลือกสมองประมวลผล (PC มึง หรือ Mac เพื่อนมึง)
+if torch.cuda.is_available():
+    device = "cuda"
+    print("🚀 Chatbot Core: ใช้ CUDA (GTX 1060)")
+elif torch.backends.mps.is_available():
+    device = "mps"
+    print("🍏 Chatbot Core: ใช้ Apple Silicon (MPS)")
+else:
+    device = "cpu"
+    print("🐢 Chatbot Core: ใช้ CPU")
 
 # =========================
-# Connect MongoDB
+# 🧠 2. Initialize LangChain E5 Embeddings
 # =========================
+# ต้องเป็นตัวเดียวกับที่ใช้ใน embed_to_mongo.py นะจารย์!
+embeddings = HuggingFaceEmbeddings(
+    model_name="intfloat/multilingual-e5-base",
+    model_kwargs={'device': device},
+    encode_kwargs={'normalize_embeddings': True}
+)
+
+# เชื่อมต่อ MongoDB และสร้าง Vector Store
 client = MongoClient(MONGO_URI)
-db = client[DB_NAME]
-collection = db[COLLECTION_NAME]
+collection = client[DB_NAME][COLLECTION_NAME]
+
+vector_store = MongoDBAtlasVectorSearch(
+    collection=collection,
+    embedding=embeddings,
+    index_name="vector_index" # ชื่อ Index ใน Atlas ของมึง
+)
 
 def retrieve_data(user_text):
     """
-    วิเคราะห์ข้อความผู้ใช้ + ค้นหา semantic search ใน MongoDB
+    วิเคราะห์ข้อความผู้ใช้ + ค้นหา Semantic Search ด้วย LangChain
     """
-    # =========================
-    # NLP Analysis
-    # =========================
+    # 🟢 1. NLP Analysis
     nlp_result = analyze_user_input(user_text)
-
     intent = nlp_result["intent"]
     constraints = nlp_result["constraints"]
     keywords = nlp_result["keywords"]
 
-    print("\n--- ผลการวิเคราะห์ NLP ---")
-    print(f"Intent: {intent}")
-    print(f"Keywords: {keywords}")
-    print(f"Constraints: {constraints}")
+    print(f"\n[NLP] Intent: {intent} | Keywords: {keywords}")
 
-    # =========================
-    # Build Query ให้เหมือนหน้าตา DB (สำคัญมาก!)
-    # =========================
+    # 🟢 2. Build Query (ต้องมี query: ตามกฎ E5)
     keyword_text = " ".join(keywords) if keywords else ""
-    
     if intent == "Recommend_Food":
-        search_query = f"เมนูอาหาร: {keyword_text}".strip()
+        search_query = f"query: เมนูอาหาร: {keyword_text}"
     elif intent == "Calculate_Exercise":
-        search_query = f"กิจกรรม: {keyword_text} ค่า MET".strip()
-    elif intent == "Health_Advice":
-        search_query = f"คำแนะนำสุขภาพ: {keyword_text}".strip()
+        search_query = f"query: กิจกรรมและการเผาผลาญ: {keyword_text}"
     else:
-        search_query = f"{user_text} {keyword_text}".strip()
+        search_query = f"query: {user_text} {keyword_text}"
 
-    print(f"\n[ระบบค้นหา] Query: {search_query}")
-
-    # =========================
-    # Create Query Vector
-    # =========================
-    query_vector = get_embedding(search_query)
-
-    # =========================
-    # Metadata Filter (ให้ MongoDB กรองให้เลย)
-    # =========================
-    filter_query = {}
-
+    # 🟢 3. Metadata Filter
+    pre_filter = {}
     if intent == "Recommend_Food":
-        filter_query["type"] = "food"
+        pre_filter["type"] = "food"
         if constraints:
-            filter_query["calories"] = {"$lte": constraints[0]}
-
+            # ใช้คีย์ 'value' ตามที่มึงแก้ใน embed_to_mongo.py
+            pre_filter["value"] = {"$lte": constraints[0]}
     elif intent == "Calculate_Exercise":
-        filter_query["type"] = "exercise"
-        
+        pre_filter["type"] = "exercise"
     elif intent == "Health_Advice":
-        filter_query["type"] = "health_advice"
+        pre_filter["type"] = "knowledge"
 
-    # =========================
-    # MongoDB Vector Search
-    # =========================
-    pipeline = [
-        {
-            "$vectorSearch": {
-                "index": "vector_index", # เช็คชื่อ Index ใน MongoDB มึงด้วยนะว่าชื่อนี้ป่าว
-                "path": "embedding",
-                "queryVector": query_vector,
-                "numCandidates": 50,
-                "limit": 10  # 🟢 ดึงมาเผื่อไว้ 10 อันเลย ให้บอทมันเลือก
-            }
-        },
-        {
-            "$project": {
-                "_id": 0,
-                "name": 1,
-                "type": 1,
-                "calories": 1,
-                "value": 1,
-                "content": 1,
-                "score": {"$meta": "vectorSearchScore"}
-            }
-        }
-    ]
+    # 🟢 4. LangChain Vector Search
+    print(f"🔍 กำลังค้นหา: {search_query}")
+    
+    # ดึงข้อมูลพร้อมคะแนนความเหมือน
+    docs_with_score = vector_store.similarity_search_with_score(
+        query=search_query,
+        k=5,
+        pre_filter=pre_filter if pre_filter else None
+    )
 
-    if filter_query:
-        pipeline[0]["$vectorSearch"]["filter"] = filter_query
-
-    print("กำลังค้นหาใน MongoDB...")
-    results = list(collection.aggregate(pipeline))
-
-    # =========================
-    # Score Threshold Filter (ปรับลงมา 0.65 กำลังดี)
-    # =========================
-    results = [r for r in results if r.get("score", 0) >= 0.65]
+    # 🟢 5. Format Results
+    results = []
+    for doc, score in docs_with_score:
+        if score >= 0.70: # ปรับ Threshold ตามความเหมาะสม
+            results.append({
+                "name": doc.metadata.get("name", "ไม่ระบุชื่อ"),
+                "type": doc.metadata.get("type", "unknown"),
+                "value": doc.metadata.get("value", 0), # แคลอรี หรือ MET
+                "content": doc.page_content.replace("passage: ", ""),
+                "score": score
+            })
 
     return results
 
@@ -144,13 +107,9 @@ def retrieve_data(user_text):
 # Test
 # =========================
 if __name__ == "__main__":
-    text = "อยากกินข้าวมันไก่ แต่ขอพลังงานไม่เกิน 500 แคลอรี"
-    top_results = retrieve_data(text)
-
-    print("\n--- ผลลัพธ์จากฐานข้อมูล ---")
-    if not top_results:
-        print("ไม่พบข้อมูลที่ตรงกับเงื่อนไข")
-    else:
-        for i, res in enumerate(top_results, 1):
-            calories = res.get('calories') or res.get('value', 'N/A')
-            print(f"{i}. {res['name']} | แคล/MET: {calories} | score: {res['score']:.4f}")
+    test_text = "อยากกินข้าวมันไก่ ไม่เกิน 500 แคล"
+    top_results = retrieve_data(test_text)
+    
+    print("\n--- ผลลัพธ์จาก LangChain + MongoDB ---")
+    for i, res in enumerate(top_results, 1):
+        print(f"{i}. {res['name']} | ค่า: {res['value']} | score: {res['score']:.4f}")

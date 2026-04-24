@@ -2,119 +2,102 @@ import os
 from dotenv import load_dotenv
 from pymongo import MongoClient
 import torch
-from transformers import AutoTokenizer, AutoModel
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_mongodb import MongoDBAtlasVectorSearch
 
-# โหลด env
+# ==========================================
+# ⚙️ 1. โหลดการตั้งค่าและอุปกรณ์
+# ==========================================
 load_dotenv()
 MONGO_URI = os.getenv("MONGO_URI")
 DB_NAME = os.getenv("DB_NAME")
 COLLECTION_NAME = os.getenv("COLLECTION_NAME")
 
-# ระบบเลือกสมองประมวลผลอัตโนมัติ
+
 if torch.cuda.is_available():
-    device = torch.device("cuda")
-    print("โหมดตัวตึง: เจอการ์ดจอกำลังรันด้วย CUDA")
+    device = "cuda"
+    print("🚀 โหมดตัวตึง: รันด้วย CUDA ")
 elif torch.backends.mps.is_available():
-    device = torch.device("mps")
-    print("โหมดลูกคุณหนู: เจอชิป Apple M-Series! กำลังรันด้วยพลัง Metal")
+    device = "mps"
+    print("🍏 โหมดลูกคุณหนู: รันด้วย Apple Silicon (MPS) ")
 else:
-    device = torch.device("cpu")
-    print("โหมดสู้ชีวิต: ไม่เจอการ์ดจอที่รองรับ... กำลังรันด้วย CPU")
+    device = "cpu"
+    print("🐢 โหมดสู้ชีวิต: รันด้วย CPU ")
 
-print("กำลังเตรียมโมเดล E5 และเชื่อมต่อฐานข้อมูล...")
+# 🚀 ท่า LangChain: ใช้ Embeddings ตัวเดียวกับตอนสร้าง Index
+embeddings = HuggingFaceEmbeddings(
+    model_name="intfloat/multilingual-e5-base",
+    model_kwargs={'device': device},
+    encode_kwargs={'normalize_embeddings': True}
+)
 
-# เอา use_safetensors=False ออก เพื่อแก้ปัญหา PyTorch v2.6+ เตะก้านคอ
-tokenizer = AutoTokenizer.from_pretrained("intfloat/multilingual-e5-base")
-model = AutoModel.from_pretrained("intfloat/multilingual-e5-base").to(device)
-
-# MongoDB
+# เชื่อมต่อ MongoDB
 client = MongoClient(MONGO_URI)
 collection = client[DB_NAME][COLLECTION_NAME]
 
-def get_embedding(text):
-    # เติมคำนำหน้า query: ตามกฎของ E5
-    formatted_text = f"query: {text}"
-    
-    inputs = tokenizer(
-        formatted_text,
-        padding=True,
-        truncation=True,
-        max_length=512,
-        return_tensors="pt"
-    ).to(device)
+# 🧠 สร้าง Vector Store Retriever
+vectorstore = MongoDBAtlasVectorSearch(
+    collection=collection,
+    embedding=embeddings,
+    index_name="vector_index" # ต้องตรงกับชื่อใน Atlas
+)
 
-    with torch.no_grad():
-        outputs = model(**inputs)
-
-    # ใช้วิธี Mean Pooling ของ E5
-    attention_mask = inputs['attention_mask']
-    last_hidden = outputs.last_hidden_state.masked_fill(~attention_mask[..., None].bool(), 0.0)
-    embeddings = last_hidden.sum(dim=1) / attention_mask.sum(dim=1)[..., None]
-    
-    # ทำ Normalize
-    embeddings = torch.nn.functional.normalize(embeddings, p=2, dim=1)
-
-    return embeddings[0].cpu().tolist()
-
+# ==========================================
+# 🔍 2. ฟังก์ชันเตรียมคำถาม
+# ==========================================
 def build_search_query(intent, keywords):
     keyword_text = " ".join(keywords) if keywords else ""
-
+    
+    # เติมคำว่า "query:" นำหน้าเสมอตามกฎของโมเดล E5
     if intent == "Recommend_Food":
-        return f"อาหาร เมนูโภชนาการ แคลอรี {keyword_text}".strip()
+        return f"query: อาหาร เมนูโภชนาการ แคลอรี {keyword_text}".strip()
     elif intent == "Calculate_Exercise":
-        return f"การออกกำลังกาย กิจกรรม การเผาผลาญ {keyword_text}".strip()
+        return f"query: การออกกำลังกาย กิจกรรม การเผาผลาญ {keyword_text}".strip()
     elif intent == "Health_Advice":
-        return f"คำแนะนำ การดูแลสุขภาพ {keyword_text}".strip()
+        return f"query: คำแนะนำ การดูแลสุขภาพ {keyword_text}".strip()
+    
+    return f"query: {keyword_text}" if keyword_text else "query: ข้อมูลสุขภาพและโภชนาการ"
 
-    return keyword_text if keyword_text else "ข้อมูลสุขภาพและโภชนาการ"
-
+# ==========================================
+# 🎯 3. ฟังก์ชันดึงข้อมูล (Retrieval)
+# ==========================================
 def retrieve_top_k(intent, keywords, constraints=None):
     search_query = build_search_query(intent, keywords)
-    query_vector = get_embedding(search_query)
 
-    filter_query = {}
+    # 🛠️ ตั้งค่า Filter สำหรับ MongoDB (Metadata Filtering)
+    pre_filter = {}
     if intent == "Recommend_Food":
-        filter_query["type"] = "food"
+        pre_filter["type"] = "food"
         if constraints:
-            filter_query["value"] = {"$lte": constraints[0]}
+            pre_filter["value"] = {"$lte": constraints[0]}
     elif intent == "Calculate_Exercise":
-        filter_query["type"] = "exercise"
-    elif intent == "Health_Advice":
-        filter_query["type"] = "health_advice"
+        pre_filter["type"] = "exercise"
+    elif intent == "Health_Advice" or intent == "General_Knowledge":
+        # ให้ดึงได้ทั้งคำแนะนำและข้อมูลความรู้ทั่วไป (เผื่อถามเรื่อง METs)
+        pre_filter["type"] = {"$in": ["health_advice", "knowledge", "general_knowledge"]}
 
-    pipeline = [
-        {
-            "$vectorSearch": {
-                "index": "vector_index",
-                "path": "embedding",
-                "queryVector": query_vector,
-                "numCandidates": 150,
-                "limit": 10
-            }
-        },
-        {
-            "$project": {
-                "_id": 0,
-                "name": 1,
-                "value": 1,
-                "content": 1,
-                "type": 1,
-                "score": {"$meta": "vectorSearchScore"}
-            }
-        }
-    ]
+    # 🚀 ท่า LangChain: ค้นหาข้อมูลแบบ Similarity Search
+    print(f"กำลังค้นหา: {search_query} | Filter: {pre_filter}")
+    raw_results = vectorstore.similarity_search_with_score(
+        query=search_query,
+        k=10, # ดึงมา 10 ชิ้นก่อนเผื่อกรองทิ้ง
+        pre_filter=pre_filter if pre_filter else None
+    )
 
-    if filter_query:
-        pipeline[0]["$vectorSearch"]["filter"] = filter_query
+    results = []
+    for doc, score in raw_results:
+        # E5 มักจะให้คะแนนค่อนข้างสูง กรองที่ 0.75 เหมือนที่มึงทำไว้
+        if score > 0.75:
+            # แปลง Document Object กลับเป็น Dict เพื่อให้ app.py ไม่พัง
+            results.append({
+                "name": doc.metadata.get("name", doc.metadata.get("topic", "ไม่ระบุชื่อ")),
+                "value": doc.metadata.get("value", 0),
+                "content": doc.page_content.replace("passage: ", ""), # ตัด tag passage ออกให้ข้อความคลีนๆ
+                "type": doc.metadata.get("type", "unknown"),
+                "score": score
+            })
 
-    results = list(collection.aggregate(pipeline))
-
-    # E5 มักจะให้คะแนนค่อนข้างสูง กรองที่ 0.75
-    results = [
-        r for r in results
-        if r.get("score", 0) > 0.75
-    ]
-
+    # จัดเรียงตาม Keyword (ถ้า Keyword ตรงเยอะให้อยู่บน) เหมือนโค้ดเก่ามึงเป๊ะ
     if keywords:
         results.sort(
             key=lambda x: sum(
@@ -124,8 +107,10 @@ def retrieve_top_k(intent, keywords, constraints=None):
             reverse=True
         )
 
+    # ตัดเอาแค่ 5 อันดับแรก
     results = results[:5]
 
+    # ถ้าหาไม่เจอ ให้โยน Fallback กลับไป
     if not results:
         return [
             {
