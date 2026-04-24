@@ -1,0 +1,11 @@
+fastapi
+uvicorn==0.42.0
+pydantic
+pymongo
+python-dotenv
+pythainlp
+pandas
+requests
+transformers==4.40.0
+tokenizers==0.19.1
+tqdm==4.67.3
