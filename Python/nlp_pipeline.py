@@ -6,8 +6,9 @@ import re
 # เป้าหมาย: โหลดโมเดล WangchanBERTa แบบ Manual เพื่อแก้ปัญหาไลบรารีตีกัน
 print("กำลังโหลด WangchanBERTa NLP Module...")
 model_name = "airesearch/wangchanberta-base-att-spm-uncased"
-revision = "finetuned@thainer-ner" # ใช้เวอร์ชันที่เทรนมาเพื่อจับคำเฉพาะ (NER)
+revision = "finetuned@thainer-ner"
 
+# เป้าหมาย: ปิดแจ้งเตือน auto conversion ของ safetensors
 tokenizer = AutoTokenizer.from_pretrained(model_name, revision="main")
 model = AutoModelForTokenClassification.from_pretrained(model_name, revision=revision)
 

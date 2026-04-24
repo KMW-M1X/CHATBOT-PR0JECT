@@ -23,7 +23,7 @@ function ChatBar({ inputText, setInputText, handleSend, handleStop, isChatActive
       {/* ข้อความต้อนรับ */}
       {!isChatActive && (
         <h1 className="text-4xl sm:text-5xl font-bold mb-8 bg-gradient-to-r from-blue-500 via-purple-500 to-orange-400 text-transparent bg-clip-text animate-in fade-in zoom-in-95 duration-700 text-center tracking-tight">
-          Welcome to SillyBot
+          WELCOME TO Active-MATE
         </h1>
       )}
 

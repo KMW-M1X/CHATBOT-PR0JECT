@@ -10,11 +10,20 @@ MONGO_URI = os.getenv("MONGO_URI")
 DB_NAME = os.getenv("DB_NAME")
 COLLECTION_NAME = os.getenv("COLLECTION_NAME")
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+# ระบบเลือกสมองประมวลผลอัตโนมัติ
+if torch.cuda.is_available():
+    device = torch.device("cuda")
+    print("โหมดตัวตึง: เจอการ์ดจอกำลังรันด้วย CUDA")
+elif torch.backends.mps.is_available():
+    device = torch.device("mps")
+    print("โหมดลูกคุณหนู: เจอชิป Apple M-Series! กำลังรันด้วยพลัง Metal")
+else:
+    device = torch.device("cpu")
+    print("โหมดสู้ชีวิต: ไม่เจอการ์ดจอที่รองรับ... กำลังรันด้วย CPU")
 
 print("กำลังเตรียมโมเดล E5 และเชื่อมต่อฐานข้อมูล...")
 
-# เป้าหมาย: โหลดโมเดล intfloat/multilingual-e5-base
+# เอา use_safetensors=False ออก เพื่อแก้ปัญหา PyTorch v2.6+ เตะก้านคอ
 tokenizer = AutoTokenizer.from_pretrained("intfloat/multilingual-e5-base")
 model = AutoModel.from_pretrained("intfloat/multilingual-e5-base").to(device)
 
@@ -23,7 +32,7 @@ client = MongoClient(MONGO_URI)
 collection = client[DB_NAME][COLLECTION_NAME]
 
 def get_embedding(text):
-    # เป้าหมาย: เติมคำนำหน้า query: สำหรับการค้นหาข้อมูล
+    # เติมคำนำหน้า query: ตามกฎของ E5
     formatted_text = f"query: {text}"
     
     inputs = tokenizer(
@@ -37,12 +46,12 @@ def get_embedding(text):
     with torch.no_grad():
         outputs = model(**inputs)
 
-    # เป้าหมาย: ใช้วิธี Mean Pooling
+    # ใช้วิธี Mean Pooling ของ E5
     attention_mask = inputs['attention_mask']
     last_hidden = outputs.last_hidden_state.masked_fill(~attention_mask[..., None].bool(), 0.0)
     embeddings = last_hidden.sum(dim=1) / attention_mask.sum(dim=1)[..., None]
     
-    # เป้าหมาย: ทำ Normalize
+    # ทำ Normalize
     embeddings = torch.nn.functional.normalize(embeddings, p=2, dim=1)
 
     return embeddings[0].cpu().tolist()
@@ -50,13 +59,10 @@ def get_embedding(text):
 def build_search_query(intent, keywords):
     keyword_text = " ".join(keywords) if keywords else ""
 
-    # เป้าหมาย: สร้างประโยคค้นหาให้เป็นธรรมชาติ
     if intent == "Recommend_Food":
         return f"อาหาร เมนูโภชนาการ แคลอรี {keyword_text}".strip()
-
     elif intent == "Calculate_Exercise":
         return f"การออกกำลังกาย กิจกรรม การเผาผลาญ {keyword_text}".strip()
-
     elif intent == "Health_Advice":
         return f"คำแนะนำ การดูแลสุขภาพ {keyword_text}".strip()
 
@@ -103,7 +109,7 @@ def retrieve_top_k(intent, keywords, constraints=None):
 
     results = list(collection.aggregate(pipeline))
 
-    # เป้าหมาย: กรองผลลัพธ์ E5 มักจะให้คะแนนค่อนข้างสูง
+    # E5 มักจะให้คะแนนค่อนข้างสูง กรองที่ 0.75
     results = [
         r for r in results
         if r.get("score", 0) > 0.75
